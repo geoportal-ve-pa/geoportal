@@ -493,8 +493,8 @@
           "showInLayerTree": false
         },
         {
-          "id": "truedop_2024:truedop_2024",
-          "name": "Digitale farbige TrueOrthophotos 2024 (DOP20RGBI)",
+          "id": "truedop_2023:truedop_2023",
+          "name": "Digitale farbige TrueOrthophotos 2023 (DOP20RGBI)",
           "typ": "WMS",
           "visibility": false,
           "showInLayerTree": false
