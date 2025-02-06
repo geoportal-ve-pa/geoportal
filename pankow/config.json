@@ -1,6 +1,5 @@
 {
-  "portalConfig": {
-    "singleBaselayer": true,
+  "portalConfig": {    
     "map": {      
       "controls": {
         "zoom": true,
@@ -72,7 +71,8 @@
         }
       ]
     },
-    "tree": {            
+    "tree": {
+      "singleBaselayer": true,    
       "addLayerButton": {
         "active": true,
         "searchBar": {
