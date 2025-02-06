@@ -16,7 +16,6 @@
         "maxScale": "2500000",
         "gfiAttributes": "ignore",
         "gfiTheme": "default",
-        "layerAttribution": "Quellenvermerk CC BY 4.0: © GeoBasis-DE / BKG (Jahr des letzten Datenbezugs) CC BY 4.0",
         "legendURL": "",
         "cache": false,
         "featureCount": 5,
@@ -62,7 +61,6 @@
         "maxScale": "2500000",
         "gfiAttributes": "ignore",
         "gfiTheme": "default",
-        "layerAttribution": "Quellenvermerk CC BY 4.0: © GeoBasis-DE / BKG (Jahr des letzten Datenbezugs) CC BY 4.0",
         "legendURL": "",
         "cache": false,
         "featureCount": 5,
@@ -212,7 +210,6 @@
         "maxScale": "250000",
         "gfiAttributes": "ignore",
         "gfiTheme": "default",
-        "layerAttribution": "ALKIS (farbig) Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\". Es sind die datenschutzrechtlichen Bestimmungen, insbesondere das Bundesdatenschutzgesetz, zu beachten.",
         "legendURL": "https://fbinter.stadt-berlin.de/fb_daten/legenden/leg_alkis.png",
         "cache": true,
         "featureCount": "1",
@@ -238,8 +235,7 @@
         "maxScale": "250000",
         "gfiAttributes": "ignore",
         "gfiTheme": "default",
-        "layerAttribution": "ALKIS (SW) Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
-        "legendURL": "https://fbinter.stadt-berlin.de/fb_daten/legenden/leg_alkis_sw.png",
+	"legendURL": "https://fbinter.stadt-berlin.de/fb_daten/legenden/leg_alkis_sw.png",
         "cache": true,
         "featureCount": "1",
         "datasets": [{
@@ -367,8 +363,7 @@
         "featureCount": "5",
         "gfiTheme": "default",
         "transparent": true,
-        "singleTile": true,
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+        "singleTile": true
     },
     {
         "id": "k_luftbild2007:0",
@@ -395,8 +390,7 @@
         "featureCount": "5",
         "gfiTheme": "default",
         "transparent": true,
-        "singleTile": true,
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+        "singleTile": true
     },
     {
         "id": "k_luftbild2009_20:0",
@@ -423,8 +417,7 @@
         "featureCount": "5",
         "gfiTheme": "default",
         "transparent": true,
-        "singleTile": true,
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+        "singleTile": true
     },
     {
         "id": "k_luftbild2010_rgb:0",
@@ -451,8 +444,7 @@
         "featureCount": "5",
         "gfiTheme": "default",
         "transparent": true,
-        "singleTile": true,
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+        "singleTile": true
     },
     {
         "id": "k_luftbild2011_20:0",
@@ -479,8 +471,7 @@
         "featureCount": "5",
         "gfiTheme": "default",
         "transparent": true,
-        "singleTile": true,
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+        "singleTile": true
     },
 	{
         "id": "k_luftbild2013:0",
@@ -507,9 +498,8 @@
         "featureCount": "5",
         "gfiTheme": "default",
         "transparent": true,
-        "singleTile": true,
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
-    },
+        "singleTile": true
+	},
     {
         "id": "k_luftbild2014:0",
         "name": "Digitale farbige Orthophotos 2014 (DOP20RGB)",
@@ -535,8 +525,7 @@
         "featureCount": "5",
         "gfiTheme": "default",
         "transparent": true,
-        "singleTile": true,
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+        "singleTile": true
     },
     {
         "id": "k_luftbild2015_rgb:0",
@@ -563,8 +552,7 @@
         "featureCount": "5",
         "gfiTheme": "default",
         "transparent": true,
-        "singleTile": true,
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+        "singleTile": true
     },
     {
         "id": "k_luftbild2016_rgb:0",
@@ -591,8 +579,7 @@
         "featureCount": "5",
         "gfiTheme": "default",
         "transparent": true,
-        "singleTile": true,
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+        "singleTile": true
     },
     {
         "id": "k_luftbild2017_rgb:0",
@@ -619,8 +606,7 @@
         "featureCount": "5",
         "gfiTheme": "default",
         "transparent": true,
-        "singleTile": true,
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+        "singleTile": true
     },
     {
         "id": "k_luftbild2018_rgb:0",
@@ -647,8 +633,7 @@
         "featureCount": "5",
         "gfiTheme": "default",
         "transparent": true,
-        "singleTile": true,
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+        "singleTile": true
     },
     {
         "id": "k_luftbild2019_rgb:0",
@@ -675,8 +660,7 @@
         "featureCount": "5",
         "gfiTheme": "default",
         "transparent": true,
-        "singleTile": true,
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+        "singleTile": true
     },
     {
         "id": "k_luftbild2020_rgb:0",
@@ -703,8 +687,7 @@
         "featureCount": "5",
         "gfiTheme": "default",
         "transparent": true,
-        "singleTile": true,
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+        "singleTile": true
     },
     {
         "id": "k_luftbild2021_rgb:0",
@@ -731,8 +714,7 @@
         "featureCount": "5",
         "gfiTheme": "default",
         "transparent": true,
-        "singleTile": true,
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+        "singleTile": true
     },
     {
         "id": "k_luftbild2022_true_rgbi:0",
@@ -759,8 +741,7 @@
         "featureCount": "5",
         "gfiTheme": "default",
         "transparent": true,
-        "singleTile": true,
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+        "singleTile": true
     },
     {
         "id": "truedop_2023:truedop_2023",
@@ -786,8 +767,7 @@
         "gfiTheme": "default",
         "transparent": true,
         "singleTile": true,
-        "infoFormat": "application/json",
-        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
+        "infoFormat": "application/json"
     },
 	{
         "id": "truedop_2024:truedop_2024",
@@ -813,9 +793,8 @@
         "gfiTheme": "default",
         "transparent": true,
         "singleTile": true,
-        "infoFormat": "application/json",
-        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
-    },
+        "infoFormat": "application/json"
+	},
     {
         "id": "s_brw_2015",
         "name": "Bodenrichtwerte 01.01.2015",
@@ -1034,9 +1013,8 @@
         "gfiAttributes": "ignore",
         "gfiTheme": "default",
         "transparent": "True",
-        "tilesize": "512",
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\" oder \"Gutachterausschuss für Grundstückswerte in Berlin\"."
-    },
+        "tilesize": "512"
+  },
  {
         "id": "brw_2020_amtlich:234",
         "name": "Bodenrichtwerte",
@@ -1059,9 +1037,8 @@
         "gfiAttributes": "ignore",
         "gfiTheme": "default",
         "transparent": "True",
-        "tilesize": "512",
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\" oder \"Gutachterausschuss für Grundstückswerte in Berlin\"."
-    },
+        "tilesize": "512"
+ },
 {
         "id": "brw_2019_amtlich:234",
         "name": "Bodenrichtwerte",
@@ -1084,9 +1061,8 @@
         "gfiAttributes": "ignore",
         "gfiTheme": "default",
         "transparent": "True",
-        "tilesize": "512",
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\" oder \"Gutachterausschuss für Grundstückswerte in Berlin\"."
-    },
+        "tilesize": "512"
+},
   {
         "id": "brw_2018_amtlich:234",
         "name": "Bodenrichtwerte",
@@ -1109,9 +1085,8 @@
         "gfiAttributes": "ignore",
         "gfiTheme": "default",
         "transparent": "True",
-        "tilesize": "512",
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\" oder \"Gutachterausschuss für Grundstückswerte in Berlin\"."
-    }, 
+        "tilesize": "512"
+  }, 
  {
         "id": "brw_2017_amtlich:234",
         "name": "Bodenrichtwerte",
@@ -1134,9 +1109,8 @@
         "gfiAttributes": "ignore",
         "gfiTheme": "default",
         "transparent": "True",
-        "tilesize": "512",
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\" oder \"Gutachterausschuss für Grundstückswerte in Berlin\"."
-    },
+        "tilesize": "512"
+ },
   {
         "id": "brw_2016_amtlich:234",
         "name": "Bodenrichtwerte",
@@ -1159,9 +1133,8 @@
         "gfiAttributes": "ignore",
         "gfiTheme": "default",
         "transparent": "True",
-        "tilesize": "512",
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\" oder \"Gutachterausschuss für Grundstückswerte in Berlin\"."
-    },
+        "tilesize": "512"
+  },
   {
         "id": "brw_2015_amtlich:234",
         "name": "Bodenrichtwerte",
@@ -1184,9 +1157,8 @@
         "gfiAttributes": "ignore",
         "gfiTheme": "default",
         "transparent": "True",
-        "tilesize": "512",
-        "layerAttribution": "Für die Nutzung der Daten ist die  Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2)  der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\" oder \"Gutachterausschuss für Grundstückswerte in Berlin\"."
-    },
+        "tilesize": "512"
+  },
   {
     "id": "19173",
    "name": "Digitales Geländemodell 2023 - Höhenlinien",
@@ -1212,9 +1184,8 @@
         "gfiTheme": "default",
         "transparent": true,
         "singleTile": true,
-        "infoFormat": "application/json",
-        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\"."
-    },
+        "infoFormat": "application/json"
+  },
 {
         "id": "s_apotheken",
         "name": "Apothekenstandorte",
@@ -1287,9 +1258,8 @@
                 "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
             }
         ],
-        "optionsFromCapabilities": true,
-        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\""
-    },
+        "optionsFromCapabilities": true
+   },
     {
         "id": "hintergrund_k5_grau",
         "name": "Karte von Berlin 1:5000 (K5 SW-Ausgabe)",
@@ -1310,7 +1280,6 @@
                 "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
             }
         ],
-        "optionsFromCapabilities": true,
-        "layerAttribution": "Für die Nutzung der Daten ist die Datenlizenz Deutschland - Namensnennung - Version 2.0 anzuwenden. Die Lizenz ist über https://www.govdata.de/dl-de/by-2-0 abrufbar. Der Quellenvermerk gemäß (2) der Lizenz lautet \"Geoportal Berlin / [Titel des Datensatzes]\""
+        "optionsFromCapabilities": true
     }
 ]
