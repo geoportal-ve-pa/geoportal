@@ -493,8 +493,8 @@
           "showInLayerTree": false
         },
         {
-          "id": "truedop_2023:truedop_2023",
-          "name": "Digitale farbige TrueOrthophotos 2023 (DOP20RGBI)",
+          "id": "Luftbild",
+          "name": "Luftbild 2024",
           "typ": "WMS",
           "visibility": false,
           "showInLayerTree": false
