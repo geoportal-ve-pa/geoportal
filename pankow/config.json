@@ -179,7 +179,7 @@
     	"type": "customMenuElement",
 	"icon": "bi-envelope",
     	"name": "Kontakt aufnehmen",
-    	"htmlContent": "<div><p>Sie haben Hinweise, Fragen oder Probleme? Schreiben Sie uns!</p></br><button type=\"button\" style=\"background-color: none; border: steelblue; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 12px;\"><a href=\"mailto:christoph.blanke@ba-pankow.berlin.de\">E-Mail Senden</a></button><div>"
+    	"htmlContent": "<div><p>Sie haben Hinweise, Fragen oder Probleme? Schreiben Sie uns!</p></br><button type=\"button\" style=\"background-color: white; border: steelblue; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 12px;\"><a href=\"mailto:christoph.blanke@ba-pankow.berlin.de\">E-Mail Senden</a></button><div>"
 	}
           
         ]
