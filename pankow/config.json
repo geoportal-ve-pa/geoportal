@@ -49,6 +49,11 @@
           5838000
         ],
         "startZoomLevel": 8,
+	"mapInteractions": {
+                    "interactionModes": {
+                        "altShiftDragRotate": true,
+                        "twoFingerPan": true
+                    }
         "epsg": "EPSG:25833"
       },
       "baselayerSwitcher": {
