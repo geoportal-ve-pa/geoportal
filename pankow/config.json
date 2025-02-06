@@ -53,7 +53,7 @@
                     "interactionModes": {
                         "altShiftDragRotate": true,
                         "twoFingerPan": true
-                    }
+                    },
         "epsg": "EPSG:25833"
       },
       "baselayerSwitcher": {
