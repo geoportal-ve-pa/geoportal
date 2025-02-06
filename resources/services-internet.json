@@ -1236,7 +1236,7 @@
  {
       "id" : "360fotos",
       "name" : "360grad Fotos",
-      "url" : "resources/geojson/test.geojson",
+      "url" : "../resources/geojson/test.geojson",
       "typ" : "GeoJSON",
       "collection": "Foto-Ordner",
       "gfiAttributes": {	
