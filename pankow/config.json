@@ -1,5 +1,6 @@
 {
-  "portalConfig": {    
+  "portalConfig": {
+    "singleBaselayer": true,
     "map": {      
       "controls": {
         "zoom": true,
