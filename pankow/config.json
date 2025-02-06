@@ -36,8 +36,7 @@
         "active": true,
         "mobileOnly": false
           },
-      "mapView": {
-        "backgroundImage": "../resources/img/backgroundCanvas.jpeg",
+      "mapView": {        
         "startCenter": [
           394914, 
           5821900
