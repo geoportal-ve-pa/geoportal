@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <title>Basic - Portal</title> <!-- enter your own Portal Title for the website at this -->
+    <link rel="stylesheet" href="../mastercode/3_7_0/css/masterportal.css">
+    <link rel="stylesheet" href=""> <!-- Here you can configure your own fonts as url -->
+<script type="text/javascript">
+	const observer = new MutationObserver(function() {
+		var container=document.querySelector('#masterportal-container')
+		if (container){
+			var sessionurl="https://sg.geodatenzentrum.de/gdz_getSession";
+			var appid="d202fbd0-f77b-c8b1-0ce0-5a5c2cfa13d6";
+			var domain="gdi.berlin.de";
+			var restserviceid="bkg_ors";
+			var url=sessionurl+"?bkg_appid="+appid+"&domain="+domain;
+			fetch(url,{cache: "no-store"}).then(response => response.text()).then( sessionid => {
+				var restconf=container.__vue__.$store.state.restConf;
+				restconf.forEach(item => {
+					if (item.id==restserviceid){
+				   item.url=item.url+"__"+sessionid;
+					}
+				});
+			});
+			observer.disconnect();
+		}
+	});
+    observer.observe(document.documentElement , { subtree: true, childList: true});
+   </script>
+</head>
+<body>
+    <div id="masterportal-root"></div>
+    <script type="text/javascript" src="../mastercode/3_7_0/js/masterportal.js"></script>
+</body>
+</html>

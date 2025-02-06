@@ -1,0 +1,626 @@
+{
+  "portalConfig": {    
+    "map": {      
+      "controls": {
+        "zoom": true,
+        "orientation": {
+          "zoomMode": "once"
+        },
+	"expandable": {
+        	"button3d": true,
+		"freeze": true,
+		"fullScreen": true,
+		"rotation": true,
+		"tiltView": true,
+		"totalView": true,
+		"startModule":{ 
+			"mainMenu": [
+        			{
+            			"type": "scaleSwitcher"
+        			}
+    				],
+    			"secondaryMenu": [
+        			{            			
+            			"type": "coordToolkit",
+            			"heightLayerId": "19173",
+            			"heightElementName": "value_0",
+            			"heightValueWater": "-20",
+            			"heightValueBuilding": "200",
+            			"zoomLevel": 5          
+        			}
+    				]
+			}
+      		}
+      },
+      "layerPills": {
+        "active": true,
+        "mobileOnly": false
+          },
+      "mapView": {
+        "backgroundImage": "./resources/img/backgroundCanvas.jpeg",
+        "startCenter": [
+          394914, 
+          5821900
+        ],
+        "extent": [
+          386000,
+          5818500,
+          401000,
+          5838000
+        ],
+        "startZoomLevel": 8,
+        "epsg": "EPSG:25833"
+      },
+      "baselayerSwitcher": {
+      "active": true
+    }
+    },
+    "portalFooter": {
+      "urls": [
+        {
+          "bezeichnung": "common:modules.portalFooter.designation",
+          "url": "https://www.berlin.de/ba-pankow/politik-und-verwaltung/aemter/stadtentwicklungsamt/vermessung/artikel.220516.php",
+          "alias": "Stadtentwicklungsamt, Fachbereich Vermessung",
+          "alias_mobil": "FB Vermessung"
+        }
+      ]
+    },
+    "tree": {            
+      "addLayerButton": {
+        "active": true,
+        "searchBar": {
+          "active": true,
+          "searchInterfaceInstanceId": "elasticSearch_0",
+          "searchCategory": "Thema (externe Fachdaten)"
+        }
+      },
+      "highlightedFeatures": {
+        "active": true
+      }
+    },
+    "mainMenu": {        
+      "expanded": true,
+      "title": {
+        "text": "Berlin Pankow",
+        "logo": "../resources/img/mp_logo.png",
+        "link": "https://b-intern.de/ba/pankow/?ssl",
+        "toolTip": "Berlin"
+      },
+      "searchBar": {
+	
+        "searchInterfaces": [
+	  
+          {
+                "type": "komootPhoton",
+                "minChars": 3,
+                "serviceId": "11",
+                "limit": 10,
+                "lang": "de",
+                "lat": 52.53704,
+                "lon":13.450604,
+                "bbox": "13.363,52.527,13.558,52.656"
+          },
+          {
+                "type": "osmNominatim",
+                "serviceId": "10",
+                "limit": 60,
+                "states": "Berlin",
+                "classes": "place,highway,building,shop,historic,leisure,city,county"
+          },
+          { 
+	    "type": "bkg",
+            "suggestServiceId": "BKG_SUG",
+            "geosearchServiceId": "BKG_GEO",
+            "extent": [
+                389000, 
+                5821000, 
+                402500, 
+                5835000
+                      ],
+            "resultCount": 10,
+            "epsg": "EPSG:25833",
+            "filter": "filter=bundesland:Berlin",
+            "minScore": 0.6           
+          },
+          {
+            "type": "visibleVector",
+            "resultEvents": {
+              "onClick": [
+                "openGetFeatureInfo",
+                "setMarker",
+                "zoomToResult"
+              ],
+              "onHover": [
+                "setMarker"
+              ]
+            }
+          },
+          {
+            "type": "topicTree",
+            "hitTemplate": "layer"
+          }
+	  
+        ]
+      },
+      "sections": [
+        [
+          {
+            "type": "fileImport"
+          },
+          {
+            "type": "openConfig"
+          },
+		  {
+            "icon": "bi-newspaper",
+            "name": "common:modules.news.name",
+            "type": "news"
+          },
+          {
+            "type": "language"
+          },
+	{
+    	"type": "customMenuElement",
+    	"name": "HTML aus config.json und Action",
+    	"htmlContent": "<div><p>This is a paragraph.</p></br><a href=\"https://www.w3schools.com/\" target=\"_blank\">Visit W3Schools.com!</a></div>",
+    	"execute":{
+        	"action": "Alerting/addSingleAlert",
+        	"payload":  {"title":"An alle Menschen", "content": "Hallo Welt"}
+    		}
+	}
+        ],
+	[
+        {
+    	"type": "customMenuElement",
+	"icon": "bi-envelope",
+    	"name": "Kontakt aufnehmen",
+    	"htmlContent": "<div><p>Sie haben Hinweise, Fragen oder Probleme? Schreiben Sie uns!</p></br><a href=\"mailto:christoph.blanke@ba-pankow.berlin.de\">E-Mail Senden</a><div>"
+	}
+          
+        ]
+      ]
+    },
+    "secondaryMenu": {
+      "expanded": false,
+      "sections": [
+        [
+          {
+            "type": "wfst",
+            "name": "WFS-T Tool",
+            "layerIds": [
+              "lgvline",
+              "lgvpoint",
+              "lgvpolygon"
+            ],
+            "toggleLayer": false,
+            "lineButton": [
+              {
+                "layerId": "lgvline",
+                "available": true
+              }
+            ],
+            "pointButton": [
+              {
+                "layerId": "lgvpoint",
+                "available": true
+              }
+            ],
+            "polygonButton": [
+              {
+                "layerId": "lgvpolygon",
+                "available": true
+              }
+            ],
+            "update": "Bearbeiten!",
+            "delete": true
+          },
+          {
+            "type": "legend"
+          },          
+          {       
+            "type": "print",                        
+            "name": "Karte drucken",                        
+            "printServiceId": "mapfish_printservice_id",                        
+            "printAppId": "gdibe",                        
+            "filename": "Print",                        
+            "title": "Mein Titel",                        
+            "currentLayoutName": "A4 quer",                        
+            "version": "mapfish_print_3",                        
+            "isLegendSelected": false,                        
+            "gfi": false,                        
+            "legendText": "Legende",                                    
+            "dpiForPdf": 90
+          },
+          {
+    "type": "routing",
+    "name": "Routing (ohne funktion)",
+    "icon": "bi-signpost-2-fill",
+    "activeRoutingToolOption": "DIRECTIONS",
+    "routingToolOptions": ["DIRECTIONS", "ISOCHRONES"],
+    "download": {
+        "filename": "",
+        "format": "GEOJSON"
+    },
+    "geosearch": {
+        "minChars": 3,
+        "limit": 10,
+        "type": "BKG",
+        "serviceId": "BKG_GEO"
+    },
+    "geosearchReverse": {
+        "distance": 1000,
+        "filter": "",
+        "type": "BKG",
+        "serviceId": "BKG_SUG"
+    },
+    "directionsSettings": {
+        "type": "ORS",
+        "serviceId": "bkg_ors",
+        "speedProfile": "CAR",
+        "preference": "RECOMMENDED",
+        "styleRoute": {
+            "fillColor": [255, 44, 0],
+            "width": 6,
+            "highlightColor": [255, 255, 255],
+            "highlightWidth": 9,
+            "partHighlightColor": [255, 255, 255],
+            "partHighlightWidth": 3
+        },
+        "styleWaypoint": {
+            "lineColor": [255, 127, 0],
+            "lineWidth": 4,
+            "fillColor": [255, 127, 0],
+            "textFillColor": "#000",
+            "textLineColor": "#fff",
+            "textLineWidth": 3,
+            "opacity": 0.3,
+            "radius": 8
+        },
+        "styleAvoidAreas": {
+            "lineColor": [0, 127, 255],
+            "lineWidth": 2,
+            "fillColor": [0, 127, 255],
+            "opacity": 0.3,
+            "pointRadius": 8,
+            "pointLineWidth": 4
+        },
+        "batchProcessing": {
+            "enabled": false,
+            "active": false,
+            "limit": 1000,
+            "maximumConcurrentRequests": 3
+        }
+    },
+    "isochronesSettings": {
+        "type": "ORS",
+        "serviceId": "bkg_ors",
+        "speedProfile": "CAR",
+        "isochronesMethodOption": "TIME",
+        "distanceValue": 30,
+        "minDistance": 1,
+        "maxDistance": 400,
+        "timeValue": 30,
+        "minTime": 1,
+        "maxTime": 180,
+        "intervalValue": 15,
+        "minInterval": 3,
+        "maxInterval": 30,
+        "styleCenter": {
+            "lineColor": [255, 127, 0],
+            "lineWidth": 4,
+            "fillColor": [255, 127, 0],
+            "opacity": 0.3,
+            "radius": 8
+        },
+        "styleIsochrones": {
+            "lineWidth": 2,
+            "opacity": 0.65,
+            "startColor": [66, 245, 78],
+            "endColor": [245, 66, 66]
+        },
+        "batchProcessing": {
+            "enabled": false,
+            "active": false,
+            "limit": 1000,
+            "maximumConcurrentRequests": 3
+        }
+    }
+},
+          {
+            "type": "scaleSwitcher"
+          },
+          {
+            "type": "shareView"
+          },
+          {
+            "type": "measure"
+          },
+          {
+            "type": "coordToolkit",
+            "heightLayerId": "19173",
+            "heightElementName": "value_0",
+            "heightValueWater": "-20",
+            "heightValueBuilding": "200",
+            "zoomLevel": 5
+          },
+          {
+            "type": "bufferAnalysis"
+          },
+          {
+            "type": "layerSlider",
+            "name": "Luftbilder",
+            "title": "Zeitreise durch die Luftbilder",
+            "layerIds": [
+              {
+                "title": "Digitale farbige Orthophotos 2004 (DOP25RGB)",
+                "layerId": "luftbild2004:0"
+              },
+              {
+                "title": "Digitale farbige Orthophotos 2007 (DOP20RGB)",
+                "layerId": "k_luftbild2007:0"
+              },
+              {
+                "title": "Digitale farbige Orthophotos 2009 (DOP20RGB)",
+                "layerId": "k_luftbild2009_20:0"
+              },
+              {
+                "title": "Digitale farbige Orthophotos 2010 (DOP20RGB)",
+                "layerId": "k_luftbild2010_rgb:0"
+              },
+              {
+                "title": "Digitale farbige Orthophotos 2011 (DOP20RGB)",
+                "layerId": "k_luftbild2011_20:0"
+              },
+			  {
+                "title": "Digitale farbige Trueorthophotos 2013",
+                "layerId": "k_luftbild2013:0"
+              },
+              {
+                "title": "Digitale farbige Orthophotos 2014 (DOP20RGB)",
+                "layerId": "k_luftbild2014:0"
+              },
+              {
+                "title": "Luftbilder 2015 (Orthophotos)",
+                "layerId": "k_luftbild2015_rgb:0"
+              },
+              {
+                "title": "Digitale farbige Orthophotos 2016 (DOP20RGB)",
+                "layerId": "k_luftbild2016_rgb:0"
+              },
+              {
+                "title": "Digitale farbige Orthophotos 2017 (DOP20RGB)",
+                "layerId": "k_luftbild2017_rgb:0"
+              },
+              {
+                "title": "Digitale farbige Orthophotos 2018 (DOP20RGB)",
+                "layerId": "k_luftbild2018_rgb:0"
+              },
+              {
+                "title": "Digitale farbige Orthophotos 2019 (DOP20RGB)",
+                "layerId": "k_luftbild2019_rgb:0"
+              },
+              {
+                "title": "Digitale farbige Orthophotos 2020 (DOP20RGB)",
+                "layerId": "k_luftbild2020_rgb:0"
+              },
+              {
+                "title": "Digitale farbige Orthophotos 2021 (DOP20RGBI)",
+                "layerId": "k_luftbild2021_rgb:0"
+              },
+              {
+                "title": "Digitale farbige TrueOrthophotos 2022 (DOP20RGBI)",
+                "layerId": "k_luftbild2022_true_rgbi:0"
+              },
+              {
+                "title": "Digitale farbige TrueOrthophotos 2023 (DOP20RGBI)",
+                "layerId": "truedop_2023:truedop_2023"
+              },
+              {
+                "title": "Digitale farbige TrueOrthophotos 2024 (DOP20RGBI)",
+                "layerId": "truedop_2024:truedop_2024"
+              }
+            ]
+          },
+          {
+            "type": "layerClusterToggler",
+            "layerIdList": [
+              "luftbild2004:0",
+              "k_luftbild2007:0"
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  "layerConfig": {
+    "baselayer": {
+      "elements": [
+        {
+          "id": "Basemap-farbe",
+          "name": "Basemap (Farb-Ausgabe)",
+          "typ": "WMS",
+	  "preview": {     		
+    		"src": "./resources/img/Basemap_Farbe.PNG"
+    		},
+           "visibility": true,
+          "showInLayerTree": true
+        },
+        {
+          "id": "Basemap-sw",
+          "name": "Basemap (SW-Ausgabe)",
+          "typ": "WMS",
+	  "preview": {     		
+    		"src": "./resources/img/Basemap_SW.PNG"
+    		},
+           "visibility": false,
+          "showInLayerTree": false
+        },
+	{
+          "id": "hintergrund_k5_grau",
+          "typ": "WMTS",
+	  "preview": {     		
+    		"src": "./resources/img/K5_SW.PNG"
+    		},
+           "visibility": false,
+          "showInLayerTree": false
+        },
+	{
+          "id": "hintergrund_k5_farbe",
+          "typ": "WMTS",
+	  "preview": {     		
+    		"src": "./resources/img/K5_Farbe.PNG"
+    		},
+           "visibility": false,
+          "showInLayerTree": false
+        },
+        {
+          "id": "truedop_2024:truedop_2024",
+          "name": "Digitale farbige TrueOrthophotos 2024 (DOP20RGBI)",
+          "typ": "WMS",
+          "visibility": false,
+          "showInLayerTree": false
+        }
+      ]
+    },
+    "subjectlayer": {
+      "elements": [
+            {                
+                "name": "Luftbilder",
+				"showInLayerTree": true,		
+                "visibility": true,
+                "type": "folder",
+                "elements": [
+                    {
+                      "id": "luftbild2004:0",
+                      "name": "Digitale farbige Orthophotos 2004 (DOP25RGB)",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    },
+                    {
+                      "id": "k_luftbild2007:0",
+                      "name": "Digitale farbige Orthophotos 2007 (DOP25RGB)",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    },
+                    {
+                      "id": "k_luftbild2009_20:0",
+                      "name": "Digitale farbige Orthophotos 2009 (DOP25RGB)",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    },
+                    {
+                      "id": "k_luftbild2010_rgb:0",
+                      "name": "Digitale farbige Orthophotos 2010 (DOP25RGB)",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    },
+                    {
+                      "id": "k_luftbild2011_20:0",
+                      "name": "Digitale farbige Orthophotos 2011 (DOP20RGB)",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    },
+                    {
+                      "id": "k_luftbild2013:0",
+                      "name": "Digitale farbige Trueorthophotos 2013",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    },
+                    {
+                      "id": "k_luftbild2014:0",
+                      "name": "Digitale farbige Orthophotos 2014 (DOP20RGB)",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    },
+                    {
+                      "id": "k_luftbild2015_rgb:0",
+                      "name": "Luftbilder 2015 (Orthophotos)",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    },
+                    {
+                      "id": "k_luftbild2016_rgb:0",
+                      "name": "Digitale farbige Orthophotos 2016 (DOP20RGB)",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    },
+                    {
+                      "id": "k_luftbild2017_rgb:0",
+                      "name": "Digitale farbige Orthophotos 2017 (DOP20RGB)",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    },
+                    {
+                      "id": "k_luftbild2018_rgb:0",
+                      "name": "Digitale farbige Orthophotos 2018 (DOP20RGB)",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    },
+                    {
+                      "id": "k_luftbild2019_rgb:0",
+                      "name": "Digitale farbige Orthophotos 2019 (DOP20RGB)",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    },
+                    {
+                      "id": "k_luftbild2020_rgb:0",
+                      "name": "Digitale farbige Orthophotos 2020 (DOP20RGB)",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    },
+                    {
+                      "id": "k_luftbild2021_rgb:0",
+                      "name": "Digitale farbige Orthophotos 2021 (DOP20RGBI)",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    },
+                    {
+                      "id": "k_luftbild2022_true_rgbi:0",
+                      "name": "Digitale farbige TrueOrthophotos 2022 (DOP20RGBI)",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    },
+                    {
+                      "id": "truedop_2023:truedop_2023",
+                      "name": "Digitale farbige TrueOrthophotos 2023 (DOP20RGBI)",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    },
+                    {
+                      "id": "truedop_2024:truedop_2024",
+                      "name": "Digitale farbige TrueOrthophotos 2024 (DOP20RGBI)",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    }
+                ]
+            },
+	    {
+                "id": "360fotos", 
+		"name": "Panorama Fotos",
+		"styleId": "360fotos",
+                "visibility": false,               
+                "type": "layer",
+                "typ": "GeoJson"
+           }
+	      
+        ]
+     
+    }
+  }
+}
