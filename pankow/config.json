@@ -441,21 +441,21 @@
     "baselayer": {
       "elements": [
 	{
-          "id": "Alkis_Fis",
+          "id": "Alkis_Fis_baselayer",
           "name": "ALKIS (Farb-Ausgabe)",
           "typ": "WMS",
            "visibility": false,
           "showInLayerTree": false
         },
 	{
-          "id": "Alkis_sw_Fis",
+          "id": "Alkis_sw_Fis_baselayer",
           "name": "ALKIS (SW-Ausgabe)",
           "typ": "WMS",
            "visibility": false,
           "showInLayerTree": false
         },
         {
-          "id": "Basemap-farbe",
+          "id": "Basemap-farbe_baselayer",
           "name": "Basemap (Farb-Ausgabe)",
           "typ": "WMS",
 	  "preview": {     		
@@ -465,7 +465,7 @@
           "showInLayerTree": true
         },
         {
-          "id": "Basemap-sw",
+          "id": "Basemap-sw_baselayer",
           "name": "Basemap (SW-Ausgabe)",
           "typ": "WMS",
 	  "preview": {     		
@@ -475,7 +475,7 @@
           "showInLayerTree": false
         },
 	{
-          "id": "hintergrund_k5_grau",
+          "id": "hintergrund_k5_grau_baselayer",
           "typ": "WMTS",
 	  "preview": {     		
     		"src": "../resources/img/K5_SW.PNG"
@@ -484,7 +484,7 @@
           "showInLayerTree": false
         },
 	{
-          "id": "hintergrund_k5_farbe",
+          "id": "hintergrund_k5_farbe_baselayer",
           "typ": "WMTS",
 	  "preview": {     		
     		"src": "../resources/img/K5_Farbe.PNG"
@@ -493,8 +493,8 @@
           "showInLayerTree": false
         },
         {
-          "id": "Luftbild",
-          "name": "Luftbild 2024",
+          "id": "truedop_2024:truedop_2024_baselayer",
+          "name": "Digitale farbige TrueOrthophotos 2024 (DOP20RGBI)",
           "typ": "WMS",
           "visibility": false,
           "showInLayerTree": false
