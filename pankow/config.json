@@ -509,6 +509,9 @@
           "id": "Alkis_Fis_baselayer",
           "name": "ALKIS (Farb-Ausgabe)",
           "typ": "WMS",
+	  "preview": {     		
+    		"src": "../resources/img/Alkis_farbe.PNG"
+		},
            "visibility": false,
           "showInLayerTree": false
         },
@@ -516,6 +519,9 @@
           "id": "Alkis_sw_Fis_baselayer",
           "name": "ALKIS (SW-Ausgabe)",
           "typ": "WMS",
+	  "preview": {     		
+    		"src": "../resources/img/Alkis_SW.PNG"
+		},
            "visibility": false,
           "showInLayerTree": false
         },
