@@ -621,6 +621,15 @@
                     }
                 ]
             },
+	    {                
+                "name": "Bezugsräume",
+		"showInLayerTree": false,		
+                "visibility": false,
+                "type": "folder",
+                "elements": [
+                    
+                	    ]
+            },
 	    {
                 "id": "360fotos", 
 		"name": "Panorama Fotos",
