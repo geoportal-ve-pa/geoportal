@@ -1497,7 +1497,7 @@
    "name": "Grenzen Berlin",
         "name_lang": "Bezugsräume - Grenze Berlin",
         "crs": "EPSG:25833",
-        "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin2/qgis_mapserv.fcgi.exe?map=D%253A%252FGIS-Daten%252FServer%252Fbezugsraeume.qgs&VERSION=1.3.0",
+        "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin2/qgis_mapserv.fcgi.exe?MAP=D:/GIS-Daten/Server/bezugsraeume.qgs&",
         "typ": "WMS",
         "gfiAttributes": "ignore",
         "layers": "13",
