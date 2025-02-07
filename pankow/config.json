@@ -628,8 +628,7 @@
                 "type": "folder",
                 "elements": [
                     		{
-                      		"id": "Bez_Gr_Berlin",
-                      		"name": "Grenze Berlin",
+                      		"id": "Luft_24_10",
                       		"visibility": false,
                       		"type": "layer",
                       		"typ": "wms"
