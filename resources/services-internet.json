@@ -1491,5 +1491,24 @@
             }
         ],
         "optionsFromCapabilities": true
-    }
+    },
+	{
+    "id": "Bez_Gr_Berlin",
+   "name": "Grenzen Berlin",
+        "name_lang": "Bezugsräume - Grenze Berlin",
+        "crs": "EPSG:25833",
+        "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin2/qgis_mapserv.fcgi.exe?map=D%253A%252FGIS-Daten%252FServer%252Fbezugsraeume.qgs&VERSION=1.3.0",
+        "typ": "WMS",
+        "gfiAttributes": "ignore",
+        "layers": "13",
+        "legend": true,
+        "datasets": "ignore",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json"
+  }
 ]
