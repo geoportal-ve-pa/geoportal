@@ -717,6 +717,7 @@
             },
 	    {                
                 "name": "Bezugsräume",
+		"isFolderSelectable": true,
 		"showInLayerTree": false,		
                 "visibility": false,
                 "type": "folder",
