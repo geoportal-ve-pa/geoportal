@@ -692,9 +692,23 @@
                       "type": "layer",
                       "typ": "wms"
                     },
+		    {
+                      "id": "Luft_23_10",
+                      "name": "Luftbilder 2023 (DOP10RGBI)",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    },
                     {
                       "id": "truedop_2024:truedop_2024",
                       "name": "Digitale farbige TrueOrthophotos 2024 (DOP20RGBI)",
+                      "visibility": false,
+                      "type": "layer",
+                      "typ": "wms"
+                    },
+		    {
+                      "id": "Luft_24_10",
+                      "name": "Luftbilder 2024 (DOP10RGBI)",
                       "visibility": false,
                       "type": "layer",
                       "typ": "wms"
@@ -708,7 +722,7 @@
                 "type": "folder",
                 "elements": [
                     		{
-                      		"id": "Luft_24_10",
+                      		"id": "Bezug_Grenze_Berlin",
                       		"visibility": false,
                       		"type": "layer",
                       		"typ": "wms"
