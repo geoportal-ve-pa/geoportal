@@ -627,7 +627,13 @@
                 "visibility": false,
                 "type": "folder",
                 "elements": [
-                    
+                    		{
+                      		"id": "Bez_Gr_Berlin",
+                      		"name": "Grenze Berlin",
+                      		"visibility": false,
+                      		"type": "layer",
+                      		"typ": "wms"
+                    		}
                 	    ]
             },
 	    {
