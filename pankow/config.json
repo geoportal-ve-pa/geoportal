@@ -113,6 +113,11 @@
                         "resolution": 0.06614579761460261,
                         "scale": 250,
                         "zoomLevel": 12
+                    },
+		    {
+                        "resolution": 0.0396874785687616,
+                        "scale": 150,
+                        "zoomLevel": 13
                     }
                 ],
             
