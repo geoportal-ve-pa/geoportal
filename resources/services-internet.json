@@ -1500,7 +1500,7 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin2/qgis_mapserv.fcgi.exe?MAP=D:/GIS-Daten/Server/bezugsraeume.qgs&",
         "typ": "WMS",
         "gfiAttributes": "ignore",
-        "layers": "Bezugsräume ["Grenze Berlin"]",
+        "layers": "Bezugsräume",
         "legend": true,
         "datasets": "ignore",
         "format": "image/png",
