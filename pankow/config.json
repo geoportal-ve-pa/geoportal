@@ -723,7 +723,15 @@
                 "elements": [
                     		{
                       		"id": "Bezug_Grenze_Berlin",
-                      		"visibility": false,
+				"showInLayerTree": false,
+                      		"visibility": true,
+                      		"type": "layer",
+                      		"typ": "wms"
+                    		},
+				{
+                      		"id": "Bezug_Grenze_Pankow",
+				"showInLayerTree": false,
+                      		"visibility": true,
                       		"type": "layer",
                       		"typ": "wms"
                     		}
