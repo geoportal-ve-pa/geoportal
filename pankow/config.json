@@ -745,6 +745,13 @@
                 "visibility": false,               
                 "type": "layer",
                 "typ": "GeoJson"
+           },
+	    {
+                "id": "Verkehrslage", 
+		"name": "Verkehrslage",
+                "visibility": false,               
+                "type": "layer",
+                "typ": "wms"
            }
 	      
         ]
