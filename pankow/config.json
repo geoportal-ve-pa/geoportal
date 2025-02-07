@@ -114,8 +114,8 @@
                         "scale": 250,
                         "zoomLevel": 12
                     }
-                ]
-            },
+                ],
+            
         "startZoomLevel": 8,
 	"mapInteractions": {
                     "interactionModes": {
