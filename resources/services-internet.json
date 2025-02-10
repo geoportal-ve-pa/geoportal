@@ -1418,6 +1418,7 @@
       "url" : "../resources/geojson/test.geojson",
       "typ" : "GeoJSON",
       "collection": "Foto-Ordner",
+      "styleId": "360fotos",
       "gfiAttributes": {	
 	"timestamp": {
          "name": "Aufnahmedatum",
