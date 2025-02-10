@@ -574,6 +574,64 @@
     },
     "subjectlayer": {
       "elements": [
+	      {                
+                "name": "Bezugsräume",
+		"isFolderSelectable": true,
+		"showInLayerTree": false,		
+                "visibility": false,
+                "type": "folder",
+                "elements": [
+                    		{
+                      		"id": "Bezug_Grenze_Berlin",
+				"showInLayerTree": false,
+                      		"visibility": true,
+                      		"type": "layer",
+                      		"typ": "wms"
+                    		},
+				{
+                      		"id": "Bezug_Grenze_Pankow",
+				"showInLayerTree": false,
+                      		"visibility": true,
+                      		"type": "layer",
+                      		"typ": "wms"
+                    		},
+				{
+                      		"id": "Bezug_Ortsteile_Pankow",
+				"showInLayerTree": false,
+                      		"visibility": false,
+                      		"type": "layer",
+                      		"typ": "wms"
+                    		},
+				{
+                      		"id": "Bezug_Prognoseräume_Berlin",
+				"showInLayerTree": false,
+                      		"visibility": false,
+                      		"type": "layer",
+                      		"typ": "wms"
+                    		},
+				{
+                      		"id": "Bezug_Bezirksregionen_Berlin",
+				"showInLayerTree": false,
+                      		"visibility": false,
+                      		"type": "layer",
+                      		"typ": "wms"
+                    		},
+				{
+                      		"id": "Bezug_Planungsräume_Berlin",
+				"showInLayerTree": false,
+                      		"visibility": false,
+                      		"type": "layer",
+                      		"typ": "wms"
+                    		},
+				{
+                      		"id": "Bezug_Blöcke_Berlin",
+				"showInLayerTree": false,
+                      		"visibility": false,
+                      		"type": "layer",
+                      		"typ": "wms"
+                    		}
+                	    ]
+            },
             {                
                 "name": "Luftbilder",
 		"showInLayerTree": false,		
@@ -714,30 +772,7 @@
                       "typ": "wms"
                     }
                 ]
-            },
-	    {                
-                "name": "Bezugsräume",
-		"isFolderSelectable": true,
-		"showInLayerTree": false,		
-                "visibility": false,
-                "type": "folder",
-                "elements": [
-                    		{
-                      		"id": "Bezug_Grenze_Berlin",
-				"showInLayerTree": false,
-                      		"visibility": true,
-                      		"type": "layer",
-                      		"typ": "wms"
-                    		},
-				{
-                      		"id": "Bezug_Grenze_Pankow",
-				"showInLayerTree": false,
-                      		"visibility": true,
-                      		"type": "layer",
-                      		"typ": "wms"
-                    		}
-                	    ]
-            },
+            },	    
 	    {
                 "id": "360fotos", 
 		"name": "Panorama Fotos",
