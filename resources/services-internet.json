@@ -3808,7 +3808,7 @@
         "crs": "urn:ogc:def:crs:EPSG::25833",
         "url": "https://gdi.berlin.de/services/wfs/strassenbefahrung",
         "typ": "WFS",
-        "featureType": "strassenbefahrung:cm_fahrbahn",
+        
         "featureNS": "strassenbefahrung",
         "datasets": [
             {
