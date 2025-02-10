@@ -1578,7 +1578,7 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiAttributes": "ignore",
+        "gfiAttributes": "showAll",
         "gfiTheme": "default",
         "cache": true,
         "featureCount": "1"
@@ -1599,7 +1599,7 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiAttributes": "ignore",
+        "gfiAttributes": "showAll",
         "gfiTheme": "default",
         "cache": true,
         "featureCount": "1"
@@ -1620,7 +1620,7 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiAttributes": "ignore",
+        "gfiAttributes": "showAll",
         "gfiTheme": "default",
         "cache": true,
         "featureCount": "1"
@@ -1641,7 +1641,7 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiAttributes": "ignore",
+        "gfiAttributes": "showAll",
         "gfiTheme": "default",
         "cache": true,
         "featureCount": "1"
@@ -1662,7 +1662,7 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiAttributes": "ignore",
+        "gfiAttributes": "showAll",
         "gfiTheme": "default",
         "cache": true,
         "featureCount": "1"
@@ -1683,7 +1683,7 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiAttributes": "ignore",
+        "gfiAttributes": "showAll",
         "gfiTheme": "default",
         "cache": true,
         "featureCount": "1"
@@ -1704,7 +1704,7 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiAttributes": "ignore",
+        "gfiAttributes": "showAll",
         "gfiTheme": "default",
         "cache": true,
         "featureCount": "1"
