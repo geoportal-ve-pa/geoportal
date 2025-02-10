@@ -773,14 +773,483 @@
                     }
                 ]
             },	    
-	    {
-                "id": "360fotos", 
-		"name": "Panorama Fotos",
-		"styleId": "360fotos",
-                "visibility": false,               
-                "type": "layer",
-                "typ": "GeoJson"
-           },
+            {                
+                "name": "Straßenbefahrung",
+		"showInLayerTree": false,		
+                "visibility": false,
+                "type": "folder",
+                "elements": [
+                    {
+                                    "id": "strassenbefahrung:aa_verkehrszeichen",
+                                    "name": "Straßenbefahrung - Verkehrszeichen (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ab_touchpoint",
+                                    "name": "Straßenbefahrung - Touchpoint (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ac_trinkwasserbrunnen_wasserspender",
+                                    "name": "Straßenbefahrung - Trinkwasserbrunnen Wasserspender (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ad_uhr",
+                                    "name": "Straßenbefahrung - Uhr (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ae_viz_infotafel",
+                                    "name": "Straßenbefahrung - VIZ-Infotafel (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:af_wasserpumpen_brunnen",
+                                    "name": "Straßenbefahrung - Wasserpumpen Brunnen (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ag_werbesaeule",
+                                    "name": "Straßenbefahrung - Werbesäule (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ah_abfallbehaelter_muellbox",
+                                    "name": "Straßenbefahrung - Abfallbehälter Müllbox (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ai_anforderungstaster_radverkehr",
+                                    "name": "Straßenbefahrung - Anforderungstaster Radverkehr (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:aj_anlegestelle",
+                                    "name": "Straßenbefahrung - Anlegestelle (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ak_briefkasten",
+                                    "name": "Straßenbefahrung - Briefkasten (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:al_durchfahrtshoehe",
+                                    "name": "Straßenbefahrung - Durchfahrtshöhe (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:am_fahnenmast",
+                                    "name": "Straßenbefahrung - Fahnenmast (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:an_fahrbahnmarkierung_piktogramm",
+                                    "name": "Straßenbefahrung - Fahrbahnmarkierung Piktogramm (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ao_gebaeudeeingang",
+                                    "name": "Straßenbefahrung - Gebäudeeingang (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ap_handsteuergeraet_lsa",
+                                    "name": "Straßenbefahrung - Handsteuergerät Lichtsignalanlage (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:aq_hydrant",
+                                    "name": "Straßenbefahrung - Hydrant (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ar1_kabelkasten",
+                                    "name": "Straßenbefahrung - Kabelkasten Schaltkasten (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ar_kanaldeckel",
+                                    "name": "Straßenbefahrung - Kanaldeckel (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:as_mast",
+                                    "name": "Straßenbefahrung - Mast (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:at_mast_lsa",
+                                    "name": "Straßenbefahrung - Mast Lichtsignalanlage (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:au_parkscheinautomat",
+                                    "name": "Straßenbefahrung - Parkscheinautomat (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:av_poller",
+                                    "name": "Straßenbefahrung - Poller (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:aw_spielgeraet",
+                                    "name": "Straßenbefahrung - Spielgerät (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ax_strassensinkkasten",
+                                    "name": "Straßenbefahrung - Strassensinkkasten (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ay_streugutbehaelter",
+                                    "name": "Straßenbefahrung - Streugutbehälter (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:az_taxirufsaeule",
+                                    "name": "Straßenbefahrung - Taxirufsäule (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ba_telefonzelle_telefonstele",
+                                    "name": "Straßenbefahrung - Telefonzelle Telefonstele (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bb_verkehrsschutzgitter",
+                                    "name": "Straßenbefahrung - Verkehrsschutzgitter (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bc_aufmerksamkeitsstreifen",
+                                    "name": "Straßenbefahrung - Aufmerksamkeitsstreifen (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bd_bordstein",
+                                    "name": "Straßenbefahrung - Bordstein (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:be_fahrbahnmarkierunglinie",
+                                    "name": "Straßenbefahrung - Fahrbahnmarkierung_Linie (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bf_gelaender",
+                                    "name": "Straßenbefahrung - Geländer (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bg_leitplanke",
+                                    "name": "Straßenbefahrung - Leitplanke (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bh_mauer",
+                                    "name": "Straßenbefahrung - Mauer (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bi_schranke",
+                                    "name": "Straßenbefahrung - Schranke (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bj_sitzbank",
+                                    "name": "Straßenbefahrung - Sitzbank (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bk_strassenbegrenzung",
+                                    "name": "Straßenbefahrung - Straßenbegrenzung (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bl_strassenentwaesserungsrinne",
+                                    "name": "Straßenbefahrung - Straßenentwässerungsrinne (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bm_zugangsbauwerk",
+                                    "name": "Straßenbefahrung - Zugangsbauwerk (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bn_baumscheibe",
+                                    "name": "Straßenbefahrung - Baumscheibe (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bo_denkmal",
+                                    "name": "Straßenbefahrung - Denkmal (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bp_fahrbahnmarkierung_flaeche",
+                                    "name": "Straßenbefahrung - Fahrbahnmarkierung Fläche (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bq_fahrradstaender",
+                                    "name": "Straßenbefahrung - Fahrradständer (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:br_fahrgastunterstand",
+                                    "name": "Straßenbefahrung - Fahrgastunterstand (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bs_induktionsschleife",
+                                    "name": "Straßenbefahrung - Induktionsschleife (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bt_kabelschacht",
+                                    "name": "Straßenbefahrung - Kabelschacht (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bu1_kleinbauten_sondernutzung",
+                                    "name": "Straßenbefahrung - Kleinbauten Sondernutzung (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bu_recycling_container",
+                                    "name": "Straßenbefahrung - Recycling-Container (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bv_springbrunnen_zierbrunnen",
+                                    "name": "Straßenbefahrung - Springbrunnen Zierbrunnen (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bw_aufmerksamkeitsfeld",
+                                    "name": "Straßenbefahrung - Aufmerksamkeitsfeld (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bx_fahrbahnschwelle",
+                                    "name": "Straßenbefahrung - Fahrbahnschwelle (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:by_gehwegueberfahrt",
+                                    "name": "Straßenbefahrung - Gehwegüberfahrt (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:bz_gleiskoerper_strab",
+                                    "name": "Straßenbefahrung - Gleiskörper Straßenbahn (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ca_haltebereich_bus",
+                                    "name": "Straßenbefahrung - Haltebereich Bus (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:cb_haltestellenwartebereich",
+                                    "name": "Straßenbefahrung - Haltestellenwartebereich (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:cc_treppe",
+                                    "name": "Straßenbefahrung - Treppe (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:cd_rampe",
+                                    "name": "Straßenbefahrung - Rampe (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ce_gruenflaeche",
+                                    "name": "Straßenbefahrung - Grünfläche (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:cf_trennstreifen",
+                                    "name": "Straßenbefahrung - Trennstreifen (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:cg_baustelle",
+                                    "name": "Straßenbefahrung - Baustelle (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ch_radweg",
+                                    "name": "Straßenbefahrung - Radweg (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ci_oeffentlicher_platz",
+                                    "name": "Straßenbefahrung - Öffentlicher Platz (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:cj_fussgaengerzone",
+                                    "name": "Straßenbefahrung - Fussgängerzone (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:ck_parkflaeche",
+                                    "name": "Straßenbefahrung - Parkfläche (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:cl_gehweg",
+                                    "name": "Straßenbefahrung - Gehweg (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                },
+                                {
+                                    "id": "strassenbefahrung:cm_fahrbahn",
+                                    "name": "Straßenbefahrung - Fahrbahn (Straßenbefahrung 2014)",
+                      		    "visibility": false,
+                      		    "type": "layer",
+                      		    "typ": "wms"
+                                }
+                ]
+            },	    
 	    {
                 "id": "Verkehrslage", 
 		"name": "Verkehrslage",
