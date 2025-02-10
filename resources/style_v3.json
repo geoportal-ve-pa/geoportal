@@ -4,13 +4,13 @@
             {
                 "conditions": {
                     "properties": {
-                        "kategorie": "Unsichtbares Objekt"
+                        "filename": "GSAJ1113"
                     }
                 },
                 "style": {
                     "type": "icon",
                     "clusterType": "circle",
-                    "imageName": "unsichtbares-objekt_10.png",
+                    "imageName": "krankenhaus.png",
                     "imageScale": 0.5,
                     "clusterCircleRadius": 15,
                     "clusterCircleFillColor": [
