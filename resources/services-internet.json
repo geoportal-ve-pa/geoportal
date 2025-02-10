@@ -3365,6 +3365,10 @@
         "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
         "typ": "WMS",
 	"infoFormat": "text/xml",
+	"gfiAsNewWindow": {
+        	"name": "_blank",
+        	"specs": "width=800,height=700"
+        		  },
         "gfiAttributes": "showAll",
         "layers": "cf_trennstreifen",
         "legend": true,
