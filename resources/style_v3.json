@@ -8,7 +8,7 @@
           "clusterType": "icon",
           "imageName": "../resources/img/krankenhaus.png",
           "imageScale": 0.7,
-          "clusterImageName": "krankenhaus.png",
+          "clusterImageName": "../resources/img/krankenhaus.png",
           "clusterTextOffsetX": 30,
           "clusterTextOffsetY": 0
         }
