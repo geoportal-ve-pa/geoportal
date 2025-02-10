@@ -773,7 +773,8 @@
                     }
                 ]
             },	    
-            {                
+            {   
+		"id": "Straßenbefahrung",       
                 "name": "Straßenbefahrung",
 		"showInLayerTree": false,		
                 "visibility": false,
