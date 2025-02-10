@@ -6,7 +6,7 @@
         "style": {
           "type": "icon",
           "clusterType": "icon",
-          "imageName": "krankenhaus.png",
+          "imageName": "../resources/img/krankenhaus.png",
           "imageScale": 0.7,
           "clusterImageName": "krankenhaus.png",
           "clusterTextOffsetX": 30,
