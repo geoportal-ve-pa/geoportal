@@ -774,7 +774,7 @@
                 ]
             },	    
             {   
-		"id": [ "strassenbefahrung:aa_verkehrszeichen", "strassenbefahrung:ab_touchpoint", "strassenbefahrung:ac_trinkwasserbrunnen_wasserspender", "strassenbefahrung:ad_uhr"],       
+		"id": [ "strassenbefahrung:aa_verkehrszeichen", "strassenbefahrung:ab_touchpoint", "strassenbefahrung:ac_trinkwasserbrunnen_wasserspender", "strassenbefahrung:ad_uhr", "strassenbefahrung:ae_viz_infotafel", "strassenbefahrung:af_wasserpumpen_brunnen", "strassenbefahrung:ag_werbesaeule", "strassenbefahrung:ah_abfallbehaelter_muellbox", "strassenbefahrung:ai_anforderungstaster_radverkehr", "strassenbefahrung:aj_anlegestelle", "strassenbefahrung:al_durchfahrtshoehe", "strassenbefahrung:am_fahnenmast", "strassenbefahrung:an_fahrbahnmarkierung_piktogramm", "strassenbefahrung:ao_gebaeudeeingang", "strassenbefahrung:ap_handsteuergeraet_lsa", "strassenbefahrung:aq_hydrant", "strassenbefahrung:ar1_kabelkasten", "strassenbefahrung:ar_kanaldeckel", "strassenbefahrung:as_mast", "strassenbefahrung:at_mast_lsa", "strassenbefahrung:au_parkscheinautomat"],       
                 "name": "Straßenbefahrung",
 		"showInLayerTree": false,		
                 "visibility": false,
