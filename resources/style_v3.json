@@ -1,4 +1,29 @@
-[
+[   {
+        "styleId": "2059",
+        "rules": [
+            {
+                "conditions": {
+                    "properties": {
+                        "kategorie": "Unsichtbares Objekt"
+                    }
+                },
+                "style": {
+                    "type": "icon",
+                    "clusterType": "circle",
+                    "imageName": "unsichtbares-objekt_10.png",
+                    "imageScale": 0.5,
+                    "clusterCircleRadius": 15,
+                    "clusterCircleFillColor": [
+                        230,
+                        230,
+                        10,
+                        1
+                    ],
+                    "clusterTextOffsetY": 2
+                }
+            }
+        ]
+    },
   {
     "styleId": "360fotos.style",
     "rules": [
