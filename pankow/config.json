@@ -777,8 +777,8 @@
                 "name": "Straßenbefahrung",
 		"showInLayerTree": false,		
                 "visibility": false,
-                "type": "folder",
-                "elements": [
+                "typ": "GROUP",
+    		"children" :[
                     {
                                     "id": "strassenbefahrung:aa_verkehrszeichen",
                                     "name": "Straßenbefahrung - Verkehrszeichen (Straßenbefahrung 2014)",
