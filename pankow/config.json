@@ -1203,8 +1203,7 @@
                                     "id": "strassenbefahrung:cg_baustelle",
                                     "name": "Straßenbefahrung - Baustelle (Straßenbefahrung 2014)",
                       		    "visibility": false,
-                      		    "type": "layer",
-                      		    "typ": "wms"
+                      		    "type": "layer"
                                 },
                                 {
                                     "id": "strassenbefahrung:ch_radweg",
