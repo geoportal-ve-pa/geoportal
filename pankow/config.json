@@ -774,7 +774,7 @@
                 ]
             },	    
             {   
-		"id": "Straßenbefahrung",       
+		"id": [ "strassenbefahrung:aa_verkehrszeichen", "strassenbefahrung:ab_touchpoint", "strassenbefahrung:ac_trinkwasserbrunnen_wasserspender", "strassenbefahrung:ad_uhr"],       
                 "name": "Straßenbefahrung",
 		"showInLayerTree": false,		
                 "visibility": false,
