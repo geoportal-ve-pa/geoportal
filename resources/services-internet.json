@@ -3364,6 +3364,7 @@
         "crs": "EPSG:25833",
         "url": "https://gdi.berlin.de/services/wms/strassenbefahrung",
         "typ": "WMS",
+	"infoFormat": "text/xml",
         "gfiAttributes": "showAll",
         "layers": "cf_trennstreifen",
         "legend": true,
