@@ -1,14 +1,39 @@
-[
+[   {
+        "styleId": "2059",
+        "rules": [
+            {
+                "conditions": {
+                    "properties": {
+                        "filename": "GSAJ1113"
+                    }
+                },
+                "style": {
+                    "type": "icon",
+                    "clusterType": "circle",
+                    "imageName": "krankenhaus.png",
+                    "imageScale": 0.5,
+                    "clusterCircleRadius": 15,
+                    "clusterCircleFillColor": [
+                        230,
+                        230,
+                        10,
+                        1
+                    ],
+                    "clusterTextOffsetY": 2
+                }
+            }
+        ]
+    },
   {
-    "styleId": "360fotos",
+    "styleId": "360fotos.style",
     "rules": [
       {
         "style": {
           "type": "icon",
           "clusterType": "icon",
-          "imageName": "krankenhaus.png",
+          "imageName": "../resources/img/krankenhaus.png",
           "imageScale": 0.7,
-          "clusterImageName": "krankenhaus.png",
+          "clusterImageName": "../resources/img/krankenhaus.png",
           "clusterTextOffsetX": 30,
           "clusterTextOffsetY": 0
         }
