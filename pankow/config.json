@@ -252,8 +252,78 @@
     },
     "secondaryMenu": {
       "expanded": false,
+		
       "sections": [
         [
+		"wfsSearch": {
+                        "name": "Hierarchische Ortssuche",
+                        "zoomLevel": 7,
+                        "multiSelect": true,
+                        "deactivateGFI": false,
+                        "instances": [
+                            {
+                                "title": "Flurstücksuche",
+                                "requestConfig": {
+                                    "restLayerId": "alkis_flurstuecke:rest:flurstuecke",
+                                    "maxFeatures": "showAll"
+                                },
+                                "selectSource": "snippets/alkis_flurstuecke/flurstuecke/hierarchie.json",
+                                "resultList": {
+                                    "objectid": "Schlüsselfeld",
+                                    "bezeich": "AAA-Beschreibung",
+                                    "afl": "Amtliche Fläche (m2)",
+                                    "fsko": "Flurstückskennzeichen",
+                                    "zae": "Flurstückskennzeichen (Zähler)",
+                                    "nen": "Flurstückskennzeichen (Nenner)",
+                                    "gmk": "Gemarkungsschlüssel",
+                                    "namgmk": "Gemarkungsname",
+                                    "fln": "Flurnummer",
+                                    "gdz": "Gemeindekennzeichen",
+                                    "namgem": "Gemeindename",
+                                    "zde": "Zeitpunkt der Entstehung",
+                                    "dst": "Zuständige Stelle",
+                                    "beg": "Lebenszeitintervall (Beginn)",
+                                    "statusdat": "Zeitpunkt des Bearbeitungsstatus",
+                                    "uuid": "Objekt-Identifikator"
+                                },
+                                "literals": [
+                                    {
+                                        "clause": {
+                                            "type": "and",
+                                            "literals": [
+                                                {
+                                                    "field": {
+                                                        "type": "equal",
+                                                        "fieldName": "gmk",
+                                                        "inputLabel": "Gemarkung",
+                                                        "required": true,
+                                                        "options": "",
+                                                        "usesId": true
+                                                    }
+                                                },
+                                                {
+                                                    "field": {
+                                                        "type": "equal",
+                                                        "fieldName": "fln",
+                                                        "inputLabel": "Flurnummer",
+                                                        "required": true,
+                                                        "options": "fln"
+                                                    }
+                                                },
+                                                {
+                                                    "field": {
+                                                        "type": "equal",
+                                                        "fieldName": "zae",
+                                                        "inputLabel": "Flurstückskennzeichen (Zähler)",
+                                                        "options": "zae"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+				},
           {
             "type": "wfst",
             "name": "WFS-T Tool",
