@@ -796,7 +796,8 @@
            },
 	    {
                 "id": "eladesaeulen:wfs:lades_standorte", 		
-                "visibility": false,               
+                "visibility": false,
+		"styleId": "2059",
                 "type": "layer",
                 "typ": "wfs"
            }
