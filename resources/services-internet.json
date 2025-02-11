@@ -427,7 +427,8 @@
                 "rs_id": "https://registry.gdi-de.org/id/de.be.csw/eeebbc13-75dd-3122-965f-2efeabbfc358",
                 "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
             }
-        ],        
+        ],
+	"styleId": "2059",
         "gfiAttributes": {
             "importid": "Schlüssel",
             "id": "id",
