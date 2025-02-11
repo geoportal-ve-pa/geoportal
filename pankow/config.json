@@ -795,7 +795,7 @@
                 "typ": "geojson"
            },
 	    {
-                "id": "s_lades_standort", 		
+                "id": "eladesaeulen:wfs:lades_standorte", 		
                 "visibility": false,               
                 "type": "layer",
                 "typ": "wfs"
