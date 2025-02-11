@@ -418,6 +418,7 @@
         "crs": "urn:ogc:def:crs:EPSG::25833",
         "url": "https://gdi.berlin.de/services/wfs/eladesaeulen",
         "typ": "WFS",
+	"outputFormat": "image/png",
         "featureType": "eladesaeulen:lades_standorte",
         "featureNS": "eladesaeulen",
         "datasets": [
