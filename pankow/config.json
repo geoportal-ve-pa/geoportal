@@ -255,7 +255,7 @@
 		
       "sections": [
         [
-		"wfsSearch": {
+		 {	"type":"wfsSearch"
                         "name": "Hierarchische Ortssuche",
                         "zoomLevel": 7,
                         "multiSelect": true,
