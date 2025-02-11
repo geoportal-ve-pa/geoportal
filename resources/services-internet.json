@@ -428,7 +428,6 @@
                 "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
             }
         ],        
-        "wfsFilter": "../resources/Metadaten/Ladesaeulen_Filter.xml",
         "gfiAttributes": {
             "importid": "Schlüssel",
             "id": "id",
