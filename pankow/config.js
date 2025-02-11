@@ -12,7 +12,7 @@ const Config = {
     ],
     layerConf: "../resources/services-internet.json",
     restConf: "../resources/rest-services-internet.json",
-    styleConf: "./resources/style_v3.json",
+    styleConf: "../resources/style_v3.json",
     wfsImgPath: "../resources/img/",
     portalLanguage: {
         enabled: true,
