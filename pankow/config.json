@@ -322,8 +322,8 @@
                                         }
                                     }
                                 ]
-                            }
-			},
+                            },
+			
           {
             "type": "wfst",
             "name": "WFS-T Tool",
