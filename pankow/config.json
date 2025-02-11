@@ -793,6 +793,12 @@
                 "visibility": false,               
                 "type": "layer",
                 "typ": "geojson"
+           },
+	    {
+                "id": "s_lades_standort", 		
+                "visibility": false,               
+                "type": "layer",
+                "typ": "wfs"
            }
 	      
         ]
