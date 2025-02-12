@@ -808,7 +808,12 @@
         		}
 			]
            },
-	  
+	  {
+              "id": "BLUME",
+              "name": "BLUME Messstationen",
+              "styleId": "BLUME",
+              "visibility": false
+            },
 	    {
                 "id": "eladesaeulen:wfs:lades_standorte", 		
                 "visibility": false,
