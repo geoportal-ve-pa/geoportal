@@ -815,6 +815,10 @@
 			{
               		"id": "sbu_u_bahn",
               		"visibility": false
+            		},
+			{
+              		"id": "sbu_tram",
+              		"visibility": false
             		}
 		]
 	    }
