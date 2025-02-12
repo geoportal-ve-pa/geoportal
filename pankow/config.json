@@ -782,11 +782,23 @@
                 "typ": "GROUP"
             },	    
 	    {
-                "id": "Verkehrslage", 
+                "id": ["Verkehrslage", "Baustellen_OCIT"], 
 		"name": "Verkehrslage",
                 "visibility": false,               
                 "type": "layer",
-                "typ": "wms"
+                "typ": "Group",
+		"children" :[
+        		{
+            		"id": "Verkehrslage",
+            		"visibility": false,               
+                	"type": "layer",
+            		"typ": "WMS"
+        		},
+        		{
+            		"id": "Baustellen_OCIT",
+            		"styleId": "Baustellen_OCIT",
+            		"typ": "geoJSON"
+        		}    
            },	    
 	    {
                 "id": "360fotos", 
