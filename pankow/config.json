@@ -798,7 +798,8 @@
             		"id": "Baustellen_OCIT",
             		"styleId": "Baustellen_OCIT",
             		"typ": "geoJSON"
-        		}    
+        		}
+			]
            },	    
 	    {
                 "id": "360fotos", 
