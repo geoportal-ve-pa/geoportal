@@ -4831,8 +4831,7 @@
         "gfiAttributes": "showAll"
     },
   {
-    "id": "BLUME",
-    "name": "BLUME",
+    "id": "360grad",
     "url": "../resources/geojson/360fotos.geojson",
     "typ": "GeoJSON",
     "gfiAttributes": "ignore",
