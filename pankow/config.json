@@ -803,7 +803,7 @@
 	  {
               "id": "360grad",
               "name": "360 Grad Fotos",
-              "styleId": "BLUME",
+              "styleId": "360grad",
               "visibility": false
             },
 	    {
