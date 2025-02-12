@@ -5,7 +5,7 @@
       "style": {
         "legendValue": "Stadtrand",
         "type": "icon",
-        "imageName": "krankenhaus.png",
+        "imageName": "location-pin-green.png",
         "imageOffsetY": 1
       }
     }
