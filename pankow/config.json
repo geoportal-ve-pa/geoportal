@@ -785,7 +785,7 @@
                 "id": "360fotos", 
 		"name": "360 Grad Foto",
                 "visibility": false,
-		"styleId": "Baustellen_1OCIT",
+		"styleId": "Baustellen_OCIT",
                 "type": "layer",
                 "typ": "geojson"
            },
@@ -811,7 +811,7 @@
 	    {
                 "id": "eladesaeulen:wfs:lades_standorte", 		
                 "visibility": false,
-		"styleId": "Baustellen_1OCIT",
+		"styleId": "Baustellen_OCIT",
                 "type": "layer",
                 "typ": "wfs"
            }
