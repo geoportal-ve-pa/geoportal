@@ -785,7 +785,7 @@
                 "id": "360fotos", 
 		"name": "360 Grad Foto",
                 "visibility": false,
-		"styleId": "Baustelle_OCIT",
+		"styleId": "BLUME",
                 "type": "layer",
                 "typ": "geojson"
            },
@@ -808,16 +808,11 @@
         		}
 			]
            },
-	   {
-              "id": "BLUME",
-              "name": "BLUME Messstationen",
-              "styleId": "BLUME",
-              "visibility": false
-            },
+	  
 	    {
                 "id": "eladesaeulen:wfs:lades_standorte", 		
                 "visibility": false,
-		"styleId": "Baustelle_OCIT",
+		"styleId": "BLUME",
                 "type": "layer",
                 "typ": "wfs"
            }
