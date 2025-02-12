@@ -4862,5 +4862,32 @@
             }
         ],
         "gfiAttributes": "showAll"
-    }
+    },
+    {
+    "id": "BLUME",
+    "name": "BLUME",
+    "url": "https://api.viz.berlin.de/daten/blume.json",
+    "typ": "GeoJSON",
+    "searchField": [
+      "BLUME_code",
+      "station_code",
+      "station_name"
+    ],
+    "gfiAttributes": {
+      "BLUME_code": "BLUME Station",
+      "station_code": "Stationsnummer",
+      "station_name": "Standort",
+      "link": "Messdaten"
+    },
+    "layerAttribution": "Quelle:&nbsp;<a href=\"https://luftdaten.berlin.de/station/overview/active\" target=\"_blank\">Senatsverwaltung für Umwelt</a>",
+    "legendURL": "",
+    "gfiTheme": "default",
+    "datasets": [
+      {
+        "md_id": "blume_standorte",
+        "md_name": "BLUME",
+        "csw_url": "https://api.viz.berlin.de/csw"
+      }
+    ]
+  }
 ]
