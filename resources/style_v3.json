@@ -6,9 +6,9 @@
         "legendValue": "Stadtrand",
         "type": "icon",
         "imageName": "location-pin-green.png",
-        "imageWidth": 20,
-        "imageHeight": 20,
-        "imageScale": 0.3
+        "imageWidth": 10,
+        "imageHeight": 10,
+        "imageScale": 0.15
       }
     }
   ]
