@@ -27,13 +27,20 @@
   {
     "styleId": "360fotos",
           "style": {
+          "legendValue": "Sonstige Störungen",
           "type": "icon",
           "clusterType": "icon",
-          "imageName": "../resources/img/krankenhaus.png",
-          "imageScale": 0.7,
-          "clusterImageName": "../resources/img/krankenhaus.png",
-          "clusterTextOffsetX": 30,
-          "clusterTextOffsetY": 0
+          "circleFillColor": [211, 211, 211, 1],
+          "imageName": "schild_warnung.png",
+          "clusterImageName": "schild_warnung.png",
+          "clusterTextFillColor": [51 ,51, 51, 1],
+          "clusterTextStrokeColor": [255,255,255, 1],
+          "clusterTextStrokeWidth": 2,
+          "imageScale": 0.8,
+          "clusterImageScale": 0.8,
+          "clusterTextScale": 1.2,
+          "clusterTextOffsetX": 7,
+          "clusterTextOffsetY": 7
         }
      
   },
