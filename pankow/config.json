@@ -803,6 +803,25 @@
                 "type": "layer",
                 "typ": "geojson"
            },
+	   {
+                "id": ["Verkehrslage", "Baustellen_OCIT"], 
+		"name": "Verkehrslage",
+                "visibility": false,
+                "typ": "GROUP",
+		"children" :[
+        		{
+            		"id": "Verkehrslage",
+            		"visibility": false,                	
+            		"typ": "WMS"
+        		},
+        		{
+            		"id": "Baustellen_OCIT",			
+            		"styleId": "Baustellen_OCIT",
+			"visibility": false, 
+            		"typ": "geoJSON"
+        		}
+			]
+           },
 	    {
                 "id": "eladesaeulen:wfs:lades_standorte", 		
                 "visibility": false,
