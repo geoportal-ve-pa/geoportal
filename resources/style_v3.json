@@ -40,31 +40,46 @@
   ]
 },
   {
-    "styleId": "360fotos",
-        "rules": [
-            {
-                "conditions": {
-                    "sequence": [0,0]
-                },
-          "style": {
-          "legendValue": "Sonstige Störungen",
-          "type": "icon",
-          "clusterType": "icon",
-          "circleFillColor": [211, 211, 211, 1],
-          "imageName": "schild_warnung.png",
-          "clusterImageName": "schild_warnung.png",
-          "clusterTextFillColor": [51 ,51, 51, 1],
-          "clusterTextStrokeColor": [255,255,255, 1],
-          "clusterTextStrokeWidth": 2,
-          "imageScale": 0.8,
-          "clusterImageScale": 0.8,
-          "clusterTextScale": 1.2,
-          "clusterTextOffsetX": 7,
-          "clusterTextOffsetY": 7
+  "styleId": "360fotos",
+  "rules": [
+    {
+      "conditions": {
+        "properties": {
+          "type_of_station": "background",
+          "station_type_of_area": "urban"
         }
-     }
-        ]
-  },
+      },
+      "style": {
+        "legendValue": "Hintergrund",
+        "type": "icon",
+        "imageName": "viz_blume_h.png",
+        "imageOffsetY": 1
+      }
+    },
+    {
+      "conditions": {
+        "properties": {
+          "type_of_station": "traffic",
+          "station_type_of_area": "urban"
+        }
+      },
+      "style": {
+        "legendValue": "Verkehr",
+        "type": "icon",
+        "imageName": "viz_blume_v.png",
+        "imageOffsetY": 1
+      }
+    },
+    {
+      "style": {
+        "legendValue": "Stadtrand",
+        "type": "icon",
+        "imageName": "viz_blume_s.png",
+        "imageOffsetY": 1
+      }
+    }
+  ]
+},
   {
     "styleId": "2003",
     "rules": [
