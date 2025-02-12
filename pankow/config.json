@@ -809,7 +809,9 @@
 	    {
                 "id": "eladesaeulen:wfs:lades_standorte", 		
                 "visibility": false,
-		"styleId": "BLUME"
+		"styleId": "BLUME",
+        	"type": "layer",
+                "typ": "wfs"
            }
 	      
         ]
