@@ -1,34 +1,6 @@
 [   {
   "styleId": "BLUME",
-  "rules": [
-    {
-      "conditions": {
-        "properties": {
-          "type_of_station": "background",
-          "station_type_of_area": "urban"
-        }
-      },
-      "style": {
-        "legendValue": "Hintergrund",
-        "type": "icon",
-        "imageName": "viz_blume_h.png",
-        "imageOffsetY": 1
-      }
-    },
-    {
-      "conditions": {
-        "properties": {
-          "type_of_station": "traffic",
-          "station_type_of_area": "urban"
-        }
-      },
-      "style": {
-        "legendValue": "Verkehr",
-        "type": "icon",
-        "imageName": "viz_blume_v.png",
-        "imageOffsetY": 1
-      }
-    },
+  "rules": [  
     {
       "style": {
         "legendValue": "Stadtrand",
