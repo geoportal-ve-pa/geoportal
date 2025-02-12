@@ -25,10 +25,8 @@
         ]
     },
   {
-    "styleId": "360fotos.style",
-    "rules": [
-      {
-        "style": {
+    "styleId": "360fotos",
+          "style": {
           "type": "icon",
           "clusterType": "icon",
           "imageName": "../resources/img/krankenhaus.png",
@@ -37,8 +35,7 @@
           "clusterTextOffsetX": 30,
           "clusterTextOffsetY": 0
         }
-      }
-    ]
+     
   },
   {
     "styleId": "2003",
