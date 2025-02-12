@@ -4834,25 +4834,31 @@
     "id": "360grad",
     "url": "../resources/geojson/360fotos.geojson",
     "typ": "GeoJSON",
-    "gfiAttributes": "ignore",
+    "gfiAttributes": {	
+	"timestamp": {
+         "name": "Aufnahmedatum",
+         "condition": "contains",
+         "type": "date",
+         "format": "DD.MM.YY"
+      },
+      	"Vorschau": {
+         "name": "Foto",
+         "type": "html",
+         "html": {
+          	"tag": "iframe",
+          	"properties": {
+            		"src": "%value%",
+            		"width": "500px",
+            		"height": "500px",
+            		"frameborder": "0",
+            		"allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+            		"allowfullscreen": true
+          		}
+        	}
+      }	
+   },
     "legendURL": "",
     "gfiTheme": "default"
-  },
-  {
-    "id": "360fotos",
-    "name": "360fotos",
-    "url": "../resources/geojson/360fotos.geojson",
-    "typ": "GeoJSON",    
-    "gfiAttributes": "ignore",
-    "layerAttribution": "Quelle:&nbsp;<a href=\"https://luftdaten.berlin.de/station/overview/active\" target=\"_blank\">Senatsverwaltung für Umwelt</a>",
-    "legendURL": "",
-    "gfiTheme": "default",
-    "datasets": [
-      {
-        "md_id": "blume_standorte",
-        "md_name": "BLUME",
-        "csw_url": "https://api.viz.berlin.de/csw"
-      }
-    ]
   }
+  
 ]
