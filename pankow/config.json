@@ -785,7 +785,7 @@
                 "id": "Verkehrslage", 
 		"name": "Verkehrslage",
                 "visibility": false,
-                "typ": "WMS"
+                "typ": "WMS",
 		"type": "layer"		
              },
 	     {
