@@ -805,14 +805,7 @@
               "name": "360 Grad Fotos",
               "styleId": "360grad",
               "visibility": false
-            },
-	    {
-                "id": "eladesaeulen:wfs:lades_standorte", 		
-                "visibility": false,
-		"styleId": "BLUME",
-        	"type": "layer",
-                "typ": "wfs"
-           }
+            }
 	      
         ]
      
