@@ -29,9 +29,7 @@
         "rules": [
             {
                 "conditions": {
-                    "properties": {
-                        "filename": "GSAJ1113"
-                    }
+                    "sequence": [0,0]
                 },
           "style": {
           "legendValue": "Sonstige Störungen",
@@ -438,8 +436,8 @@
           "type": "icon",
           "clusterType": "icon",
           "circleFillColor": [211, 211, 211, 1],
-          "imageName": "schild_sperrung_grau.png",
-          "clusterImageName": "schild_sperrung_grau.png",
+          "imageName": "https://viz.berlin.de/site/_masterportal/resources/img/schild_sperrung_grau.png",
+          "clusterImageName": "https://viz.berlin.de/site/_masterportal/resources/img/schild_sperrung_grau.png",
           "clusterTextFillColor": [51 ,51, 51, 1],
           "clusterTextStrokeColor": [255,255,255, 1],
           "clusterTextStrokeWidth": 2,
@@ -463,8 +461,8 @@
           "type": "icon",
           "clusterType": "icon",
           "circleFillColor": [211, 211, 211, 1],
-          "imageName": "schild_baustelle_grau.png",
-          "clusterImageName": "schild_baustelle_grau.png",
+          "imageName": "https://viz.berlin.de/site/_masterportal/resources/img/schild_baustelle_grau.png",
+          "clusterImageName": "https://viz.berlin.de/site/_masterportal/resources/img/schild_baustelle_grau.png",
           "clusterTextFillColor": [51 ,51, 51, 1],
           "clusterTextStrokeColor": [255,255,255, 1],
           "clusterTextStrokeWidth": 2,
@@ -487,8 +485,8 @@
           "type": "icon",
           "clusterType": "icon",
           "circleFillColor": [211, 211, 211, 1],
-          "imageName": "schild_warnung_grau.png",
-          "clusterImageName": "schild_warnung_grau.png",
+          "imageName": "https://viz.berlin.de/site/_masterportal/resources/img/schild_warnung_grau.png",
+          "clusterImageName": "https://viz.berlin.de/site/_masterportal/resources/img/schild_warnung_grau.png",
           "clusterTextFillColor": [51 ,51, 51, 1],
           "clusterTextStrokeColor": [255,255,255, 1],
           "clusterTextStrokeWidth": 2,
@@ -528,8 +526,8 @@
           "type": "icon",
           "clusterType": "icon",
           "circleFillColor": [211, 211, 211, 1],
-          "imageName": "schild_sperrung.png",
-          "clusterImageName": "schild_sperrung.png",
+          "imageName": "https://viz.berlin.de/site/_masterportal/resources/img/schild_sperrung.png",
+          "clusterImageName": "https://viz.berlin.de/site/_masterportal/resources/img/schild_sperrung.png",
           "clusterTextFillColor": [51 ,51, 51, 1],
           "clusterTextStrokeColor": [255,255,255, 1],
           "clusterTextStrokeWidth": 2,
@@ -552,8 +550,8 @@
           "type": "icon",
           "clusterType": "icon",
           "circleFillColor": [211, 211, 211, 1],
-          "imageName": "schild_baustelle.png",
-          "clusterImageName": "schild_baustelle.png",
+          "imageName": "https://viz.berlin.de/site/_masterportal/resources/img/schild_baustelle.png",
+          "clusterImageName": "https://viz.berlin.de/site/_masterportal/resources/img/schild_baustelle.png",
           "clusterTextFillColor": [51 ,51, 51, 1],
           "clusterTextStrokeColor": [255,255,255, 1],
           "clusterTextStrokeWidth": 2,
@@ -573,8 +571,8 @@
           "type": "icon",
           "clusterType": "icon",
           "circleFillColor": [211, 211, 211, 1],
-          "imageName": "schild_warnung.png",
-          "clusterImageName": "schild_warnung.png",
+          "imageName": "https://viz.berlin.de/site/_masterportal/resources/img/schild_warnung.png",
+          "clusterImageName": "https://viz.berlin.de/site/_masterportal/resources/img/schild_warnung.png",
           "clusterTextFillColor": [51 ,51, 51, 1],
           "clusterTextStrokeColor": [255,255,255, 1],
           "clusterTextStrokeWidth": 2,
