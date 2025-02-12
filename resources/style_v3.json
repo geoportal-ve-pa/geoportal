@@ -5,7 +5,7 @@
       "style": {
         "legendValue": "Stadtrand",
         "type": "icon",
-        "imageName": "schild_warnung.png",
+        "imageName": "krankenhaus.png",
         "imageOffsetY": 1
       }
     }
