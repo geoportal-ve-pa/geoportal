@@ -4836,7 +4836,6 @@
     "url": "../resources/geojson/360fotos.geojson",
     "typ": "GeoJSON",
     "gfiAttributes": "ignore",
-    "layerAttribution": "Quelle:&nbsp;<a href=\"https://luftdaten.berlin.de/station/overview/active\" target=\"_blank\">Senatsverwaltung für Umwelt</a>",
     "legendURL": "",
     "gfiTheme": "default"
   },
