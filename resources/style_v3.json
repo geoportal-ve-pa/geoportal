@@ -1,5 +1,5 @@
 [   {
-    "styleId": "Baustellen_OCIT1",
+    "styleId": "Baustellen_OCIT",
     "rules": [
       {
         "conditions": {
@@ -574,7 +574,7 @@
     ]
   },
   {
-    "styleId": "Baustellen_OCIT",
+    "styleId": "Baustellen_OCIT1",
     "rules": [
       {
         "conditions": {
