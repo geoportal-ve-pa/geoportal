@@ -1459,7 +1459,13 @@
       "name" : "360grad Fotos",
       "url" : "../resources/geojson/test.geojson",
       "typ" : "GeoJSON",
-      "collection": "Foto-Ordner",     
+      "collection": "Foto-Ordner",
+	 "datasets": [
+      {
+        "md_id": "360fotos_standorte",
+        "md_name": "360fotos"
+      }
+    ],
       "gfiAttributes": {	
 	"timestamp": {
          "name": "Aufnahmedatum",
