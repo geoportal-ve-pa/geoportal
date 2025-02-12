@@ -1454,45 +1454,7 @@
         ],
         "gfiAttributes": "showAll"
     },
- {
-      "id" : "360fotos",
-      "name" : "360grad Fotos",
-      "url" : "../resources/geojson/360fotos.geojson",
-      "typ" : "GeoJSON",
-	 "datasets": [
-      {
-        "md_id": "360fotos_standorte",
-        "md_name": "360fotos"
-      }
-    ],
-      "gfiAttributes": {	
-	"timestamp": {
-         "name": "Aufnahmedatum",
-         "condition": "contains",
-         "type": "date",
-         "format": "DD.MM.YY"
-      },
-      	"Vorschau": {
-         "name": "Foto",
-         "type": "html",
-         "html": {
-          	"tag": "iframe",
-          	"properties": {
-            		"src": "%value%",
-            		"width": "500px",
-            		"height": "500px",
-            		"frameborder": "0",
-            		"allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
-            		"allowfullscreen": true
-          		}
-        	}
-      }
-	
-   },
-      "layerAttribution" : "nicht vorhanden",
-      "legendURL" : "",
-      "gfiTheme": "default"
-   },
+ 
    {
         "id": "hintergrund_k5_farbe",
         "name": "Karte von Berlin 1:5000 (K5 - Farbausgabe)",
@@ -4884,6 +4846,48 @@
       "station_name": "Standort",
       "link": "Messdaten"
     },
+    "layerAttribution": "Quelle:&nbsp;<a href=\"https://luftdaten.berlin.de/station/overview/active\" target=\"_blank\">Senatsverwaltung für Umwelt</a>",
+    "legendURL": "",
+    "gfiTheme": "default",
+    "datasets": [
+      {
+        "md_id": "blume_standorte",
+        "md_name": "BLUME",
+        "csw_url": "https://api.viz.berlin.de/csw"
+      }
+    ]
+  },
+  {
+    "id": "360fotos",
+    "name": "360 Fotos",
+    "url": "../resources/geojson/360fotos.geojson",
+    "typ": "GeoJSON",
+    "searchField": [
+      "timestamp"
+    ],
+    "gfiAttributes": {	
+	"timestamp": 	{
+         		"name": "Aufnahmedatum",
+         		"condition": "contains",
+         		"type": "date",
+         		"format": "DD.MM.YY"
+      			},
+      	"Vorschau": 	{
+         		"name": "Foto",
+         		"type": "html",
+         		"html": {
+          			"tag": "iframe",
+          			"properties": 	{
+            				"src": "%value%",
+            				"width": "500px",
+            				"height": "500px",
+            				"frameborder": "0",
+            				"allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+            				"allowfullscreen": true
+          					}
+        			}
+			}	
+   		    },
     "layerAttribution": "Quelle:&nbsp;<a href=\"https://luftdaten.berlin.de/station/overview/active\" target=\"_blank\">Senatsverwaltung für Umwelt</a>",
     "legendURL": "",
     "gfiTheme": "default",
