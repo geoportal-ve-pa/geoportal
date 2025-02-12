@@ -411,49 +411,7 @@
             "md_name": "Verkehrslage",
             "csw_url": "https://api.viz.berlin.de/csw"
         }]
-    },
-	{
-        "id": "eladesaeulen:wfs:lades_standorte",
-        "name": "Standorte der E-Ladesäulen",
-        "crs": "urn:ogc:def:crs:EPSG::25833",
-        "url": "https://gdi.berlin.de/services/wfs/eladesaeulen",
-        "typ": "WFS",
-	"outputFormat": "image/png",
-        "featureType": "eladesaeulen:lades_standorte",
-        "featureNS": "eladesaeulen",
-        "datasets": [
-            {
-                "md_name": "Elektro-Ladesäulen und Ladepunkte",
-                "md_id": "daa71694-25c5-451f-adeb-8d1c3c0ec305",
-                "rs_id": "https://registry.gdi-de.org/id/de.be.csw/eeebbc13-75dd-3122-965f-2efeabbfc358",
-                "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
-            }
-        ],
-	"styleId": "2059",
-        "gfiAttributes": {
-            "importid": "Schlüssel",
-            "id": "id",
-            "adresse": "Adresse",
-            "plz": "Postleitzahl",
-            "ort": "Ort",
-            "bezirk": "Bezirk",
-            "oeffentlicher_raum": "Zugang",
-            "art_ladeeinrichtung": "Art der Ladeeinrichtung",
-            "anzahl_ladepunkte": "Anzahl der Ladepunkte",
-            "ladeleistung_1": "Leistung von Ladepunkt 1 [kW]",
-            "anschluss_1": "Anschlusstyp von Ladepunkt 1",
-            "ladeleistung_2": "Leistung von Ladepunkt 2 [kW]",
-            "anschluss_2": "Anschlusstyp von Ladepunkt 2",
-            "ladeleistung_3": "Leistung von Ladepunkt 3 [kW]",
-            "anschluss_3": "Anschlusstyp von Ladepunkt 3",
-            "ladeleistung_4": "Leistung von Ladepunkt 4 [kW]",
-            "anschluss_4": "Anschlusstyp von Ladepunkt 4",
-            "betreiber": "Betreiber",
-            "standort_nr": "Standortnummer",
-            "inbetriebnahme": "Inbetriebnahmedatum",
-            "datenquelle": "Datenquelle"
-        }
-    },
+    },	
     {
         "id": "s_lades_standort",
         "name": "Elektro-Ladesäulen - Standorte",
@@ -4858,6 +4816,21 @@
       }	
    },
     "legendURL": "",
+    "gfiTheme": "default"
+  },
+  {
+    "id": "eladesaeulen:wfs:lades_standorte",
+    "name": "Standorte der E-Ladesäulen",
+    "url": "https://gdi.berlin.de/services/wfs/eladesaeulen",
+    "crs": "urn:ogc:def:crs:EPSG::25833",
+    "url": "https://gdi.berlin.de/services/wfs/eladesaeulen",
+    "typ": "WFS",
+    "outputFormat": "image/png",
+    "featureType": "eladesaeulen:lades_standorte",
+    "featureNS": "eladesaeulen",
+    "gfiAttributes": {ignore},
+    "legendURL": "",
+    "styleId": "BLUME",
     "gfiTheme": "default"
   }
   
