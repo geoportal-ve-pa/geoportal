@@ -782,24 +782,10 @@
                 "typ": "GROUP"
             },	    
 	    {
-                "id": "Verkehrslage", 
-		"name": "Verkehrslage",
-                "visibility": false,
-                "typ": "WMS",
-		"type": "layer"		
-             },
-	     {
-                "id":  "Baustellen_OCIT", 
-		"name": "Baustelle",
-                "visibility": false,
-                "typ": "geojson",
-		"type": "layer",
-		"styleId": "Baustellen_OCIT"        		
-            },
-	    {
                 "id": "360fotos", 
 		"name": "360 Grad Foto",
-                "visibility": false,               
+                "visibility": false,
+		"styleId": "Baustellen_OCIT1",
                 "type": "layer",
                 "typ": "geojson"
            },
@@ -825,7 +811,7 @@
 	    {
                 "id": "eladesaeulen:wfs:lades_standorte", 		
                 "visibility": false,
-		"styleId": "2059",
+		"styleId": "Baustellen_OCIT1",
                 "type": "layer",
                 "typ": "wfs"
            }
