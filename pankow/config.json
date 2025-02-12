@@ -817,8 +817,10 @@
               		"visibility": false
             		},
 			{
-              		"id": "sbu_tram",
-              		"visibility": false
+              		"id": ["tramlinien", "tramstopp"],
+			"name": "Straßenbahn",
+              		"visibility": false,
+			"typ": "GROUP"
             		}
 		]
 	    }
