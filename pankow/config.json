@@ -125,7 +125,7 @@
 	"mapInteractions": {
                     "interactionModes": {
                         "altShiftDragRotate": true,
-                        "twoFingerPan": true
+                        "twoFingerPan": false
 		    }
                     },
         "epsg": "EPSG:25833"
