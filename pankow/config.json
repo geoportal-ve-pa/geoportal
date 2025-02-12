@@ -784,19 +784,18 @@
 	    {
                 "id": ["Verkehrslage", "Baustellen_OCIT"], 
 		"name": "Verkehrslage",
-                "visibility": false,               
-                "type": "layer",
+                "visibility": false,
                 "typ": "Group",
 		"children" :[
         		{
             		"id": "Verkehrslage",
-            		"visibility": false,               
-                	"type": "layer",
+            		"visibility": false,                	
             		"typ": "WMS"
         		},
         		{
             		"id": "Baustellen_OCIT",
             		"styleId": "Baustellen_OCIT",
+			"visibility": false, 
             		"typ": "geoJSON"
         		}
 			]
