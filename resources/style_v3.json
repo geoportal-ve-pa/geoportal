@@ -409,5 +409,184 @@
         }
       }
     ]
+  },
+  {
+    "styleId": "Baustellen_OCIT",
+    "rules": [
+      {
+        "conditions": {
+          "properties": {
+            "icon": "sperrung",
+            "is_future": true
+          },
+          "sequence": [0,0]
+        },
+        "style": {
+          "legendValue": "Geplante Sperrung",
+          "type": "icon",
+          "clusterType": "icon",
+          "circleFillColor": [211, 211, 211, 1],
+          "imageName": "schild_sperrung_grau.png",
+          "clusterImageName": "schild_sperrung_grau.png",
+          "clusterTextFillColor": [51 ,51, 51, 1],
+          "clusterTextStrokeColor": [255,255,255, 1],
+          "clusterTextStrokeWidth": 2,
+          "imageScale": 0.8,
+          "clusterImageScale": 0.8,
+          "clusterTextScale": 1.2,
+          "clusterTextOffsetX": 7,
+          "clusterTextOffsetY": 7
+        }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "icon": "baustelle",
+            "is_future": true
+          },
+          "sequence": [0,0]
+        },
+        "style": {
+          "legendValue": "Geplante Baustelle/Bauarbeiten",
+          "type": "icon",
+          "clusterType": "icon",
+          "circleFillColor": [211, 211, 211, 1],
+          "imageName": "schild_baustelle_grau.png",
+          "clusterImageName": "schild_baustelle_grau.png",
+          "clusterTextFillColor": [51 ,51, 51, 1],
+          "clusterTextStrokeColor": [255,255,255, 1],
+          "clusterTextStrokeWidth": 2,
+          "imageScale": 0.8,
+          "clusterImageScale": 0.8,
+          "clusterTextScale": 1.2,
+          "clusterTextOffsetX": 7,
+          "clusterTextOffsetY": 7
+        }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "is_future": true
+          },
+          "sequence": [0,0]
+        },
+        "style": {
+          "legendValue": "Geplante sonstige Störungen",
+          "type": "icon",
+          "clusterType": "icon",
+          "circleFillColor": [211, 211, 211, 1],
+          "imageName": "schild_warnung_grau.png",
+          "clusterImageName": "schild_warnung_grau.png",
+          "clusterTextFillColor": [51 ,51, 51, 1],
+          "clusterTextStrokeColor": [255,255,255, 1],
+          "clusterTextStrokeWidth": 2,
+          "imageScale": 0.8,
+          "clusterImageScale": 0.8,
+          "clusterTextScale": 1.2,
+          "clusterTextOffsetX": 7,
+          "clusterTextOffsetY": 7
+        }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "is_future": true
+          },
+          "sequence": [1,10]
+        },
+        "style": {
+          "legendValue": "Geplanter betroffener Abschnitt",
+          "lineStrokeWidth": 5,
+          "lineStrokeColor": [96, 96, 96, 1],
+          "lineStrokeDash": [5, 8],
+          "lineStrokeCap": "butt",
+          "circleRadius": 0,
+          "type": "circle"
+        }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "icon": "sperrung"
+          },
+          "sequence": [0,0]
+        },
+        "style": {
+          "legendValue": "Sperrung",
+          "type": "icon",
+          "clusterType": "icon",
+          "circleFillColor": [211, 211, 211, 1],
+          "imageName": "schild_sperrung.png",
+          "clusterImageName": "schild_sperrung.png",
+          "clusterTextFillColor": [51 ,51, 51, 1],
+          "clusterTextStrokeColor": [255,255,255, 1],
+          "clusterTextStrokeWidth": 2,
+          "imageScale": 0.8,
+          "clusterImageScale": 0.8,
+          "clusterTextScale": 1.2,
+          "clusterTextOffsetX": 7,
+          "clusterTextOffsetY": 7
+        }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "icon": "baustelle"
+          },
+          "sequence": [0,0]
+        },
+        "style": {
+          "legendValue": "Baustelle/Bauarbeiten",
+          "type": "icon",
+          "clusterType": "icon",
+          "circleFillColor": [211, 211, 211, 1],
+          "imageName": "schild_baustelle.png",
+          "clusterImageName": "schild_baustelle.png",
+          "clusterTextFillColor": [51 ,51, 51, 1],
+          "clusterTextStrokeColor": [255,255,255, 1],
+          "clusterTextStrokeWidth": 2,
+          "imageScale": 0.8,
+          "clusterImageScale": 0.8,
+          "clusterTextScale": 1.2,
+          "clusterTextOffsetX": 7,
+          "clusterTextOffsetY": 7
+        }
+      },
+      {
+        "conditions": {
+          "sequence": [0,0]
+        },
+        "style": {
+          "legendValue": "Sonstige Störungen",
+          "type": "icon",
+          "clusterType": "icon",
+          "circleFillColor": [211, 211, 211, 1],
+          "imageName": "schild_warnung.png",
+          "clusterImageName": "schild_warnung.png",
+          "clusterTextFillColor": [51 ,51, 51, 1],
+          "clusterTextStrokeColor": [255,255,255, 1],
+          "clusterTextStrokeWidth": 2,
+          "imageScale": 0.8,
+          "clusterImageScale": 0.8,
+          "clusterTextScale": 1.2,
+          "clusterTextOffsetX": 7,
+          "clusterTextOffsetY": 7
+        }
+      },
+      {
+        "conditions": {
+          "sequence": [1,10]
+        },
+        "style": {
+          "legendValue": "Betroffener Abschnitt",
+          "lineStrokeWidth": 5,
+          "lineStrokeColor": [180, 40, 40, 1],
+          "lineStrokeDash": [5, 8],
+          "lineStrokeCap": "butt",
+          "circleRadius": 0,
+          "type": "circle"
+        }
+      }
+    ]
   }
 ]
