@@ -1,31 +1,35 @@
 [   {
-        "styleId": "2059",
-        "rules": [
-            {
-                "conditions": {
-                    "properties": {
-                        "filename": "GSAJ1113"
-                    }
-                },
-                "style": {
-                    "type": "icon",
-                    "clusterType": "circle",
-                    "imageName": "krankenhaus.png",
-                    "imageScale": 0.5,
-                    "clusterCircleRadius": 15,
-                    "clusterCircleFillColor": [
-                        230,
-                        230,
-                        10,
-                        1
-                    ],
-                    "clusterTextOffsetY": 2
-                }
-            }
-        ]
-    },
+    "styleId": "360foto",
+    "rules": [
+      {
+        "conditions": {
+          "properties": {
+            "icon": "sperrung",
+            "is_future": true
+          },
+          "sequence": [0,0]
+        },
+        "style": {
+          "legendValue": "Geplante Sperrung",
+          "type": "icon",
+          "clusterType": "icon",
+          "circleFillColor": [211, 211, 211, 1],
+          "imageName": "schild_sperrung_grau.png",
+          "clusterImageName": "schild_sperrung_grau.png",
+          "clusterTextFillColor": [51 ,51, 51, 1],
+          "clusterTextStrokeColor": [255,255,255, 1],
+          "clusterTextStrokeWidth": 2,
+          "imageScale": 0.8,
+          "clusterImageScale": 0.8,
+          "clusterTextScale": 1.2,
+          "clusterTextOffsetX": 7,
+          "clusterTextOffsetY": 7
+        }
+      }           
+    ]
+  },
   {
-    "styleId": "360fotos",
+    "styleId": "360fotos1",
         "rules": [
             {
                 "conditions": {
