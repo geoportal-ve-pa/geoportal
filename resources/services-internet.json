@@ -4819,19 +4819,42 @@
     "gfiTheme": "default"
   },
   {
-    "id": "eladesaeulen:wfs:lades_standorte",
-    "name": "Standorte der E-Ladesäulen",
-    "url": "https://gdi.berlin.de/services/wfs/eladesaeulen",
-    "crs": "urn:ogc:def:crs:EPSG::25833",
-    "url": "https://gdi.berlin.de/services/wfs/eladesaeulen",
-    "typ": "WFS",
-    "outputFormat": "image/png",
-    "featureType": "eladesaeulen:lades_standorte",
-    "featureNS": "eladesaeulen",
-    "gfiAttributes": "ignore",
-    "legendURL": "",
-    "styleId": "BLUME",
-    "gfiTheme": "default"
-  }
+        "id": "sbu_u_bahn",
+        "name": "U-Bahn",
+        "name_lang": "ÖPNV-Bahnnetz: U-Bahn",
+        "crs": "EPSG:25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_sbu?",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "sbu_u_bahn",
+        "legend": "https://fbinter.stadt-berlin.de/fb_daten/legenden/stapl/planungsgrundlagen/l_sbu_bahnnetz_u-bahn.png",     
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json"
+    },
+  {
+        "id": "sbu_tram",
+        "name": "Straßenbahn",
+        "name_lang": "ÖPNV-Bahnnetz: Straßenbahn",
+        "crs": "EPSG:25833",
+        "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_sbu?",
+        "typ": "WMS",
+        "gfiAttributes": "showAll",
+        "layers": "sbu_tram",
+        "legend": "https://fbinter.stadt-berlin.de/fb_daten/legenden/stapl/planungsgrundlagen/l_sbu_bahnnetz_tram.png",
+        "maxScale": "10000.0",
+        "format": "image/png",
+        "version": "1.3.0",
+        "featureCount": "5",
+        "gfiTheme": "default",
+        "transparent": true,
+        "singleTile": true,
+        "infoFormat": "application/json"
+    }
   
 ]
