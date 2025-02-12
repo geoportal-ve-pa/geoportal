@@ -780,15 +780,7 @@
 		"showInLayerTree": false,		
                 "visibility": false,
                 "typ": "GROUP"
-            },	    
-	    {
-                "id": "360fotos", 
-		"name": "360 Grad Foto",
-                "visibility": false,
-		"styleId": "360fotos",
-                "type": "layer",
-                "typ": "geojson"
-           },
+            },	   	    
 	   {
                 "id": ["Verkehrslage", "Baustellen_OCIT"], 
 		"name": "Verkehrslage",
@@ -810,7 +802,7 @@
            },
 	  {
               "id": "BLUME",
-              "name": "360",
+              "name": "360 Grad Fotos",
               "styleId": "BLUME",
               "visibility": false
             },
