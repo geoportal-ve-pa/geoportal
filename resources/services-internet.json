@@ -1457,9 +1457,8 @@
  {
       "id" : "360fotos",
       "name" : "360grad Fotos",
-      "url" : "../resources/geojson/test.geojson",
+      "url" : "../resources/geojson/360fotos.geojson",
       "typ" : "GeoJSON",
-      "collection": "Foto-Ordner",
 	 "datasets": [
       {
         "md_id": "360fotos_standorte",
