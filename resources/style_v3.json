@@ -33,7 +33,7 @@
       "style": {
         "legendValue": "Stadtrand",
         "type": "icon",
-        "imageName": "viz_blume_s.png",
+        "imageName": "schild_warnung.png",
         "imageOffsetY": 1
       }
     }
