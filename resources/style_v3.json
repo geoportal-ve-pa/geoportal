@@ -26,6 +26,13 @@
     },
   {
     "styleId": "360fotos",
+        "rules": [
+            {
+                "conditions": {
+                    "properties": {
+                        "filename": "GSAJ1113"
+                    }
+                },
           "style": {
           "legendValue": "Sonstige Störungen",
           "type": "icon",
@@ -42,7 +49,8 @@
           "clusterTextOffsetX": 7,
           "clusterTextOffsetY": 7
         }
-     
+     }
+        ]
   },
   {
     "styleId": "2003",
