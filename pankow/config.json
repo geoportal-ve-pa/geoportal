@@ -785,7 +785,7 @@
                 "id": "360fotos", 
 		"name": "360 Grad Foto",
                 "visibility": false,
-		"styleId": "BLUME",
+		"styleId": "360fotos",
                 "type": "layer",
                 "typ": "geojson"
            },
