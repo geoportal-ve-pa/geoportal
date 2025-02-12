@@ -1459,8 +1459,7 @@
       "name" : "360grad Fotos",
       "url" : "../resources/geojson/test.geojson",
       "typ" : "GeoJSON",
-      "collection": "Foto-Ordner",
-      "styleId": "Baustellen_OCIT",
+      "collection": "Foto-Ordner",     
       "gfiAttributes": {	
 	"timestamp": {
          "name": "Aufnahmedatum",
