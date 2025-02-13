@@ -14,20 +14,18 @@
   ]
 },
   {
-  "styleId": "BLUME",
-  "rules": [  
-    {
-      "style": {
-        "legendValue": "Stadtrand",
-        "type": "icon",
-        "imageName": "location-pin-green.png",
-        "imageWidth": 10,
-        "imageHeight": 10,
-        "imageScale": 0.15
-      }
-    }
-  ]
-},
+  "styleId": "Grundbuch.style",
+  "rules": [	
+	{		
+		     "style": {
+			"polygonStrokeColor": [0, 0, 0, 0],
+			"polygonStrokeWidth": 2,
+			"polygonFillColor": [0, 0, 0, 0],
+			"legendValue": "GB"
+		              }
+	} 
+	]
+    },
   
   {
     "styleId": "2003",
