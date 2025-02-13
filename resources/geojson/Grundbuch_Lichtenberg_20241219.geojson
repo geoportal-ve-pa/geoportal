@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Grundbuch_Lichtenberg_20241219",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "nam": "Lichtenberg", "FSK": "11000491403000______", "ZAE": "3000", "NAMGMK": "Prenzlauer Berg", "FLN": "914", "AFL": 57362.0, "OSTWERT": 395909.745, "NORDWERT": 5820402.707, "Grundbuchblatt_18_12_2024_amtsgericht": "Prenzlauer Berg", "Grundbuchblatt_18_12_2024_buchungsart": "Grundstück", "Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Prenzlauer Berg", "Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "10149N", "Grundbuchblatt_18_12_2024_Lfd-Nr": 34, "Verschneidung_strnam": null, "Verschneidung_hausnr": null, "Verschneidung_hausnrz": null, "Verschneidung_postleit": null, "Verschneidung_etrs89_x": null, "Verschneidung_etrs89_y": null, "stand": "19.12.2024" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 396313.786999999545515, 5820084.324999999254942 ], [ 396291.70299999974668, 5820120.553999999538064 ], [ 396280.79700000025332, 5820144.323999999091029 ], [ 396260.849000000394881, 5820177.574999999254942 ], [ 396256.586883230658714, 5820183.637298312038183 ], [ 396260.848999999987427, 5820177.575000000186265 ], [ 396280.797000000020489, 5820144.324 ], [ 396291.702999999979511, 5820120.553999999538064 ], [ 396313.787000000011176, 5820084.325000000186265 ], [ 396333.836000000010245, 5820050.894000000320375 ], [ 396333.835999999602791, 5820050.894000000320375 ], [ 396313.786999999545515, 5820084.324999999254942 ] ] ] ] } }
+]
+}
