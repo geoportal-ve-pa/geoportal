@@ -564,6 +564,18 @@
            "visibility": false,
           "showInLayerTree": false
         },
+	{
+          "id": "osm",
+          "typ": "WMS",
+           "visibility": false,
+          "showInLayerTree": false
+        },
+	{
+          "id": "osm-grey",
+          "typ": "WMS",
+           "visibility": false,
+          "showInLayerTree": false
+        },
         {
           "id": "truedop_2024:truedop_2024_baselayer",
           "name": "Digitale farbige TrueOrthophotos 2024 (DOP20RGBI)",
