@@ -4908,7 +4908,7 @@
         "layers": "fh",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -4918,7 +4918,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_gh",
@@ -4928,7 +4928,7 @@
         "layers": "gh",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -4938,7 +4938,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_bh",
@@ -4948,7 +4948,7 @@
         "layers": "bh",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -4958,7 +4958,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },	
   {
     "id": "alkis_pankow_fe",
@@ -4968,7 +4968,7 @@
         "layers": "fe",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -4978,7 +4978,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_ge",
@@ -4988,7 +4988,7 @@
         "layers": "ge",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -4998,7 +4998,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_pe",
@@ -5008,7 +5008,7 @@
         "layers": "pe",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5018,7 +5018,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_be",
@@ -5028,7 +5028,7 @@
         "layers": "be",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5038,7 +5038,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_fb",
@@ -5048,7 +5048,7 @@
         "layers": "fb",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5058,7 +5058,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_gb",
@@ -5068,7 +5068,7 @@
         "layers": "gb",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5078,7 +5078,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_bb",
@@ -5088,7 +5088,7 @@
         "layers": "bb",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5098,7 +5098,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_lt",
@@ -5108,7 +5108,7 @@
         "layers": "lt",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5118,7 +5118,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_pt",
@@ -5128,7 +5128,7 @@
         "layers": "pt",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5138,7 +5138,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_bt",
@@ -5148,7 +5148,7 @@
         "layers": "bt",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5158,7 +5158,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_fw",
@@ -5168,7 +5168,7 @@
         "layers": "fw",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5178,7 +5178,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_gw",
@@ -5188,7 +5188,7 @@
         "layers": "gw",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5198,7 +5198,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_lw",
@@ -5208,7 +5208,7 @@
         "layers": "lw",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5218,7 +5218,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_pw",
@@ -5228,7 +5228,7 @@
         "layers": "pw",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5238,7 +5238,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_bw",
@@ -5248,7 +5248,7 @@
         "layers": "bw",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5258,7 +5258,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_fs",
@@ -5268,7 +5268,7 @@
         "layers": "fs",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5278,7 +5278,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_gs",
@@ -5288,7 +5288,7 @@
         "layers": "gs",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5298,7 +5298,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_ps",
@@ -5308,7 +5308,7 @@
         "layers": "ps",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5318,7 +5318,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_bs",
@@ -5328,7 +5328,7 @@
         "layers": "bs",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5338,7 +5338,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_fi",
@@ -5348,7 +5348,7 @@
         "layers": "fi",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5358,7 +5358,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_gi",
@@ -5368,7 +5368,7 @@
         "layers": "gi",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5378,7 +5378,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_pi",
@@ -5388,7 +5388,7 @@
         "layers": "pi",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5398,7 +5398,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_bi",
@@ -5408,7 +5408,7 @@
         "layers": "bi",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5418,7 +5418,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_fv",
@@ -5428,7 +5428,7 @@
         "layers": "fv",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5438,7 +5438,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_gv",
@@ -5448,7 +5448,7 @@
         "layers": "gv",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5458,7 +5458,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_lv",
@@ -5468,7 +5468,7 @@
         "layers": "lv",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5478,7 +5478,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_bv",
@@ -5488,7 +5488,7 @@
         "layers": "bv",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5498,7 +5498,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_fg",
@@ -5508,7 +5508,7 @@
         "layers": "fg",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5518,7 +5518,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_gr",
@@ -5528,7 +5528,7 @@
         "layers": "gr",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5538,7 +5538,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_br",
@@ -5548,7 +5548,7 @@
         "layers": "br",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5558,7 +5558,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_gff",
@@ -5568,7 +5568,7 @@
         "layers": "gff",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5578,7 +5578,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_lfn",
@@ -5588,7 +5588,7 @@
         "layers": "lfn",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5598,7 +5598,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_lff",
@@ -5608,7 +5608,7 @@
         "layers": "lff",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5618,7 +5618,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_bfn",
@@ -5628,7 +5628,7 @@
         "layers": "bfn",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5638,7 +5638,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_lp",
@@ -5648,7 +5648,7 @@
         "layers": "lp",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5658,7 +5658,7 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   },
 {
     "id": "alkis_pankow_bll",
@@ -5668,7 +5668,7 @@
         "layers": "bll",
         "legend": true,
         "format": "image/png",
-	"infoFormat": "application/json",
+	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5678,6 +5678,6 @@
         "maxScale": "2500000",
         "gfiTheme": "default",
         
-        "featureCount": "1"
+        
   }
 ]
