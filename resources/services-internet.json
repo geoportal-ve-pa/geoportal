@@ -4906,9 +4906,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "fh",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -4916,9 +4915,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_gh",
@@ -4926,9 +4926,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "gh",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -4936,9 +4935,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_bh",
@@ -4946,9 +4946,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "bh",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -4956,9 +4955,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },	
   {
     "id": "alkis_pankow_fe",
@@ -4966,9 +4966,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "fe",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -4976,9 +4975,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_ge",
@@ -4986,9 +4986,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "ge",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -4996,9 +4995,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_pe",
@@ -5006,9 +5006,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "pe",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5016,9 +5015,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_be",
@@ -5026,9 +5026,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "be",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5036,9 +5035,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_fb",
@@ -5046,9 +5046,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "fb",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5056,9 +5055,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_gb",
@@ -5066,9 +5066,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "gb",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5076,9 +5075,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_bb",
@@ -5086,9 +5086,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "bb",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5096,9 +5095,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_lt",
@@ -5106,9 +5106,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "lt",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5116,9 +5115,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_pt",
@@ -5126,9 +5126,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "pt",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5136,9 +5135,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_bt",
@@ -5146,9 +5146,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "bt",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5156,9 +5155,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_fw",
@@ -5166,9 +5166,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "fw",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5176,9 +5175,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_gw",
@@ -5186,9 +5186,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "gw",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5196,9 +5195,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_lw",
@@ -5206,9 +5206,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "lw",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5216,9 +5215,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_pw",
@@ -5226,9 +5226,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "pw",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5236,9 +5235,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_bw",
@@ -5246,9 +5246,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "bw",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5256,9 +5255,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_fs",
@@ -5266,9 +5266,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "fs",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5276,9 +5275,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_gs",
@@ -5286,9 +5286,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "gs",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5296,9 +5295,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_ps",
@@ -5306,9 +5306,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "ps",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5316,9 +5315,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_bs",
@@ -5326,9 +5326,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "bs",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5336,9 +5335,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_fi",
@@ -5346,9 +5346,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "fi",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5356,9 +5355,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_gi",
@@ -5366,9 +5366,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "gi",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5376,9 +5375,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_pi",
@@ -5386,9 +5386,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "pi",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5396,9 +5395,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_bi",
@@ -5406,9 +5406,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "bi",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5416,9 +5415,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_fv",
@@ -5426,9 +5426,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "fv",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5436,9 +5435,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_gv",
@@ -5446,9 +5446,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "gv",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5456,9 +5455,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_lv",
@@ -5466,9 +5466,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "lv",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5476,9 +5475,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_bv",
@@ -5486,9 +5486,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "bv",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5496,9 +5495,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_fg",
@@ -5506,9 +5506,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "fg",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5516,9 +5515,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_gr",
@@ -5526,9 +5526,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "gr",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5536,9 +5535,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_br",
@@ -5546,9 +5546,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "br",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5556,9 +5555,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_gff",
@@ -5566,9 +5566,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "gff",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5576,9 +5575,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_lfn",
@@ -5586,9 +5586,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "lfn",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5596,9 +5595,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_lff",
@@ -5606,9 +5606,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "lff",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5616,9 +5615,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_bfn",
@@ -5626,9 +5626,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "bfn",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5636,9 +5635,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_lp",
@@ -5646,9 +5646,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "lp",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5656,9 +5655,10 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
   },
 {
     "id": "alkis_pankow_bll",
@@ -5666,9 +5666,8 @@
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/alkis/alkis.map&",
         "typ": "WMS",        
         "layers": "bll",
-        "outputFormat": "XML",
+        "legend": true,
         "format": "image/png",
-	
         "version": "1.3.0",
         "singleTile": false,
         "transparent": true,
@@ -5676,8 +5675,585 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiTheme": "default"
-        
-        
+        "gfiAttributes": "showAll",
+        "gfiTheme": "default",
+        "cache": true,
+        "featureCount": "1"
+  },
+{
+    "id": "Grundbuch_Alt-Hohenschoenhausen_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Alt-Hohenschoenhausen_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Blankenburg_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Blankenburg_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Blankenfelde_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Blankenfelde_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Buch_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Buch_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Fennpfuhl_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Fennpfuhl_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Franzoesisch-Buchholz_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Franzoesisch-Buchholz_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Friedrichshain_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Friedrichshain_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Heinersdorf_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Heinersdorf_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Karow_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Karow_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Lichtenberg_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Lichtenberg_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Luebars_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Luebars_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Maerkisches-Viertel_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Maerkisches-Viertel_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Malchow_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Malchow_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Mitte_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Mitte_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Neu-Hohenschoenhausen_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Neu-Hohenschoenhausen_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Niederschoenhausen_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Niederschoenhausen_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Pankow_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Pankow_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Prenzlauer-Berg_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Prenzlauer-Berg_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Reinickendorf_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Reinickendorf_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Rosenthal_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Rosenthal_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Stadtrandsiedlung-Malchow_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Stadtrandsiedlung-Malchow_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Wartenberg_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Wartenberg_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Weissensee_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Weissensee_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
+  },
+{
+    "id": "Grundbuch_Wilhelmsruh_20241219",
+    "name": "Grundbuch",
+    "url": "../resources/geojson/Grundbuch_Wilhelmsruh_20241219.geojson",
+    "typ": "GeoJSON",
+    "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"    
+   },
+    "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+    "legendURL": "",
+    "gfiTheme": "default"
   }
 ]
