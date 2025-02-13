@@ -804,6 +804,7 @@
                 "id": ["Grundbuch_Alt-Hohenschoenhausen_20241219", "Grundbuch_Blankenburg_20241219", "Grundbuch_Blankenfelde_20241219", "Grundbuch_Buch_20241219", "Grundbuch_Fennpfuhl_20241219", "Grundbuch_Franzoesisch-Buchholz_20241219", "Grundbuch_Friedrichshain_20241219", "Grundbuch_Heinersdorf_20241219", "Grundbuch_Karow_20241219", "Grundbuch_Lichtenberg_20241219", "Grundbuch_Luebars_20241219", "Grundbuch_Maerkisches-Viertel_20241219", "Grundbuch_Malchow_20241219", "Grundbuch_Mitte_20241219", "Grundbuch_Neu-Hohenschoenhausen_20241219", "Grundbuch_Niederschoenhausen_20241219", "Grundbuch_Pankow_20241219", "Grundbuch_Prenzlauer-Berg_20241219", "Grundbuch_Reinickendorf_20241219", "Grundbuch_Rosenthal_20241219", "Grundbuch_Stadtrandsiedlung-Malchow_20241219", "Grundbuch_Wartenberg_20241219", "Grundbuch_Weissensee_20241219", "Grundbuch_Wilhelmsruh_20241219"], 
 		"name": "Grundbuch",
                 "visibility": false,
+		"clusterDistance": 50,
                 "typ": "GROUP",
 		"styleId": "Grundbuch.style"
            },
