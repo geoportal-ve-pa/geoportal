@@ -801,6 +801,24 @@
 			]
            },
 	  {
+                "id": ["Grundbuch_Alt-Hohenschoenhausen_20241219", "Grundbuch_Blankenburg_20241219"], 
+		"name": "Grundbuch",
+                "visibility": false,
+                "typ": "GROUP",
+		"children" :[
+        		{
+            		"id": "Grundbuch_Alt-Hohenschoenhausen_20241219",
+			"styleId": "Grundbuch.style",
+            		"visibility": false
+        		},
+        		{
+            		"id": "Grundbuch_Blankenburg_20241219",			
+            		"styleId": "Grundbuch.style",
+			"visibility": false
+        		}
+			]
+           },
+	  {
               "id": "360grad",
               "name": "360 Grad Fotos",
               "styleId": "360grad",
