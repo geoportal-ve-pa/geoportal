@@ -303,6 +303,9 @@
         "buildingFunctionURL": "https://repository.gdi-de.org/schemas/adv/citygml/Codelisten/BuildingFunctionTypeAdV.xml"
 	},
 	{
+    	"type": "compareMaps",
+	},
+	{
 	"type": "shadow",
 	"isShadowEnabled": true,
     	"shadowTime": {
