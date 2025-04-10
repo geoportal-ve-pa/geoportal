@@ -303,7 +303,7 @@
         "buildingFunctionURL": "https://repository.gdi-de.org/schemas/adv/citygml/Codelisten/BuildingFunctionTypeAdV.xml"
 	},
 	{
-    	"type": "compareMaps",
+    	"type": "compareMaps"
 	},
 	{
 	"type": "shadow",
