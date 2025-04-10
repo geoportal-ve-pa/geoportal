@@ -286,6 +286,23 @@
             "delete": true
           },
 	{
+    	"type": "modeler3D",
+    	"gmlIdPath": "gmlId",
+    	"updateAllLayers": false,
+    	"highlightStyle": {
+        	"silhouetteColor": "#E20D0F",
+        	"silhouetteSize": 4
+    		},
+    	"allowedAttributes": ["Gebaeudefunktion", "Wertbezeichnung"],
+        "pvoColors": {
+            "housing": "#ff0000",
+            "commercial": "#666666",
+            "public": "#44ff44"
+        	},
+        "buildingSource": "ALKIS",
+        "buildingFunctionURL": "https://repository.gdi-de.org/schemas/adv/citygml/Codelisten/BuildingFunctionTypeAdV.xml"
+	},
+	{
 	"type": "shadow",
 	"isShadowEnabled": true,
     	"shadowTime": {
