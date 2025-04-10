@@ -285,6 +285,16 @@
             "update": "Bearbeiten!",
             "delete": true
           },
+	{
+	"type": "shadow",
+	"isShadowEnabled": true,
+    	"shadowTime": {
+        "month": "6",
+        "day": "20",
+        "hour": "13",
+        "minute": "0"
+	}
+	},
           {
             "type": "legend"
           },          
