@@ -5708,7 +5708,7 @@
         "minScale": "0",
         "maxScale": "2500000",
         "gfiAttributes": "showAll",
-	"infoFormat": "text/json",
+	"infoFormat": "application/json",
         "gfiTheme": "default",
         "cache": true,
         "featureCount": "1"
