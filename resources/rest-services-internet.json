@@ -12,16 +12,16 @@
         "typ": "WFS"
     },
   {
-    "id": "BKG_SUG",
-    "name": "BKG Geokodierungsdienst Suggest",
-    "url" : "https://sg.geodatenzentrum.de/gdz_geokodierung__d202fbd0-f77b-c8b1-0ce0-5a5c2cfa13d6/suggest",
-    "typ": "GDZ"
+    "id": "bkgSearch",
+    "name": "BKG Search",
+    "typ": "BKG",
+    "url": "/secured/bkg/geosearch"
   },
   {
-    "id": "BKG_GEO",
-    "name": "BKG Geokodierungsdienst Geosearch",
-    "url" : "https://sg.geodatenzentrum.de/gdz_geokodierung__d202fbd0-f77b-c8b1-0ce0-5a5c2cfa13d6/geosearch",
-    "typ": "GDZ"
+    "id": "bkgSuggest",
+    "name": "BKG Suggest",
+    "typ": "BKG",
+    "url": "/secured/bkg/suggest"
   },
   {
 	"id": "mapfish_printservice_id",	 
