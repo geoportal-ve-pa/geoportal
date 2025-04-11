@@ -1577,7 +1577,7 @@
         	"params": {
 			"showFavoriteIcons": true,
             		"beautifyKeys": true,
-            		"showObjectKeys": false
+            		"showObjectKeys": false,
 	    		"iframe": 	{ 
 		    		"width": "450px", 
 		    		"Höhe": "450px" 
