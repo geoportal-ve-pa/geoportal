@@ -877,10 +877,9 @@
                     },
 		    {
                       "id": "Luft_24_10",
-                      "name": "Luftbilder 2024 (DOP10RGBI)",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
+                      
+                      "visibility": false
+                      
                     }
                 ]
             },
@@ -955,7 +954,10 @@
                 "visibility": false,
                 "type": "folder",
                 "elements": [
-			
+			{
+              		"id": "sbu_u_bahn",
+              		"visibility": false
+            		},
 			{
               		"id": ["tramlinien", "tramstopp"],
 			"name": "Straßenbahn",
