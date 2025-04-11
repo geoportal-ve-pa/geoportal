@@ -1591,7 +1591,9 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiAttributes": "showAll",
+        "gfiAttributes": {
+      		"NAMLAN": "Land"
+	},
         "gfiTheme": "default",
         "cache": true,
         "featureCount": "1"
