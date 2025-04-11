@@ -30,11 +30,11 @@
 	"typ" : "PrintService"
   },
   {
-	"id": "bkg_ors",	 
-	"name": "BKG Routing Service",
-	"url" : "https://sg.geodatenzentrum.de/web_ors",
-	"typ" : "RoutingService"
-	 },
+    "id" : "bkg_ors",
+    "name" : "BKG OpenRoute",
+    "url" : "/secured/bkg_ors",
+    "typ" : "GDZ"
+  },
 	{
     "id": "elastic",
     "name": "Elastic Prod",
