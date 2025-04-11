@@ -5014,8 +5014,21 @@
         "tilesize": "512",
         "minScale": "0",
         "maxScale": "2500000",
-        "gfiAttributes": "ignore",
-        "gfiTheme": "default",
+        "gfiAttributes": "showAll",
+        "infoFormat": "text/html",
+	"gfiTheme": 
+	{
+        	"name": "default",
+        	"params": {
+			"showFavoriteIcons": true,
+            		"beautifyKeys": true,
+            		"showObjectKeys": false,
+	    		"iframe": 	{ 
+		    		"width": "450px", 
+		    		"Höhe": "450px" 
+	    				}
+        		}
+    	},
         "cache": true,
         "featureCount": "1"
   },
