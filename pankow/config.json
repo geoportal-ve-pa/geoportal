@@ -695,51 +695,37 @@
                     		{
                       		"id": "Bezug_Grenze_Berlin",
 				"showInLayerTree": false,
-                      		"visibility": true,
-                      		"type": "layer",
-                      		"typ": "wms"
+                      		"visibility": true
                     		},
 				{
                       		"id": "Bezug_Grenze_Pankow",
 				"showInLayerTree": false,
-                      		"visibility": true,
-                      		"type": "layer",
-                      		"typ": "wms"
+                      		"visibility": true
                     		},
 				{
                       		"id": "Bezug_Ortsteile_Pankow",
 				"showInLayerTree": false,
-                      		"visibility": false,
-                      		"type": "layer",
-                      		"typ": "wms"
+                      		"visibility": false
                     		},
 				{
                       		"id": "Bezug_Prognoseräume_Berlin",
 				"showInLayerTree": false,
-                      		"visibility": false,
-                      		"type": "layer",
-                      		"typ": "wms"
+                      		"visibility": false
                     		},
 				{
                       		"id": "Bezug_Bezirksregionen_Berlin",
 				"showInLayerTree": false,
-                      		"visibility": false,
-                      		"type": "layer",
-                      		"typ": "wms"
+                      		"visibility": false
                     		},
 				{
                       		"id": "Bezug_Planungsräume_Berlin",
 				"showInLayerTree": false,
-                      		"visibility": false,
-                      		"type": "layer",
-                      		"typ": "wms"
+                      		"visibility": false
                     		},
 				{
                       		"id": "Bezug_Blöcke_Berlin",
 				"showInLayerTree": false,
-                      		"visibility": false,
-                      		"type": "layer",
-                      		"typ": "wms"
+                      		"visibility": false
                     		}
                 	    ]
             },
@@ -752,16 +738,12 @@
                     {
                       "id": "luftbild2004:0",
                       "name": "Digitale farbige Orthophotos 2004 (DOP25RGB)",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
+                      "visibility": false
                     },
                     {
                       "id": "k_luftbild2007:0",
                       "name": "Digitale farbige Orthophotos 2007 (DOP25RGB)",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
+                      "visibility": false
                     },
                     {
                       "id": "k_luftbild2009_20:0",
@@ -773,31 +755,23 @@
                     {
                       "id": "k_luftbild2010_rgb:0",
                       "name": "Digitale farbige Orthophotos 2010 (DOP25RGB)",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
+                      "visibility": false
                     },
                     {
                       "id": "k_luftbild2011_20:0",
                       "name": "Digitale farbige Orthophotos 2011 (DOP20RGB)",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
+                      "visibility": false
                     },
                     {
                       "id": "k_luftbild2013:0",
                       "name": "Digitale farbige Trueorthophotos 2013",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
+                      "visibility": false
                     },
                     {
                       "id": "k_luftbild2014:0",
                       "name": "Digitale farbige Orthophotos 2014 (DOP20RGB)",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
-                    },
+                      "visibility": false
+		    },
                     {
                       "id": "k_luftbild2015_rgb:0",
                       "name": "Luftbilder 2015 (Orthophotos)",
@@ -808,16 +782,12 @@
                     {
                       "id": "k_luftbild2016_rgb:0",
                       "name": "Digitale farbige Orthophotos 2016 (DOP20RGB)",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
+                      "visibility": false
                     },
                     {
                       "id": "k_luftbild2017_rgb:0",
                       "name": "Digitale farbige Orthophotos 2017 (DOP20RGB)",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
+                      "visibility": false
                     },
                     {
                       "id": "k_luftbild2018_rgb:0",
@@ -829,55 +799,41 @@
                     {
                       "id": "k_luftbild2019_rgb:0",
                       "name": "Digitale farbige Orthophotos 2019 (DOP20RGB)",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
+                      "visibility": false
                     },
                     {
                       "id": "k_luftbild2020_rgb:0",
                       "name": "Digitale farbige Orthophotos 2020 (DOP20RGB)",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
+                      "visibility": false
                     },
                     {
                       "id": "k_luftbild2021_rgb:0",
                       "name": "Digitale farbige Orthophotos 2021 (DOP20RGBI)",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
+                      "visibility": false
                     },
                     {
                       "id": "k_luftbild2022_true_rgbi:0",
                       "name": "Digitale farbige TrueOrthophotos 2022 (DOP20RGBI)",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
+                      "visibility": false
                     },
                     {
                       "id": "truedop_2023:truedop_2023",
                       "name": "Digitale farbige TrueOrthophotos 2023 (DOP20RGBI)",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
+                      "visibility": false
                     },
 		    {
                       "id": "Luft_23_10",
                       "name": "Luftbilder 2023 (DOP10RGBI)",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
+                      "visibility": false
                     },
                     {
                       "id": "truedop_2024:truedop_2024",
                       "name": "Digitale farbige TrueOrthophotos 2024 (DOP20RGBI)",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
+                      "visibility": false
                     },
 		    {
                       "id": "Luft_24_10",
-                      
+                      "name": "Luftbilder 2024 (DOP10RGBI)",
                       "visibility": false
                       
                     }
