@@ -1,6 +1,22 @@
 {
   "portalConfig": {    
-    "map": {      
+    "map": {
+	"map3dParameter": {
+                "camera": {
+                    "tilt": 45
+                },
+                "fog": {
+                    "enabled": true,
+                    "density": 0.0002,
+                    "screenSpaceErrorFactor": 2
+                },
+                "fxaa": false,
+                "globe": {
+                    "enableLighting": true,
+                    "maximumScreenSpaceError": 2,
+                    "tileCacheSize": 20
+                }
+            },
       "controls": {
         "zoom": true,
         "orientation": {
