@@ -955,10 +955,7 @@
                 "visibility": false,
                 "type": "folder",
                 "elements": [
-			{
-              		"id": "sbu_u_bahn",
-              		"visibility": false
-            		},
+			
 			{
               		"id": ["tramlinien", "tramstopp"],
 			"name": "Straßenbahn",
