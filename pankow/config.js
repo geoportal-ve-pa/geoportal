@@ -10,6 +10,9 @@ const Config = {
       ["EPSG:3068", "+title=Soldner Berlin +proj=cass +lat_0=52.41864827777778 +lon_0=13.62720366666667 +x_0=40000 +y_0=10000 +ellps=bessel +datum=potsdam +units=m +no_defs"],
       ["EPSG:4326", "+title=WGS 84 (long/lat) +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"],
     ],
+    tree: {
+        "isFolderSelectable": true
+    },
     layerConf: "../resources/services-internet.json",
     restConf: "../resources/rest-services-internet.json",
     styleConf: "../resources/style_v3.json",
