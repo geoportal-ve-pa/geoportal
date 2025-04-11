@@ -6361,7 +6361,7 @@
 "urlIsVisible" : true,
 "layerAttribution" : "© Bundesamt für Kartographie und Geodäsie / Digitales Geländemodell Gitterweite 5 m
 (<a href=\"https://gdz.bkg.bund.de/index.php/default/digitales-gelandemodell-gitterweite-5-m-dgm5.html\" 
-target=\"_blank\">&nbsp;Quelle</a>)"
+target=\"_blank\">&nbsp;Quelle</a>)",
 "datasets": [{
 "csw_url": "https://fbinter.stadt-berlin.de/fb/csw",
 "md_id": "b0485f06-a39e-3cc2-b5e0-be7fcd425dab",
