@@ -1576,8 +1576,8 @@
         	"name": "default",
         	"params": {            		
 	    		"iframe": 	{ 
-		    		"width": "800px", 
-		    		"Höhe": "20VH" 
+		    		"width": "450px", 
+		    		"Höhe": "450px" 
 	    				}
         		}
     	},
