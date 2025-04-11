@@ -6444,13 +6444,5 @@
 "rs_id": "https://registry.gdi-de.org/id/de.be.csw/253f38fd-6e0c-3f2c-aebd-c9acad9cafcb"
 }
 ]
-},
-{
-"id": "dgm_lgb",
-"name": "DGM LGB",
-"url": "https://isk.geobasis-bb.de/mapproxy/dgm/service/wms?",
-"typ": "Terrain3D",
-"legendURL": "ignore",
-"urlIsVisible" : true
 }
 ]
