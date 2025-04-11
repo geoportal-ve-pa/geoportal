@@ -862,7 +862,12 @@
 			"id": "buildings_3d_boden",
 			"name": "Gebäude LoD2 auf Höhe 0 (BKG, 2023)",
 			"visibility": false
-			}
+			},
+			{
+			"id": "dgm_lgb",
+			"name": "DGM LGB",
+			"visibility": false
+			}			
 			]
 		},	      
             {   
