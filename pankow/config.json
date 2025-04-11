@@ -324,8 +324,13 @@
         "buildingFunctionURL": "https://repository.gdi-de.org/schemas/adv/citygml/Codelisten/BuildingFunctionTypeAdV.xml"
 	},	
 	{
-    	"type": "compareMaps"
-	},
+                "type": "compareMaps",
+                "supportedDevices": [
+                        "Desktop"
+                ],
+                "name": "Karten vergleichen",
+                "description": "Vergleiche zwei Karten im gleichen Kartenausschnitt"
+        },
 	{
 	"type": "shadow",
 	"isShadowEnabled": true,
