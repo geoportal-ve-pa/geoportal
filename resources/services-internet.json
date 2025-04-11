@@ -1574,10 +1574,7 @@
 	"gfiTheme": 
 	{
         	"name": "default",
-        	"params": {
-            		"showFavoriteIcons": true,
-            		"beautifyKeys": true,
-            		"showObjectKeys": false,
+        	"params": {            		
 	    		"iframe": 	{ 
 		    		"width": "800px", 
 		    		"Höhe": "20VH" 
