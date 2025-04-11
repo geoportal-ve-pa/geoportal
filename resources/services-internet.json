@@ -1573,8 +1573,11 @@
 	"infoFormat": "text/html",
 	"gfiTheme": 
 	{
-        	"name": "test",
-        	"params": {            		
+        	"name": "default",
+        	"params": {
+			"showFavoriteIcons": true,
+            		"beautifyKeys": true,
+            		"showObjectKeys": false
 	    		"iframe": 	{ 
 		    		"width": "450px", 
 		    		"Höhe": "450px" 
