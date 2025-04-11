@@ -26,7 +26,12 @@
         	"button3d": true,
 		"freeze": true,
 		"fullScreen": true,
-		"rotation": true,
+		"rotation": {
+		    "compass3d": true,
+                    "showResetRotationAlways": false,
+                    "showResetRotation": true,
+                    "rotationIcons": true
+                },
 		"tiltView": true,
 		"totalView": true,
 		"startModule":{ 
