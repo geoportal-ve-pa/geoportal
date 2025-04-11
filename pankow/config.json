@@ -145,7 +145,7 @@
       ]
     },
     "tree": {
-      "singleBaselayer": false,    
+          
       "addLayerButton": {
         "active": true,
         "searchBar": {
