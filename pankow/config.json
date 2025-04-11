@@ -592,7 +592,7 @@
     		"src": "../resources/img/K5_Farbe.PNG"
     		},
            "visibility": false,
-          "showInLayerTree": false
+          "isNeverVisibleInTree": true
         },
 	{
           "id": "osm",
