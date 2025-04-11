@@ -544,7 +544,7 @@
     		"src": "../resources/img/Alkis_farbe.PNG"
 		},
            "visibility": false,
-          "showInLayerTree": false
+          "isNeverVisibleInTree": true
         },
 	{
           "id": "Alkis_sw_Fis_baselayer",
@@ -554,7 +554,7 @@
     		"src": "../resources/img/Alkis_SW.PNG"
 		},
            "visibility": false,
-          "showInLayerTree": false
+          "isNeverVisibleInTree": true
         },
         {
           "id": "Basemap-farbe_baselayer",
@@ -564,7 +564,7 @@
     		"src": "../resources/img/Basemap_Farbe.PNG"
     		},
            "visibility": true,
-          "showInLayerTree": true
+          "isNeverVisibleInTree": true
         },
         {
           "id": "Basemap-sw_baselayer",
@@ -574,7 +574,7 @@
     		"src": "../resources/img/Basemap_SW.PNG"
     		},
            "visibility": false,
-          "showInLayerTree": false
+          "isNeverVisibleInTree": true
         },
 	{
           "id": "hintergrund_k5_grau_baselayer",
@@ -583,7 +583,7 @@
     		"src": "../resources/img/K5_SW.PNG"
     		},
            "visibility": false,
-          "showInLayerTree": false
+          "isNeverVisibleInTree": true
         },
 	{
           "id": "hintergrund_k5_farbe_baselayer",
@@ -598,20 +598,20 @@
           "id": "osm",
           "typ": "WMS",
            "visibility": false,
-          "showInLayerTree": false
+          "isNeverVisibleInTree": true
         },
 	{
           "id": "osm-grey",
           "typ": "WMS",
            "visibility": false,
-          "showInLayerTree": false
+          "isNeverVisibleInTree": true
         },
         {
           "id": "truedop_2024:truedop_2024_baselayer",
           "name": "Digitale farbige TrueOrthophotos 2024 (DOP20RGBI)",
           "typ": "WMS",
           "visibility": false,
-          "showInLayerTree": false
+          "isNeverVisibleInTree": true
         }
       ]
     },
