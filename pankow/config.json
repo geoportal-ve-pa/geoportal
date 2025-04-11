@@ -303,6 +303,13 @@
         "buildingFunctionURL": "https://repository.gdi-de.org/schemas/adv/citygml/Codelisten/BuildingFunctionTypeAdV.xml"
 	},
 	{
+    	"icon": "bi-star",
+    	"name": "common:modules.compareFeatures.title",
+    	"numberOfAttributesToShow": 10,
+    	"numberOfFeaturesToShow": 5,
+    	"type": "compareFeatures"
+	},
+	{
     	"type": "compareMaps"
 	},
 	{
