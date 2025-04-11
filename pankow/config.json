@@ -1,7 +1,7 @@
 {
   "portalConfig": {    
     "map": {
-	"singleBaselayer": true, 
+	 
 	"map3dParameter": {
                 "camera": {
                     "tilt": 45
@@ -167,7 +167,7 @@
       ]
     },
     "tree": {
-	  
+	"singleBaselayer": true,  
       "addLayerButton": {
         "active": true,
         "searchBar": {
