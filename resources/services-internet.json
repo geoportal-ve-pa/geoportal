@@ -1593,8 +1593,7 @@
         "maxScale": "2500000",
         "gfiAttributes": {
       		"NAMLAN": "Land"
-	},
-        "gfiTheme": "default",
+	},       
         "cache": true,
         "featureCount": "1"
   },
