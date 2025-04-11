@@ -6297,14 +6297,76 @@
         "featureCount": "1"
   },
 {
-	"id": "mesh_3d",
-   	"name": "3D-Meshmodell (Berlin-Partner, 2023)",
-        "url": "https://berlin-wab.virtualcitymap.de/datasource-data/baselayer/mesh_2023",
-        "typ": "TileSet3D",        
-        "gfiAttributes": "ignore",
-        "urlIsVisible": true,
-        "gfiTheme": "default"
+"id": "mesh_3d",
+"name": "3D-Meshmodell (Berlin-Partner, 2023)",
+"url": "https://berlin-wab.virtualcitymap.de/datasource-data/baselayer/mesh_2023",
+"typ": "TileSet3D",
+"gfiAttributes": "ignore",
+"legend": "./resources/leg/leg_3DMesh-Berlin.png",
+"urlIsVisible" : true,
+"gfiTheme" : "default",
+"datasets" : [{
+"md_id" : "a4144a41-90b6-3898-aeea-e2efe90f354e",
+"md_name": "3D-Mesh Berlin 2023",
+"csw_url" : "https://gdk.gdi-de.org/gdi-de/srv/eng/csw?service=CSW",
+"rs_id" : "https://registry.gdi-de.org/id/de.be.csw/fa896f1b-c766-3e67-8339-8b1d84bc6e39"
+}]
+},
+{
+"id": "buildings_3d_boden",
+"name": "3D-Gebäudemodell LoD2-DE (BKG)",
+"url": "https://web3d.basemap.de/cesium/buildings-floor",
+"typ": "TileSet3D",
+"gfiAttributes": {
+"gml_id": "Objekt-id",
+"surface": "Oberflächentyp",
+"gebaeudefunktion": "ALKIS-Objektartengruppe" 
+},
+"urlIsVisible" : true,
+"gfiTheme" : "default",
+"layerAttribution": "nicht vorhanden",
+"legend":"https://fbintra.senstadt.verwalt-berlin.de/fb_daten/vorschau/karten/kvor_lod2_sensw.gif",
+"datasets" : [{
+"md_id" : "3c7c49af-00a4-3bcd-bc00-20e7f0f1b7bf",
+"csw_url" : "https://fbinter.stadt-berlin.de/fb/csw",
+"rs_id" : "https://registry.gdi-de.org/id/de.be.csw/dc40d006-b0ce-382b-93e8-ab82a2ea048b"
+}]
+}, 
+{
+"id": "buildings_3d",
+"name": "3D-Gebäudemodell LoD2-DE (BKG)",
+"url": "https://web3d.basemap.de/cesium/buildings-fly",
+"typ": "TileSet3D",
+"gfiAttributes": {
+"gml_id": "Objekt-id",
+"surface": "Oberflächentyp",
+"gebaeudefunktion": "ALKIS-Objektartengruppe"
+},
+"urlIsVisible" : true,
+"gfiTheme" : "default",
+"layerAttribution": "nicht vorhanden",
+"legend":"https://fbintra.senstadt.verwalt-berlin.de/fb_daten/vorschau/karten/kvor_lod2_sensw.gif",
+"datasets" : [{
+"md_id" : "3c7c49af-00a4-3bcd-bc00-20e7f0f1b7bf",
+"csw_url" : "https://fbinter.stadt-berlin.de/fb/csw",
+"rs_id" : "https://registry.gdi-de.org/id/de.be.csw/dc40d006-b0ce-382b-93e8-ab82a2ea048b"
+}]
+},	
+{
+"id": "terrain_3d",
+"name": "Geländemodell DGM5 (BKG, 2024)",
+"url": "https://web3d.basemap.de/cesium/dgm5-mesh",
+"typ": "Terrain3D",
+"legendURL": "ignore",
+"urlIsVisible" : true,
+"layerAttribution" : "© Bundesamt für Kartographie und Geodäsie / Digitales Geländemodell Gitterweite 5 m
+(<a href=\"https://gdz.bkg.bund.de/index.php/default/digitales-gelandemodell-gitterweite-5-m-dgm5.html\" 
+target=\"_blank\">&nbsp;Quelle</a>)"
+"datasets": [{
+"csw_url": "https://fbinter.stadt-berlin.de/fb/csw",
+"md_id": "b0485f06-a39e-3cc2-b5e0-be7fcd425dab",
+"rs_id": "https://registry.gdi-de.org/id/de.be.csw/253f38fd-6e0c-3f2c-aebd-c9acad9cafcb"
 }
-        
-	
+]
+}	
 ]
