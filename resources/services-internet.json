@@ -5904,7 +5904,6 @@
     "id": "maske",
     "url": "../resources/geojson/Maske.geojson",
     "typ": "GeoJSON",
-    "styleID": "Maske.style",
     "gfiAttributes": "ignore",
     "legendURL": "",
     "gfiTheme": "default"
