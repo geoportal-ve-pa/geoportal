@@ -48,7 +48,7 @@
             			"heightElementName": "value_0",
             			"heightValueWater": "-20",
             			"heightValueBuilding": "200",
-            			"zoomLevel": 7          
+            			"zoomLevel": 3          
         			}
     				]
 			}
@@ -485,7 +485,7 @@
             "heightElementName": "value_0",
             "heightValueWater": "-20",
             "heightValueBuilding": "200",
-            "zoomLevel": 7
+            "zoomLevel": 3
           },
           {
             "type": "bufferAnalysis"
