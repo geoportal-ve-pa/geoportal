@@ -20,7 +20,7 @@
 		     "style": {
 			"polygonStrokeColor": [0, 0, 0, 0],
 			"polygonStrokeWidth": 2,
-			"polygonFillColor": [0, 0, 0, 0],
+			"polygonFillColor": [0, 0, 0, 1],
 			"legendValue": "GB"
 		              }
 	} 
