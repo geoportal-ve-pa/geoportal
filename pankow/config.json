@@ -677,7 +677,7 @@
     "subjectlayer": {
       "elements": [
 	      {                
-                "name": "Bezugsräume"
+                "name": "Bezugsräume",
 				"type": "folder",
                 "elements": [
                     		{
@@ -718,7 +718,7 @@
                 	    ]
             },
 			{                
-                "name": "Amt für Bürgerdienste"
+                "name": "Amt für Bürgerdienste",
 				"type": "folder",
                 "elements": [
                     		{
@@ -755,8 +755,8 @@
                       		"id": "cluster_pankow",
 							"showInLayerTree": false,
                       		"visibility": false
-                    		}
-			]
+              }
+              ]
             },
 			{                
                 "name": "Jugendamt",
@@ -766,7 +766,7 @@
 							"showInLayerTree": false,
                       		"visibility": false
                     		}
-			]
+                      ]
             },
 			{                
                 "name": "Ordnungsamt",
@@ -776,7 +776,7 @@
 							"showInLayerTree": false,
                       		"visibility": false
                     		}
-			]
+                      ]
             },
 			{                
                 "name": "Straßenrecht",
@@ -786,7 +786,7 @@
 							"showInLayerTree": false,
                       		"visibility": false
                     		}
-			]
+                      ]
             },
 			{                
                 "name": "Straßen- und Grünflächenamt",
@@ -821,7 +821,7 @@
 							"showInLayerTree": false,
                       		"visibility": false
                     		}
-			]
+                      ]
             },
 			{                
                 "name": "Umwelt- und Naturschutz",
@@ -831,7 +831,7 @@
 							"showInLayerTree": false,
                       		"visibility": true
                     		}
-			]
+                      ]
             },
 			{                
                 "name": "ALKIS",
@@ -855,7 +855,7 @@
 							"showInLayerTree": false,
                       		"visibility": false
                     		}
-			]
+                      ]
             },
 			
             {                
@@ -864,122 +864,122 @@
                 "type": "folder",
                 "elements": [
                     {
-					  "id": "Luft_1928"
+					  "id": "Luft_1928",
 					  "name": "Luftbild 1928",
                       "visibility": false
                     },
                     {
-					  "id": "Luft_1953"
+					  "id": "Luft_1953",
 					  "name": "Luftbild 1953",
                       "visibility": false
                     },
                     {
-					  "id": "Luft_1989"
+					  "id": "Luft_1989",
 					  "name": "Luftbild 1989",
                       "visibility": false
                     },
                     {
-					  "id": "Luft_1990"
+					  "id": "Luft_1990",
 					  "name": "Luftbild 1990",
                       "visibility": false
                     },
                     {
-					  "id": "Luft_2002"
+					  "id": "Luft_2002",
 					  "name": "Luftbild 2002",
                       "visibility": false
                     },
                     {
-					  "id": "Luft_2004"
+					  "id": "Luft_2004",
 					  "name": "Luftbild 2004",
                       "visibility": false
                     },
                     {
-					  "id": "Luft_2006"
+					  "id": "Luft_2006",
 					  "name": "Luftbild 2006",
                       "visibility": false
                     },
                     {
-					  "id": "Luft_2007"
+					  "id": "Luft_2007",
 					  "name": "Luftbild 2007",
                       "visibility": false
                     },
                     {
-					  "id": "Luft_2009"
+					  "id": "Luft_2009",
 					  "name": "Luftbild 2009",
                       "visibility": false
                     },
                     {
-					  "id": "Luft_2010"
+					  "id": "Luft_2010",
 					  "name": "Luftbild 2010",
                       "visibility": false
                     },
                     {
-					  "id": "Luft_2011"
+					  "id": "Luft_2011",
 					  "name": "Luftbild 2011",
                       "visibility": false
                     },
                     {
-					  "id": "Luft_2014"
+					  "id": "Luft_2014",
 					  "name": "Luftbild 2014",
                       "visibility": false
                     },
                     {
-					  "id": "Luft_2015"
+					  "id": "Luft_2015",
 					  "name": "Luftbild 2015",
                       "visibility": false
                     },
                     {
-					  "id": "Luft_2016"
+					  "id": "Luft_2016",
 					  "name": "Luftbild 2016",
                       "visibility": false
                     },
                     {
-					  "id": "Luft_2017"
+					  "id": "Luft_2017",
 					  "name": "Luftbild 2017",
                       "visibility": false
                     },
                     {
-					  "id": "Luft_2018"
+					  "id": "Luft_2018",
 					  "name": "Luftbild 2018",
                       "visibility": false
                     },
 					{
-					  "id": "Luft_2019"
+					  "id": "Luft_2019",
 					  "name": "Luftbild 2019",
                       "visibility": false
                     },
                     {
-					  "id": "Luft_2020"
+					  "id": "Luft_2020",
 					  "name": "Luftbild 2020",
                       "visibility": false
                     },
 		    		{
-					  "id": "Luft_2021"
+					  "id": "Luft_2021",
 					  "name": "Luftbild 2021",
                       "visibility": false
                     },
 					{
-					  "id": "Luft_2022"
+					  "id": "Luft_2022",
 					  "name": "Luftbild 2022",
                       "visibility": false
                     },
 					{
-					  "id": "Luft_2023"
+					  "id": "Luft_2023",
 					  "name": "Luftbild 2023",
                       "visibility": false
                     },
 					{
-					  "id": "Luft_2023_10"
+					  "id": "Luft_2023_10",
 					  "name": "Luftbild 2023 (DOP 10)",
                       "visibility": false
                     },
 					{
-					  "id": "Luft_2024"
+					  "id": "Luft_2024",
 					  "name": "Luftbild 2024",
                       "visibility": false
                     },
 					{
-					  "id": "Luft_2024_10"
+					  "id": "Luft_2024_10",
 					  "name": "Luftbild 2024 (DOP 10)",
                       "visibility": false
                     }
