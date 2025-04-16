@@ -1,0 +1,972 @@
+{
+  "portalConfig": {    
+    "map": {
+	 
+	"map3dParameter": {
+                "camera": {
+                    "tilt": 45
+                },
+                "fog": {
+                    "enabled": true,
+                    "density": 0.0002,
+                    "screenSpaceErrorFactor": 2
+                },
+                "fxaa": false,
+                "globe": {
+                    "enableLighting": true,
+                    "maximumScreenSpaceError": 2,
+                    "tileCacheSize": 20
+                }
+            },
+      "controls": {
+        "zoom": true,
+        "orientation": {
+          "zoomMode": "once"
+        },
+	"expandable": {
+        	"button3d": true,
+		"freeze": true,
+		"fullScreen": true,
+		"rotation": {
+		    "compass3d": true,
+                    "showResetRotationAlways": false,
+                    "showResetRotation": true,
+                    "rotationIcons": true
+                },
+		"tiltView": true,
+		"totalView": true,
+		"startModule":{ 
+			"mainMenu": [
+        			{
+            			"type": "scaleSwitcher"
+        			}
+    				],
+    			"secondaryMenu": [
+        			{            			
+            			"type": "coordToolkit",
+            			"heightLayerId": "19173",
+            			"heightElementName": "value_0",
+            			"heightValueWater": "-20",
+            			"heightValueBuilding": "200",
+            			"zoomLevel": 5          
+        			}
+    				]
+			}
+      		}
+      },
+      "layerPills": {
+        "active": true,
+        "mobileOnly": false
+          },
+      "mapView": {        
+        "startCenter": [
+          394914, 
+          5821900
+        ],
+        "extent": [
+          386000,
+          5818500,
+          401000,
+          5838000
+        ],
+	"startResolution": 0.6614579761460262,
+                "options": [
+                    {
+                        "resolution": 661.4579761460263,
+                        "scale": 2500000,
+                        "zoomLevel": 0
+                    },
+                    {
+                        "resolution": 264.58319045841046,
+                        "scale": 1000000,
+                        "zoomLevel": 1
+                    },
+                    {
+                        "resolution": 66.14579761460263,
+                        "scale": 250000,
+                        "zoomLevel": 2
+                    },
+                    {
+                        "resolution": 26.458319045841044,
+                        "scale": 100000,
+                        "zoomLevel": 3
+                    },
+                    {
+                        "resolution": 15.874991427504629,
+                        "scale": 60000,
+                        "zoomLevel": 4
+                    },
+                    {
+                        "resolution": 10.583327618336419,
+                        "scale": 40000,
+                        "zoomLevel": 5
+                    },
+                    {
+                        "resolution": 5.2916638091682096,
+                        "scale": 20000,
+                        "zoomLevel": 6
+                    },
+                    {
+                        "resolution": 2.6458319045841048,
+                        "scale": 10000,
+                        "zoomLevel": 7
+                    },
+                    {
+                        "resolution": 1.3229159522920524,
+                        "scale": 5000,
+                        "zoomLevel": 8
+                    },
+                    {
+                        "resolution": 0.6614579761460262,
+                        "scale": 2500,
+                        "zoomLevel": 9
+                    },
+                    {
+                        "resolution": 0.2645831904584105,
+                        "scale": 1000,
+                        "zoomLevel": 10
+                    },
+                    {
+                        "resolution": 0.13229159522920522,
+                        "scale": 500,
+                        "zoomLevel": 11
+                    },
+                    {
+                        "resolution": 0.06614579761460261,
+                        "scale": 250,
+                        "zoomLevel": 12
+                    },
+		    {
+                        "resolution": 0.0330728988073013,
+                        "scale": 125,
+                        "zoomLevel": 13
+                    }
+                ],
+            
+        "startZoomLevel": 8,
+	"mapInteractions": {
+                    "interactionModes": {
+                        "altShiftDragRotate": true,
+                        "twoFingerPan": false
+		    }
+                    },
+        "epsg": "EPSG:25833"
+      },
+      "baselayerSwitcher": {
+      "active": true
+    }
+    },
+    "portalFooter": {
+      "urls": [
+        {
+          "bezeichnung": "common:modules.portalFooter.designation",
+          "url": "https://www.berlin.de/ba-pankow/politik-und-verwaltung/aemter/stadtentwicklungsamt/vermessung/artikel.220516.php",
+          "alias": "Stadtentwicklungsamt, Fachbereich Vermessung",
+          "alias_mobil": "FB Vermessung"
+        }
+      ]
+    },
+    "tree": {
+	"singleBaselayer": true,  
+      "addLayerButton": {
+        "active": true,
+        "searchBar": {
+          "active": true,
+          "searchInterfaceInstanceId": "elasticSearch_0",
+          "searchCategory": "Thema (externe Fachdaten)"
+        }
+      },
+      "highlightedFeatures": {
+        "active": true
+      }
+    },
+    "mainMenu": {        
+      "expanded": true,
+      "title": {
+        "text": "",
+        "logo": "../resources/img/B_BA_W_PA_Logo_DE_V_PT_RGB1.svg",
+        "link": "https://b-intern.de/ba/pankow/?ssl",
+        "toolTip": "Berlin"
+      },
+      "searchBar": {
+	
+        "searchInterfaces": [
+	  
+          {
+                "type": "komootPhoton",
+                "minChars": 3,
+                "serviceId": "11",
+                "limit": 10,
+                "lang": "de",
+                "lat": 52.53704,
+                "lon":13.450604,
+                "bbox": "13.363,52.527,13.558,52.656"
+          },
+          {
+                "type": "osmNominatim",
+                "serviceId": "10",
+                "limit": 60,
+                "states": "Berlin",
+                "classes": "place,highway,building,shop,historic,leisure,city,county"
+          },         
+          {
+            "type": "visibleVector",
+            "resultEvents": {
+              "onClick": [
+                "openGetFeatureInfo",
+                "setMarker",
+                "zoomToResult"
+              ],
+              "onHover": [
+                "setMarker"
+              ]
+            }
+          },
+          {
+            "type": "topicTree",
+            "hitTemplate": "layer"
+          }
+	  
+        ]
+      },
+      "sections": [
+        [
+          {
+            "type": "fileImport"
+          },
+          {
+            "type": "openConfig"
+          },
+		  {
+            "icon": "bi-newspaper",
+            "name": "common:modules.news.name",
+            "type": "news"
+          },
+          {
+            "type": "language"
+          }
+        ],
+	[
+        {
+    	"type": "customMenuElement",
+	"icon": "bi-envelope",
+    	"name": "Kontakt aufnehmen",
+    	"htmlContent": "<div><p>Sie haben Hinweise, Fragen oder Probleme? Schreiben Sie uns!</p></br><button type=\"button\" style=\"background-color: white; border-color: steelblue; text-color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 12px;\"><a href=\"mailto:christoph.blanke@ba-pankow.berlin.de\">E-Mail Senden</a></button><div>"
+	}
+          
+        ]
+      ]
+    },
+    "secondaryMenu": {
+      "expanded": false,
+		
+      "sections": [
+        [		 		
+          {
+            "type": "wfst",
+            "name": "WFS-T Tool",
+            "layerIds": [
+              "lgvline",
+              "lgvpoint",
+              "lgvpolygon"
+            ],
+            "toggleLayer": false,
+            "lineButton": [
+              {
+                "layerId": "lgvline",
+                "available": true
+              }
+            ],
+            "pointButton": [
+              {
+                "layerId": "lgvpoint",
+                "available": true
+              }
+            ],
+            "polygonButton": [
+              {
+                "layerId": "lgvpolygon",
+                "available": true
+              }
+            ],
+            "update": "Bearbeiten!",
+            "delete": true
+          },
+	{
+    	"type": "modeler3D",
+    	"gmlIdPath": "gmlId",
+    	"updateAllLayers": false,
+    	"highlightStyle": {
+        	"silhouetteColor": "#E20D0F",
+        	"silhouetteSize": 4
+    		},
+    	"allowedAttributes": ["Gebaeudefunktion", "Wertbezeichnung"],
+        "pvoColors": {
+            "housing": "#ff0000",
+            "commercial": "#666666",
+            "public": "#44ff44"
+        	},
+        "buildingSource": "ALKIS",
+        "buildingFunctionURL": "https://repository.gdi-de.org/schemas/adv/citygml/Codelisten/BuildingFunctionTypeAdV.xml"
+	},	
+	{
+	"type": "shadow",
+	"isShadowEnabled": true,
+    	"shadowTime": {
+        "month": "6",
+        "day": "20",
+        "hour": "13",
+        "minute": "0"
+	}
+	},
+          {
+            "type": "legend"
+          },          
+          {       
+            "type": "print",                        
+            "name": "Karte drucken",                        
+            "printServiceId": "mapfish_printservice_id",                        
+            "printAppId": "gdibe",                        
+            "filename": "Print",                        
+            "title": "Mein Titel",                        
+            "currentLayoutName": "A4 quer",                        
+            "version": "mapfish_print_3",                        
+            "isLegendSelected": false,                        
+            "gfi": false,                        
+            "legendText": "Legende",                                    
+            "dpiForPdf": 90
+          },
+          {
+                        "type": "routing",
+                        "activeRoutingToolOption": "DIRECTIONS",
+                        "routingToolOptions": [
+                            "DIRECTIONS",
+                            "ISOCHRONES"
+                        ],
+                        "download": {
+                            "filename": "",
+                            "format": "GEOJSON"
+                        },
+                        "geosearch": {
+                            "type": "GAZETTEER",
+                            "serviceId": "wfsghb"
+                        },
+                        "geosearchReverse": {
+                            "type": "BKG",
+                            "serviceId": "bkgSuggest"
+                        },
+                        "directionsSettings": {
+                            "type": "ORS",
+                            "serviceId": "bkg_ors",
+                            "speedProfile": "CAR",
+                            "preference": "RECOMMENDED",
+                            "styleRoute": {
+                                "fillColor": [
+                                    255,
+                                    44,
+                                    0
+                                ],
+                                "width": 6,
+                                "highlightColor": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "highlightWidth": 9,
+                                "partHighlightColor": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "partHighlightWidth": 3
+                            },
+                            "styleWaypoint": {
+                                "lineColor": [
+                                    255,
+                                    127,
+                                    0
+                                ],
+                                "lineWidth": 4,
+                                "fillColor": [
+                                    255,
+                                    127,
+                                    0
+                                ],
+                                "textFillColor": "#000",
+                                "textLineColor": "#fff",
+                                "textLineWidth": 3,
+                                "opacity": 0.3,
+                                "radius": 8
+                            },
+                            "styleAvoidAreas": {
+                                "lineColor": [
+                                    0,
+                                    127,
+                                    255
+                                ],
+                                "lineWidth": 2,
+                                "fillColor": [
+                                    0,
+                                    127,
+                                    255
+                                ],
+                                "opacity": 0.3,
+                                "pointRadius": 8,
+                                "pointLineWidth": 4
+                            },
+                            "batchProcessing": {
+                                "enabled": true,
+                                "active": false,
+                                "limit": 1000,
+                                "maximumConcurrentRequests": 10
+                            }
+                        },
+                        "isochronesSettings": {
+                            "type": "ORS",
+                            "serviceId": "bkg_ors",
+                            "speedProfile": "CAR",
+                            "isochronesMethodOption": "TIME",
+                            "distanceValue": 30,
+                            "minDistance": 1,
+                            "maxDistance": 400,
+                            "timeValue": 30,
+                            "minTime": 1,
+                            "maxTime": 180,
+                            "intervalValue": 15,
+                            "minInterval": 3,
+                            "maxInterval": 30,
+                            "styleCenter": {
+                                "lineColor": [
+                                    255,
+                                    127,
+                                    0
+                                ],
+                                "lineWidth": 4,
+                                "fillColor": [
+                                    255,
+                                    127,
+                                    0
+                                ],
+                                "opacity": 0.3,
+                                "radius": 8
+                            },
+                            "styleIsochrones": {
+                                "lineWidth": 2,
+                                "opacity": 0.65,
+                                "startColor": [
+                                    66,
+                                    245,
+                                    78
+                                ],
+                                "endColor": [
+                                    245,
+                                    66,
+                                    66
+                                ]
+                            },
+                            "batchProcessing": {
+                                "enabled": true,
+                                "active": false,
+                                "limit": 1000,
+                                "maximumConcurrentRequests": 3
+                            }
+                        }
+                    },
+          {
+            "type": "scaleSwitcher"
+          },
+          {
+            "type": "shareView"
+          },
+          {
+            "type": "measure"
+          },
+	  {
+                "type": "compareMaps",
+                "supportedDevices": [
+                        "Desktop"
+                ],
+                "name": "Karten vergleichen",
+                "description": "Vergleiche zwei Karten im gleichen Kartenausschnitt"
+        },
+          {
+            "type": "coordToolkit",
+            "heightLayerId": "19173",
+            "heightElementName": "value_0",
+            "heightValueWater": "-20",
+            "heightValueBuilding": "200",
+            "zoomLevel": 5
+          },
+          {
+            "type": "bufferAnalysis"
+          },
+          {
+            "type": "layerSlider",
+            "name": "Luftbilder",
+            "title": "Zeitreise durch die Luftbilder",
+            "layerIds": [
+              {
+                "title": "Luftbild 1928",
+                "layerId": "Luft_1928"
+              },
+			  {
+                "title": "Luftbild 1953",
+                "layerId": "Luft_1953"
+              },
+			  {
+                "title": "Luftbild 1989",
+                "layerId": "Luft_1989"
+              },
+			  {
+                "title": "Luftbild 1990",
+                "layerId": "Luft_1990"
+              },
+			  {
+                "title": "Luftbild 2002",
+                "layerId": "Luft_2002"
+              },
+			  {
+                "title": "Luftbild 2004",
+                "layerId": "Luft_2004"
+              },
+			  {
+                "title": "Luftbild 2006",
+                "layerId": "Luft_2006"
+              },
+			  {
+                "title": "Luftbild 2007",
+                "layerId": "Luft_2007"
+              },
+			  {
+                "title": "Luftbild 2009",
+                "layerId": "Luft_2009"
+              },
+			  {
+                "title": "Luftbild 2010",
+                "layerId": "Luft_2010"
+              },
+			  {
+                "title": "Luftbild 2011",
+                "layerId": "Luft_2011"
+              },
+			  {
+                "title": "Luftbild 2014",
+                "layerId": "Luft_2014"
+              },
+			  {
+                "title": "Luftbild 2015",
+                "layerId": "Luft_2015"
+              },
+			  {
+                "title": "Luftbild 2016",
+                "layerId": "Luft_2016"
+              },
+			  {
+                "title": "Luftbild 2017",
+                "layerId": "Luft_2017"
+              },
+			  {
+                "title": "Luftbild 2018",
+                "layerId": "Luft_2018"
+              },
+			  {
+                "title": "Luftbild 2019",
+                "layerId": "Luft_2019"
+              },
+			  {
+                "title": "Luftbild 2020",
+                "layerId": "Luft_2020"
+              },
+			  {
+                "title": "Luftbild 2021",
+                "layerId": "Luft_2021"
+              },
+			  {
+                "title": "Luftbild 2022",
+                "layerId": "Luft_2022"
+              },
+			  {
+                "title": "Luftbild 2023",
+                "layerId": "Luft_2023"
+              },
+			  {
+                "title": "Luftbild 2024",
+                "layerId": "Luft_2024"
+              }
+			  
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  "layerConfig": {
+    "baselayer": {
+      "elements": [
+		{
+          "id": "k15_farbig",
+          "name": "Bezirkskarte 1:15.000 (farbig)",
+			"preview": {     		
+    		"src": "../resources/img/K15_Farbe.PNG"
+    		},
+           "visibility": false,
+          "isNeverVisibleInTree": true
+        },
+		{
+          "id": "k15_sw",
+          "name": "Bezirkskarte 1:15.000 (sw)",
+			"preview": {     		
+    		"src": "../resources/img/K15_SW.PNG"
+    		},          
+           "visibility": false,
+          "isNeverVisibleInTree": true
+        },
+		{
+          "id": "ü50_farbig",
+          "name": "Übersichtskarte 1:50.000 (farbig)",
+			"preview": {     		
+    		"src": "../resources/img/Ü50_Farbe.PNG"
+    		},
+           "visibility": false,
+          "isNeverVisibleInTree": true
+        },
+        {
+          "id": "Basemap-farbe_baselayer",
+          "name": "Basemap (Farb-Ausgabe)",
+          "typ": "WMS",
+			"preview": {     		
+    		"src": "../resources/img/Basemap_Farbe.PNG"
+    		},
+           "visibility": true,
+          "isNeverVisibleInTree": true
+        },
+        {
+          "id": "Basemap-sw_baselayer",
+          "name": "Basemap (SW-Ausgabe)",
+          "typ": "WMS",
+			"preview": {     		
+    		"src": "../resources/img/Basemap_SW.PNG"
+    		},
+           "visibility": false,
+          "isNeverVisibleInTree": true
+        },
+	{
+          "id": "hintergrund_k5_grau_baselayer",
+          "typ": "WMTS",
+			"preview": {     		
+    		"src": "../resources/img/K5_SW.PNG"
+    		},
+           "visibility": false,
+          "isNeverVisibleInTree": true
+        },
+	{
+          "id": "hintergrund_k5_farbe_baselayer",
+          "typ": "WMTS",
+			"preview": {     		
+    		"src": "../resources/img/K5_Farbe.PNG"
+    		},
+           "visibility": false,
+          "isNeverVisibleInTree": true
+        },
+	{
+          "id": "osm",
+          "typ": "WMS",
+           "visibility": false,
+          "isNeverVisibleInTree": true
+        },
+	{
+          "id": "osm-grey",
+          "typ": "WMS",
+           "visibility": false,
+          "isNeverVisibleInTree": true
+        }
+        
+      ]
+    },
+    "subjectlayer": {
+      "elements": [
+	      {                
+                "name": "Bezugsräume",
+				"type": "folder",
+                "elements": [
+                    		{
+                      		"id": "Bezug_Grenze_Berlin",
+                      		"visibility": true
+                    		},
+							{
+                      		"id": "Bezug_Grenze_Pankow",
+                      		"visibility": true
+                    		},
+							{
+                      		"id": "Bezug_Ortsteile_Pankow",
+                      		"visibility": false
+                    		},
+							{
+                      		"id": "Bezug_Prognoseräume_Berlin",
+                      		"visibility": false
+                    		},
+							{
+                      		"id": "Bezug_Bezirksregionen_Berlin",
+                      		"visibility": false
+                    		},
+							{
+                      		"id": "Bezug_Planungsräume_Berlin",
+                      		"visibility": false
+                    		},
+							{
+                      		"id": "Bezug_Blöcke_Berlin",
+                      		"visibility": false
+                    		}
+                	    ]
+            },			
+			{                
+                "name": "Verm 1",
+				"type": "folder",
+                "elements": [
+                    		
+                      ]
+            },
+			{                
+                "name": "Verm 2",
+				"type": "folder",
+                "elements": [
+                    		
+                      ]
+            },			
+			{                
+                "name": "ALKIS",
+				"type": "folder",
+                "elements": [
+                    		{   
+							"id": [ "alkis_pankow_fh", "alkis_pankow_gh", "alkis_pankow_bh", "alkis_pankow_fe", "alkis_pankow_ge", "alkis_pankow_pe", "alkis_pankow_be", "alkis_pankow_fb", "alkis_pankow_gb", "alkis_pankow_bb", "alkis_pankow_lt", "alkis_pankow_pt", "alkis_pankow_bt", "alkis_pankow_fw", "alkis_pankow_gw", "alkis_pankow_lw", "alkis_pankow_pw", "alkis_pankow_bw", "alkis_pankow_fs", "alkis_pankow_gs", "alkis_pankow_ps", "alkis_pankow_bs", "alkis_pankow_fi", "alkis_pankow_gi", "alkis_pankow_pi", "alkis_pankow_bi", "alkis_pankow_fv", "alkis_pankow_gv", "alkis_pankow_lv", "alkis_pankow_bv", "alkis_pankow_fg", "alkis_pankow_gr", "alkis_pankow_br", "alkis_pankow_gff", "alkis_pankow_lfn", "alkis_pankow_lff", "alkis_pankow_bfn", "alkis_pankow_lp", "alkis_pankow_bll"],       
+							"name": "Alkis Pankow",		
+							"visibility": false,
+							"typ": "GROUP"
+							},
+							{
+                      		"id": "Alkis_Fis",
+							"name": "Alkis Berlin Farbe",
+                      		"visibility": false
+                    		},
+							{
+                      		"id": "Alkis_sw_Fis",
+							"name": "Alkis Berlin SW",
+                      		"visibility": false
+                    		}
+                      ]
+            },
+			
+            {                
+                "name": "Luftbilder",
+				"showInLayerTree": false,
+                "type": "folder",
+                "elements": [
+                    {
+					  "id": "Luft_1928",
+					  "name": "Luftbild 1928",
+                      "visibility": false
+                    },
+                    {
+					  "id": "Luft_1953",
+					  "name": "Luftbild 1953",
+                      "visibility": false
+                    },
+                    {
+					  "id": "Luft_1989",
+					  "name": "Luftbild 1989",
+                      "visibility": false
+                    },
+                    {
+					  "id": "Luft_1990",
+					  "name": "Luftbild 1990",
+                      "visibility": false
+                    },
+                    {
+					  "id": "Luft_2002",
+					  "name": "Luftbild 2002",
+                      "visibility": false
+                    },
+                    {
+					  "id": "Luft_2004",
+					  "name": "Luftbild 2004",
+                      "visibility": false
+                    },
+                    {
+					  "id": "Luft_2006",
+					  "name": "Luftbild 2006",
+                      "visibility": false
+                    },
+                    {
+					  "id": "Luft_2007",
+					  "name": "Luftbild 2007",
+                      "visibility": false
+                    },
+                    {
+					  "id": "Luft_2009",
+					  "name": "Luftbild 2009",
+                      "visibility": false
+                    },
+                    {
+					  "id": "Luft_2010",
+					  "name": "Luftbild 2010",
+                      "visibility": false
+                    },
+                    {
+					  "id": "Luft_2011",
+					  "name": "Luftbild 2011",
+                      "visibility": false
+                    },
+                    {
+					  "id": "Luft_2014",
+					  "name": "Luftbild 2014",
+                      "visibility": false
+                    },
+                    {
+					  "id": "Luft_2015",
+					  "name": "Luftbild 2015",
+                      "visibility": false
+                    },
+                    {
+					  "id": "Luft_2016",
+					  "name": "Luftbild 2016",
+                      "visibility": false
+                    },
+                    {
+					  "id": "Luft_2017",
+					  "name": "Luftbild 2017",
+                      "visibility": false
+                    },
+                    {
+					  "id": "Luft_2018",
+					  "name": "Luftbild 2018",
+                      "visibility": false
+                    },
+					{
+					  "id": "Luft_2019",
+					  "name": "Luftbild 2019",
+                      "visibility": false
+                    },
+                    {
+					  "id": "Luft_2020",
+					  "name": "Luftbild 2020",
+                      "visibility": false
+                    },
+		    		{
+					  "id": "Luft_2021",
+					  "name": "Luftbild 2021",
+                      "visibility": false
+                    },
+					{
+					  "id": "Luft_2022",
+					  "name": "Luftbild 2022",
+                      "visibility": false
+                    },
+					{
+					  "id": "Luft_2023",
+					  "name": "Luftbild 2023",
+                      "visibility": false
+                    },
+					{
+					  "id": "Luft_2023_10",
+					  "name": "Luftbild 2023 (DOP 10)",
+                      "visibility": false
+                    },
+					{
+					  "id": "Luft_2024",
+					  "name": "Luftbild 2024",
+                      "visibility": false
+                    },
+					{
+					  "id": "Luft_2024_10",
+					  "name": "Luftbild 2024 (DOP 10)",
+                      "visibility": false
+                    }
+                ]
+            },
+	    {
+		"name": "3D Daten",
+		"type": "folder",
+		"elements": [
+			{
+			"id": "terrain_3d",
+			"name": "Digitales Geländemodell (DGM5, 2024)",
+			"visibility": false
+			},
+			{
+			"id": "mesh_3d",
+			"name": "Texturiertes Oberflächenmodell (3D-Mesh, 2023)",
+			"visibility": true
+			},
+			{
+			"id": "buildings_3d",
+			"name": "Gebäude LoD2 in Geländehöhe (BKG, 2023)",
+			"visibility": false
+			},
+			{
+			"id": "buildings_3d_boden",
+			"name": "Gebäude LoD2 auf Höhe 0 (BKG, 2023)",
+			"visibility": false
+			}			
+			]
+		},
+		{
+		"name": "weitere Themen",
+		"type": "folder",
+		"elements": [
+			{   
+			"id": [ "strassenbefahrung:aa_verkehrszeichen", "strassenbefahrung:ab_touchpoint", "strassenbefahrung:ac_trinkwasserbrunnen_wasserspender", "strassenbefahrung:ad_uhr", "strassenbefahrung:ae_viz_infotafel", "strassenbefahrung:af_wasserpumpen_brunnen", "strassenbefahrung:ag_werbesaeule", "strassenbefahrung:ah_abfallbehaelter_muellbox", "strassenbefahrung:ai_anforderungstaster_radverkehr", "strassenbefahrung:aj_anlegestelle", "strassenbefahrung:al_durchfahrtshoehe", "strassenbefahrung:am_fahnenmast", "strassenbefahrung:an_fahrbahnmarkierung_piktogramm", "strassenbefahrung:ao_gebaeudeeingang", "strassenbefahrung:ap_handsteuergeraet_lsa", "strassenbefahrung:aq_hydrant", "strassenbefahrung:ar1_kabelkasten", "strassenbefahrung:ar_kanaldeckel", "strassenbefahrung:as_mast", "strassenbefahrung:at_mast_lsa", "strassenbefahrung:au_parkscheinautomat", "strassenbefahrung:av_poller", "strassenbefahrung:aw_spielgeraet", "strassenbefahrung:ax_strassensinkkasten", "strassenbefahrung:ay_streugutbehaelter", "strassenbefahrung:az_taxirufsaeule", "strassenbefahrung:ba_telefonzelle_telefonstele", "strassenbefahrung:bb_verkehrsschutzgitter", "strassenbefahrung:bc_aufmerksamkeitsstreifen", "strassenbefahrung:bd_bordstein", "strassenbefahrung:be_fahrbahnmarkierunglinie", "strassenbefahrung:bf_gelaender", "strassenbefahrung:bg_leitplanke", "strassenbefahrung:bh_mauer", "strassenbefahrung:bi_schranke", "strassenbefahrung:bj_sitzbank", "strassenbefahrung:bk_strassenbegrenzung", "strassenbefahrung:bl_strassenentwaesserungsrinne", "strassenbefahrung:bm_zugangsbauwerk", "strassenbefahrung:bn_baumscheibe", "strassenbefahrung:bo_denkmal", "strassenbefahrung:bp_fahrbahnmarkierung_flaeche", "strassenbefahrung:bq_fahrradstaender", "strassenbefahrung:br_fahrgastunterstand", "strassenbefahrung:bs_induktionsschleife", "strassenbefahrung:bt_kabelschacht", "strassenbefahrung:bu1_kleinbauten_sondernutzung", "strassenbefahrung:bu_recycling_container", "strassenbefahrung:bv_springbrunnen_zierbrunnen", "strassenbefahrung:bw_aufmerksamkeitsfeld", "strassenbefahrung:bx_fahrbahnschwelle", "strassenbefahrung:by_gehwegueberfahrt", "strassenbefahrung:bz_gleiskoerper_strab", "strassenbefahrung:ca_haltebereich_bus", "strassenbefahrung:cb_haltestellenwartebereich", "strassenbefahrung:cc_treppe", "strassenbefahrung:cd_rampe", "strassenbefahrung:ce_gruenflaeche", "strassenbefahrung:cf_trennstreifen", "strassenbefahrung:cg_baustelle", "strassenbefahrung:ch_radweg", "strassenbefahrung:ci_oeffentlicher_platz", "strassenbefahrung:cj_fussgaengerzone", "strassenbefahrung:ck_parkflaeche", "strassenbefahrung:cl_gehweg", "strassenbefahrung:cm_fahrbahn"],       
+            "name": "Straßenbefahrung 2014",
+			"showInLayerTree": false,		
+            "visibility": false,
+            "typ": "GROUP"
+            },
+			{
+            "id": ["Verkehrslage", "Baustellen_OCIT"], 
+			"name": "Verkehrslage",
+            "visibility": false,
+            "typ": "GROUP",
+			"children" :[
+        		{
+            	"id": "Verkehrslage",
+            	"visibility": false            	
+        		},
+        		{
+            	"id": "Baustellen_OCIT",			
+            	"styleId": "Baustellen_OCIT",
+				"visibility": false
+        		}
+			]
+			},
+			{
+            "id": "360grad",
+            "name": "360 Grad Fotos",
+            "styleId": "360grad",
+            "visibility": false
+            },
+			{                
+            "name": "ÖPNV",
+			"showInLayerTree": false,		
+            "visibility": false,
+            "type": "folder",
+            "elements": [
+				{
+              	"id": "sbu_u_bahn",
+              	"visibility": false
+            	},
+				{
+              	"id": ["tramlinien", "tramstopp"],
+				"name": "Straßenbahn",
+              	"visibility": false,
+				"typ": "GROUP"
+            	}
+						]
+			}			
+					]
+		}	   	  
+	    	    
+	      
+        ]
+     
+    }
+  }
+}
