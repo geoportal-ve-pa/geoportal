@@ -5899,7 +5899,16 @@
         "gfiTheme": "default",
         "cache": true,
         "featureCount": "1"
-    }
+    },
+     {
+    "id": "maske",
+    "url": "../resources/geojson/Maske.geojson",
+    "typ": "GeoJSON",
+    "styleID": "Maske.style",
+    "gfiAttributes": "ignore",
+    "legendURL": "",
+    "gfiTheme": "default"
+  }	
 	
 	
 ]
