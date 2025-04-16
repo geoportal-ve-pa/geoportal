@@ -26,7 +26,19 @@
 	} 
 	]
     },
-  
+   {
+  "styleId": "Maske.style",
+  "rules": [	
+	{		
+		     "style": {
+			"polygonStrokeColor": [0, 0, 0, 0],
+			"polygonStrokeWidth": 2,
+			"polygonFillColor": [200, 200, 200, 0,5],
+			"legendValue": "MA"
+		              }
+	} 
+	]
+    },
   {
     "styleId": "2003",
     "rules": [
