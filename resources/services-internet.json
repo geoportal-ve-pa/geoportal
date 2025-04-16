@@ -5662,7 +5662,7 @@
         	}
       }	
    },
-    "legendURL": "",
+    "legend": "ignore",
     "gfiTheme": "default"
   },
   {
@@ -5902,10 +5902,11 @@
     },
      {
     "id": "maske",
+    "name": "Umgebungsmaske",
     "url": "../resources/geojson/Maske.geojson",
     "typ": "GeoJSON",
     "gfiAttributes": "ignore",
-    "legendURL": "",
+    "legend": "ignore",
     "gfiTheme": "default"
   }	
 	
