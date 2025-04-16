@@ -2037,7 +2037,7 @@
 	{
         "id": "Luft_2023_10",
         "name": "Luftbild 2023 (DOP 10)",
-        "name_lang": "Luftbild 2023 (DOP 10)"
+        "name_lang": "Luftbild 2023 (DOP 10)",
         "url": "http://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin/mapserv.exe?map=D:/GIS-Daten/Server/luftbilder.map&",
         "typ": "WMS",
         "layers": "luftbild2023_DOP10",
