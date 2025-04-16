@@ -1612,12 +1612,7 @@
         "gfiAttributes": "showAll",
         "gfiTheme": "default",
         "cache": true,
-        "featureCount": "1",
-	"datasets": [
-            {               
-                "csw_url": "./resources/metadaten/Bezirksgrenze_Pankow_MD.xml"
-            }
-        ]
+        "featureCount": "1"
   },
 	{
     "id": "Bezug_Ortsteile_Pankow",
