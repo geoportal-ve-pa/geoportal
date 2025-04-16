@@ -5769,8 +5769,7 @@
         "featureCount": "1",
         "epsg": "EPSG:25833",
         "legend": "https://maps.dwd.de/geoserver/dwd/ows?service=WMS&version=1.3.0&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=WAM"
-    },
-	https://maps.dwd.de/geoserver/dwd/wms?request=GetCapabilities&service=wms&version=1.3.0
+    },	
 	{
         "id": "baumbestand",
         "name": "Baumbestand 13.02.2024",
