@@ -1052,7 +1052,11 @@
 				"typ": "GROUP"
             	}
 						]
-			}			
+			},
+			{
+			"id": "wetterlage",
+			"visibility": false
+			}
 					]
 		}	   	  
 	    	    
