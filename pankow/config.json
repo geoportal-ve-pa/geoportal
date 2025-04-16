@@ -60,8 +60,8 @@
           },
       "mapView": {        
         "startCenter": [
-          394914, 
-          5821900
+          394227, 
+          5828436
         ],
         "extent": [
           386000,
@@ -143,7 +143,7 @@
                     }
                 ],
             
-        "startZoomLevel": 8,
+        "startZoomLevel": 3,
 	"mapInteractions": {
                     "interactionModes": {
                         "altShiftDragRotate": true,
@@ -1059,8 +1059,7 @@
 			},
 			{
 			"id": "maske",
-			"visibility": true,		
-    			"styleId": "Maske.style",
+			"visibility": true,
 			"isNeverVisibleInTree": true
 			}
 					]
