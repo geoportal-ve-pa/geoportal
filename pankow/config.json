@@ -605,19 +605,28 @@
       "elements": [
 		{
           "id": "k15_farbig",
-          "name": "Bezirkskarte 1:15.000 (farbig)",          
+          "name": "Bezirkskarte 1:15.000 (farbig)",
+			"preview": {     		
+    		"src": "../resources/img/K15_Farbe.PNG"
+    		},
            "visibility": false,
           "isNeverVisibleInTree": true
         },
 		{
           "id": "k15_sw",
-          "name": "Bezirkskarte 1:15.000 (sw)",          
+          "name": "Bezirkskarte 1:15.000 (sw)",
+			"preview": {     		
+    		"src": "../resources/img/K15_SW.PNG"
+    		},          
            "visibility": false,
           "isNeverVisibleInTree": true
         },
 		{
           "id": "ü50_farbig",
-          "name": "Übersichtskarte 1:50.000 (farbig)",          
+          "name": "Übersichtskarte 1:50.000 (farbig)",
+			"preview": {     		
+    		"src": "../resources/img/Ü50_Farbe.PNG"
+    		},
            "visibility": false,
           "isNeverVisibleInTree": true
         },
