@@ -942,31 +942,8 @@
 				"visibility": false
         		}
 			]
-			},
-			{
-            "id": "360grad",
-            "name": "360 Grad Fotos",
-            "styleId": "360grad",
-            "visibility": false
-            },
-			{                
-            "name": "ÖPNV",
-			"showInLayerTree": false,		
-            "visibility": false,
-            "type": "folder",
-            "elements": [
-				{
-              	"id": "sbu_u_bahn",
-              	"visibility": false
-            	},
-				{
-              	"id": ["tramlinien", "tramstopp"],
-				"name": "Straßenbahn",
-              	"visibility": false,
-				"typ": "GROUP"
-            	}
-						]
-			}			
+			}
+						
 					]
 		}	   	  
 	    	    
