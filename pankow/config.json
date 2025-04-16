@@ -1060,6 +1060,7 @@
 			{
 			"id": "maske",
 			"visibility": true,
+			"styleId": "Maske.style",
 			"isNeverVisibleInTree": true
 			}
 					]
