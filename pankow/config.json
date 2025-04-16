@@ -208,22 +208,7 @@
                 "limit": 60,
                 "states": "Berlin",
                 "classes": "place,highway,building,shop,historic,leisure,city,county"
-          },
-          { 
-	    "type": "bkg",
-            "suggestServiceId": "BKG_SUG",
-            "geosearchServiceId": "BKG_GEO",
-            "extent": [
-                389000, 
-                5821000, 
-                402500, 
-                5835000
-                      ],
-            "resultCount": 10,
-            "epsg": "EPSG:25833",
-            "filter": "filter=bundesland:Berlin",
-            "minScore": 0.6           
-          },
+          },         
           {
             "type": "visibleVector",
             "resultEvents": {
@@ -521,80 +506,94 @@
             "title": "Zeitreise durch die Luftbilder",
             "layerIds": [
               {
-                "title": "Digitale farbige Orthophotos 2004 (DOP25RGB)",
-                "layerId": "luftbild2004:0"
-              },
-              {
-                "title": "Digitale farbige Orthophotos 2007 (DOP20RGB)",
-                "layerId": "k_luftbild2007:0"
-              },
-              {
-                "title": "Digitale farbige Orthophotos 2009 (DOP20RGB)",
-                "layerId": "k_luftbild2009_20:0"
-              },
-              {
-                "title": "Digitale farbige Orthophotos 2010 (DOP20RGB)",
-                "layerId": "k_luftbild2010_rgb:0"
-              },
-              {
-                "title": "Digitale farbige Orthophotos 2011 (DOP20RGB)",
-                "layerId": "k_luftbild2011_20:0"
+                "title": "Luftbild 1928",
+                "layerId": "Luft_1928"
               },
 			  {
-                "title": "Digitale farbige Trueorthophotos 2013",
-                "layerId": "k_luftbild2013:0"
+                "title": "Luftbild 1953",
+                "layerId": "Luft_1953"
               },
-              {
-                "title": "Digitale farbige Orthophotos 2014 (DOP20RGB)",
-                "layerId": "k_luftbild2014:0"
+			  {
+                "title": "Luftbild 1989",
+                "layerId": "Luft_1989"
               },
-              {
-                "title": "Luftbilder 2015 (Orthophotos)",
-                "layerId": "k_luftbild2015_rgb:0"
+			  {
+                "title": "Luftbild 1990",
+                "layerId": "Luft_1990"
               },
-              {
-                "title": "Digitale farbige Orthophotos 2016 (DOP20RGB)",
-                "layerId": "k_luftbild2016_rgb:0"
+			  {
+                "title": "Luftbild 2002",
+                "layerId": "Luft_2002"
               },
-              {
-                "title": "Digitale farbige Orthophotos 2017 (DOP20RGB)",
-                "layerId": "k_luftbild2017_rgb:0"
+			  {
+                "title": "Luftbild 2004",
+                "layerId": "Luft_2004"
               },
-              {
-                "title": "Digitale farbige Orthophotos 2018 (DOP20RGB)",
-                "layerId": "k_luftbild2018_rgb:0"
+			  {
+                "title": "Luftbild 2006",
+                "layerId": "Luft_2006"
               },
-              {
-                "title": "Digitale farbige Orthophotos 2019 (DOP20RGB)",
-                "layerId": "k_luftbild2019_rgb:0"
+			  {
+                "title": "Luftbild 2007",
+                "layerId": "Luft_2007"
               },
-              {
-                "title": "Digitale farbige Orthophotos 2020 (DOP20RGB)",
-                "layerId": "k_luftbild2020_rgb:0"
+			  {
+                "title": "Luftbild 2009",
+                "layerId": "Luft_2009"
               },
-              {
-                "title": "Digitale farbige Orthophotos 2021 (DOP20RGBI)",
-                "layerId": "k_luftbild2021_rgb:0"
+			  {
+                "title": "Luftbild 2010",
+                "layerId": "Luft_2010"
               },
-              {
-                "title": "Digitale farbige TrueOrthophotos 2022 (DOP20RGBI)",
-                "layerId": "k_luftbild2022_true_rgbi:0"
+			  {
+                "title": "Luftbild 2011",
+                "layerId": "Luft_2011"
               },
-              {
-                "title": "Digitale farbige TrueOrthophotos 2023 (DOP20RGBI)",
-                "layerId": "truedop_2023:truedop_2023"
+			  {
+                "title": "Luftbild 2014",
+                "layerId": "Luft_2014"
               },
-              {
-                "title": "Digitale farbige TrueOrthophotos 2024 (DOP20RGBI)",
-                "layerId": "truedop_2024:truedop_2024"
+			  {
+                "title": "Luftbild 2015",
+                "layerId": "Luft_2015"
+              },
+			  {
+                "title": "Luftbild 2016",
+                "layerId": "Luft_2016"
+              },
+			  {
+                "title": "Luftbild 2017",
+                "layerId": "Luft_2017"
+              },
+			  {
+                "title": "Luftbild 2018",
+                "layerId": "Luft_2018"
+              },
+			  {
+                "title": "Luftbild 2019",
+                "layerId": "Luft_2019"
+              },
+			  {
+                "title": "Luftbild 2020",
+                "layerId": "Luft_2020"
+              },
+			  {
+                "title": "Luftbild 2021",
+                "layerId": "Luft_2021"
+              },
+			  {
+                "title": "Luftbild 2022",
+                "layerId": "Luft_2022"
+              },
+			  {
+                "title": "Luftbild 2023",
+                "layerId": "Luft_2023"
+              },
+			  {
+                "title": "Luftbild 2024",
+                "layerId": "Luft_2024"
               }
-            ]
-          },
-          {
-            "type": "layerClusterToggler",
-            "layerIdList": [
-              "luftbild2004:0",
-              "k_luftbild2007:0"
+			  
             ]
           }
         ]
@@ -604,23 +603,21 @@
   "layerConfig": {
     "baselayer": {
       "elements": [
-	{
-          "id": "Alkis_Fis_baselayer",
-          "name": "ALKIS (Farb-Ausgabe)",
-          "typ": "WMS",
-	  "preview": {     		
-    		"src": "../resources/img/Alkis_farbe.PNG"
-		},
+		{
+          "id": "k15_farbig",
+          "name": "Bezirkskarte 1:15.000 (farbig)",          
            "visibility": false,
           "isNeverVisibleInTree": true
         },
-	{
-          "id": "Alkis_sw_Fis_baselayer",
-          "name": "ALKIS (SW-Ausgabe)",
-          "typ": "WMS",
-	  "preview": {     		
-    		"src": "../resources/img/Alkis_SW.PNG"
-		},
+		{
+          "id": "k15_sw",
+          "name": "Bezirkskarte 1:15.000 (sw)",          
+           "visibility": false,
+          "isNeverVisibleInTree": true
+        },
+		{
+          "id": "ü50_farbig",
+          "name": "Übersichtskarte 1:50.000 (farbig)",          
            "visibility": false,
           "isNeverVisibleInTree": true
         },
@@ -628,7 +625,7 @@
           "id": "Basemap-farbe_baselayer",
           "name": "Basemap (Farb-Ausgabe)",
           "typ": "WMS",
-	  "preview": {     		
+			"preview": {     		
     		"src": "../resources/img/Basemap_Farbe.PNG"
     		},
            "visibility": true,
@@ -638,7 +635,7 @@
           "id": "Basemap-sw_baselayer",
           "name": "Basemap (SW-Ausgabe)",
           "typ": "WMS",
-	  "preview": {     		
+			"preview": {     		
     		"src": "../resources/img/Basemap_SW.PNG"
     		},
            "visibility": false,
@@ -647,7 +644,7 @@
 	{
           "id": "hintergrund_k5_grau_baselayer",
           "typ": "WMTS",
-	  "preview": {     		
+			"preview": {     		
     		"src": "../resources/img/K5_SW.PNG"
     		},
            "visibility": false,
@@ -656,7 +653,7 @@
 	{
           "id": "hintergrund_k5_farbe_baselayer",
           "typ": "WMTS",
-	  "preview": {     		
+			"preview": {     		
     		"src": "../resources/img/K5_Farbe.PNG"
     		},
            "visibility": false,
@@ -673,173 +670,315 @@
           "typ": "WMS",
            "visibility": false,
           "isNeverVisibleInTree": true
-        },
-        {
-          "id": "truedop_2024:truedop_2024_baselayer",
-          "name": "Digitale farbige TrueOrthophotos 2024 (DOP20RGBI)",
-          "typ": "WMS",
-          "visibility": false,
-          "isNeverVisibleInTree": true
         }
+        
       ]
     },
     "subjectlayer": {
       "elements": [
 	      {                
-                "name": "Bezugsräume",
-		"isFolderSelectable": true,
-		"showInLayerTree": false,		
-                "visibility": false,
-                "type": "folder",
+                "name": "Bezugsräume"
+				"type": "folder",
                 "elements": [
                     		{
                       		"id": "Bezug_Grenze_Berlin",
-				"showInLayerTree": false,
+							"showInLayerTree": false,
                       		"visibility": true
                     		},
-				{
+							{
                       		"id": "Bezug_Grenze_Pankow",
-				"showInLayerTree": false,
+							"showInLayerTree": false,
                       		"visibility": true
                     		},
-				{
+							{
                       		"id": "Bezug_Ortsteile_Pankow",
-				"showInLayerTree": false,
+							"showInLayerTree": false,
                       		"visibility": false
                     		},
-				{
+							{
                       		"id": "Bezug_Prognoseräume_Berlin",
-				"showInLayerTree": false,
+							"showInLayerTree": false,
                       		"visibility": false
                     		},
-				{
+							{
                       		"id": "Bezug_Bezirksregionen_Berlin",
-				"showInLayerTree": false,
+							"showInLayerTree": false,
                       		"visibility": false
                     		},
-				{
+							{
                       		"id": "Bezug_Planungsräume_Berlin",
-				"showInLayerTree": false,
+							"showInLayerTree": false,
                       		"visibility": false
                     		},
-				{
+							{
                       		"id": "Bezug_Blöcke_Berlin",
-				"showInLayerTree": false,
+							"showInLayerTree": false,
                       		"visibility": false
                     		}
                 	    ]
             },
+			{                
+                "name": "Amt für Bürgerdienste"
+				"type": "folder",
+                "elements": [
+                    		{
+                      		"id": "bd_wahllokale",
+							"showInLayerTree": false,
+                      		"visibility": true
+                    		},
+							{
+                      		"id": "bd_wahlkreise_abgeordnetenhaus",
+							"showInLayerTree": false,
+                      		"visibility": true
+                    		},
+							{
+                      		"id": "bd_wahlbezirke_abgeordnetenhaus",
+							"showInLayerTree": false,
+                      		"visibility": false
+                    		},
+							{
+                      		"id": "bd_wahlbezirke_bundestagswahl",
+							"showInLayerTree": false,
+                      		"visibility": false
+                    		}
+                	    ]
+            },
+			{                
+                "name": "Clusterung",
+                "elements": [
+                    		{
+                      		"id": "cluster_flurstuecke",
+							"showInLayerTree": false,
+                      		"visibility": false
+                    		},
+							{
+                      		"id": "cluster_pankow",
+							"showInLayerTree": false,
+                      		"visibility": false
+                    		}
+            },
+			{                
+                "name": "Jugendamt",
+                "elements": [
+                    		{
+                      		"id": "kindertagesstaetten",
+							"showInLayerTree": false,
+                      		"visibility": false
+                    		}
+            },
+			{                
+                "name": "Ordnungsamt",
+                "elements": [
+                    		{
+                      		"id": "parkraumbewirtschaftung",
+							"showInLayerTree": false,
+                      		"visibility": false
+                    		}
+            },
+			{                
+                "name": "Straßenrecht",
+                "elements": [
+                    		{
+                      		"id": "klass_str_recht",
+							"showInLayerTree": false,
+                      		"visibility": false
+                    		}
+            },
+			{                
+                "name": "Straßen- und Grünflächenamt",
+                "elements": [
+                    		{
+                      		"id": "sga_gruenanlage",
+							"showInLayerTree": false,
+                      		"visibility": false
+                    		},
+							{
+                      		"id": "sga_inspektionen",
+							"showInLayerTree": false,
+                      		"visibility": false
+                    		},
+							{
+                      		"id": "sga_reviere",
+							"showInLayerTree": false,
+                      		"visibility": false
+                    		},
+							{
+                      		"id": "sga_revierstandorte",
+							"showInLayerTree": false,
+                      		"visibility": false
+                    		},
+							{
+                      		"id": "sga_spielplaetze",
+							"showInLayerTree": false,
+                      		"visibility": false
+                    		},
+							{
+                      		"id": "sga_widmung",
+							"showInLayerTree": false,
+                      		"visibility": false
+                    		}
+            },
+			{                
+                "name": "Umwelt- und Naturschutz",
+                "elements": [
+                    		{
+                      		"id": "schutzgebiete_naturschutzrecht",
+							"showInLayerTree": false,
+                      		"visibility": true
+                    		}
+            },
+			{                
+                "name": "ALKIS",
+                "elements": [
+                    		{   
+							"id": [ "alkis_pankow_fh", "alkis_pankow_gh", "alkis_pankow_bh", "alkis_pankow_fe", "alkis_pankow_ge", "alkis_pankow_pe", "alkis_pankow_be", "alkis_pankow_fb", "alkis_pankow_gb", "alkis_pankow_bb", "alkis_pankow_lt", "alkis_pankow_pt", "alkis_pankow_bt", "alkis_pankow_fw", "alkis_pankow_gw", "alkis_pankow_lw", "alkis_pankow_pw", "alkis_pankow_bw", "alkis_pankow_fs", "alkis_pankow_gs", "alkis_pankow_ps", "alkis_pankow_bs", "alkis_pankow_fi", "alkis_pankow_gi", "alkis_pankow_pi", "alkis_pankow_bi", "alkis_pankow_fv", "alkis_pankow_gv", "alkis_pankow_lv", "alkis_pankow_bv", "alkis_pankow_fg", "alkis_pankow_gr", "alkis_pankow_br", "alkis_pankow_gff", "alkis_pankow_lfn", "alkis_pankow_lff", "alkis_pankow_bfn", "alkis_pankow_lp", "alkis_pankow_bll"],       
+							"name": "Alkis Pankow",
+							"showInLayerTree": false,		
+							"visibility": false,
+							"typ": "GROUP"
+							},
+							{
+                      		"id": "Alkis_Fis",
+							"name": "Alkis Berlin Farbe",
+							"showInLayerTree": false,
+                      		"visibility": false
+                    		},
+							{
+                      		"id": "Alkis_sw_Fis",
+							"name": "Alkis Berlin SW",
+							"showInLayerTree": false,
+                      		"visibility": false
+                    		}
+            },
+			
             {                
                 "name": "Luftbilder",
-		"showInLayerTree": false,		
-                "visibility": false,
+				"showInLayerTree": false,
                 "type": "folder",
                 "elements": [
                     {
-                      "id": "luftbild2004:0",
-                      "name": "Digitale farbige Orthophotos 2004 (DOP25RGB)",
+					  "id": "Luft_1928"
+					  "name": "Luftbild 1928",
                       "visibility": false
                     },
                     {
-                      "id": "k_luftbild2007:0",
-                      "name": "Digitale farbige Orthophotos 2007 (DOP25RGB)",
+					  "id": "Luft_1953"
+					  "name": "Luftbild 1953",
                       "visibility": false
                     },
                     {
-                      "id": "k_luftbild2009_20:0",
-                      "name": "Digitale farbige Orthophotos 2009 (DOP25RGB)",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
-                    },
-                    {
-                      "id": "k_luftbild2010_rgb:0",
-                      "name": "Digitale farbige Orthophotos 2010 (DOP25RGB)",
+					  "id": "Luft_1989"
+					  "name": "Luftbild 1989",
                       "visibility": false
                     },
                     {
-                      "id": "k_luftbild2011_20:0",
-                      "name": "Digitale farbige Orthophotos 2011 (DOP20RGB)",
+					  "id": "Luft_1990"
+					  "name": "Luftbild 1990",
                       "visibility": false
                     },
                     {
-                      "id": "k_luftbild2013:0",
-                      "name": "Digitale farbige Trueorthophotos 2013",
+					  "id": "Luft_2002"
+					  "name": "Luftbild 2002",
                       "visibility": false
                     },
                     {
-                      "id": "k_luftbild2014:0",
-                      "name": "Digitale farbige Orthophotos 2014 (DOP20RGB)",
-                      "visibility": false
-		    },
-                    {
-                      "id": "k_luftbild2015_rgb:0",
-                      "name": "Luftbilder 2015 (Orthophotos)",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
-                    },
-                    {
-                      "id": "k_luftbild2016_rgb:0",
-                      "name": "Digitale farbige Orthophotos 2016 (DOP20RGB)",
+					  "id": "Luft_2004"
+					  "name": "Luftbild 2004",
                       "visibility": false
                     },
                     {
-                      "id": "k_luftbild2017_rgb:0",
-                      "name": "Digitale farbige Orthophotos 2017 (DOP20RGB)",
+					  "id": "Luft_2006"
+					  "name": "Luftbild 2006",
                       "visibility": false
                     },
                     {
-                      "id": "k_luftbild2018_rgb:0",
-                      "name": "Digitale farbige Orthophotos 2018 (DOP20RGB)",
-                      "visibility": false,
-                      "type": "layer",
-                      "typ": "wms"
-                    },
-                    {
-                      "id": "k_luftbild2019_rgb:0",
-                      "name": "Digitale farbige Orthophotos 2019 (DOP20RGB)",
+					  "id": "Luft_2007"
+					  "name": "Luftbild 2007",
                       "visibility": false
                     },
                     {
-                      "id": "k_luftbild2020_rgb:0",
-                      "name": "Digitale farbige Orthophotos 2020 (DOP20RGB)",
+					  "id": "Luft_2009"
+					  "name": "Luftbild 2009",
                       "visibility": false
                     },
                     {
-                      "id": "k_luftbild2021_rgb:0",
-                      "name": "Digitale farbige Orthophotos 2021 (DOP20RGBI)",
+					  "id": "Luft_2010"
+					  "name": "Luftbild 2010",
                       "visibility": false
                     },
                     {
-                      "id": "k_luftbild2022_true_rgbi:0",
-                      "name": "Digitale farbige TrueOrthophotos 2022 (DOP20RGBI)",
+					  "id": "Luft_2011"
+					  "name": "Luftbild 2011",
                       "visibility": false
                     },
                     {
-                      "id": "truedop_2023:truedop_2023",
-                      "name": "Digitale farbige TrueOrthophotos 2023 (DOP20RGBI)",
-                      "visibility": false
-                    },
-		    {
-                      "id": "Luft_23_10",
-                      "name": "Luftbilder 2023 (DOP10RGBI)",
+					  "id": "Luft_2014"
+					  "name": "Luftbild 2014",
                       "visibility": false
                     },
                     {
-                      "id": "truedop_2024:truedop_2024",
-                      "name": "Digitale farbige TrueOrthophotos 2024 (DOP20RGBI)",
+					  "id": "Luft_2015"
+					  "name": "Luftbild 2015",
                       "visibility": false
                     },
-		    {
-                      "id": "Luft_24_10",
-                      "name": "Luftbilder 2024 (DOP10RGBI)",
+                    {
+					  "id": "Luft_2016"
+					  "name": "Luftbild 2016",
                       "visibility": false
-                      
+                    },
+                    {
+					  "id": "Luft_2017"
+					  "name": "Luftbild 2017",
+                      "visibility": false
+                    },
+                    {
+					  "id": "Luft_2018"
+					  "name": "Luftbild 2018",
+                      "visibility": false
+                    },
+					{
+					  "id": "Luft_2019"
+					  "name": "Luftbild 2019",
+                      "visibility": false
+                    },
+                    {
+					  "id": "Luft_2020"
+					  "name": "Luftbild 2020",
+                      "visibility": false
+                    },
+		    		{
+					  "id": "Luft_2021"
+					  "name": "Luftbild 2021",
+                      "visibility": false
+                    },
+					{
+					  "id": "Luft_2022"
+					  "name": "Luftbild 2022",
+                      "visibility": false
+                    },
+					{
+					  "id": "Luft_2023"
+					  "name": "Luftbild 2023",
+                      "visibility": false
+                    },
+					{
+					  "id": "Luft_2023_10"
+					  "name": "Luftbild 2023 (DOP 10)",
+                      "visibility": false
+                    },
+					{
+					  "id": "Luft_2024"
+					  "name": "Luftbild 2024",
+                      "visibility": false
+                    },
+					{
+					  "id": "Luft_2024_10"
+					  "name": "Luftbild 2024 (DOP 10)",
+                      "visibility": false
                     }
                 ]
             },
-	      {
+	    {
 		"name": "3D Daten",
 		"type": "folder",
 		"elements": [
@@ -864,64 +1003,62 @@
 			"visibility": false
 			}			
 			]
-		},	      
-            {   
-		"id": [ "strassenbefahrung:aa_verkehrszeichen", "strassenbefahrung:ab_touchpoint", "strassenbefahrung:ac_trinkwasserbrunnen_wasserspender", "strassenbefahrung:ad_uhr", "strassenbefahrung:ae_viz_infotafel", "strassenbefahrung:af_wasserpumpen_brunnen", "strassenbefahrung:ag_werbesaeule", "strassenbefahrung:ah_abfallbehaelter_muellbox", "strassenbefahrung:ai_anforderungstaster_radverkehr", "strassenbefahrung:aj_anlegestelle", "strassenbefahrung:al_durchfahrtshoehe", "strassenbefahrung:am_fahnenmast", "strassenbefahrung:an_fahrbahnmarkierung_piktogramm", "strassenbefahrung:ao_gebaeudeeingang", "strassenbefahrung:ap_handsteuergeraet_lsa", "strassenbefahrung:aq_hydrant", "strassenbefahrung:ar1_kabelkasten", "strassenbefahrung:ar_kanaldeckel", "strassenbefahrung:as_mast", "strassenbefahrung:at_mast_lsa", "strassenbefahrung:au_parkscheinautomat", "strassenbefahrung:av_poller", "strassenbefahrung:aw_spielgeraet", "strassenbefahrung:ax_strassensinkkasten", "strassenbefahrung:ay_streugutbehaelter", "strassenbefahrung:az_taxirufsaeule", "strassenbefahrung:ba_telefonzelle_telefonstele", "strassenbefahrung:bb_verkehrsschutzgitter", "strassenbefahrung:bc_aufmerksamkeitsstreifen", "strassenbefahrung:bd_bordstein", "strassenbefahrung:be_fahrbahnmarkierunglinie", "strassenbefahrung:bf_gelaender", "strassenbefahrung:bg_leitplanke", "strassenbefahrung:bh_mauer", "strassenbefahrung:bi_schranke", "strassenbefahrung:bj_sitzbank", "strassenbefahrung:bk_strassenbegrenzung", "strassenbefahrung:bl_strassenentwaesserungsrinne", "strassenbefahrung:bm_zugangsbauwerk", "strassenbefahrung:bn_baumscheibe", "strassenbefahrung:bo_denkmal", "strassenbefahrung:bp_fahrbahnmarkierung_flaeche", "strassenbefahrung:bq_fahrradstaender", "strassenbefahrung:br_fahrgastunterstand", "strassenbefahrung:bs_induktionsschleife", "strassenbefahrung:bt_kabelschacht", "strassenbefahrung:bu1_kleinbauten_sondernutzung", "strassenbefahrung:bu_recycling_container", "strassenbefahrung:bv_springbrunnen_zierbrunnen", "strassenbefahrung:bw_aufmerksamkeitsfeld", "strassenbefahrung:bx_fahrbahnschwelle", "strassenbefahrung:by_gehwegueberfahrt", "strassenbefahrung:bz_gleiskoerper_strab", "strassenbefahrung:ca_haltebereich_bus", "strassenbefahrung:cb_haltestellenwartebereich", "strassenbefahrung:cc_treppe", "strassenbefahrung:cd_rampe", "strassenbefahrung:ce_gruenflaeche", "strassenbefahrung:cf_trennstreifen", "strassenbefahrung:cg_baustelle", "strassenbefahrung:ch_radweg", "strassenbefahrung:ci_oeffentlicher_platz", "strassenbefahrung:cj_fussgaengerzone", "strassenbefahrung:ck_parkflaeche", "strassenbefahrung:cl_gehweg", "strassenbefahrung:cm_fahrbahn"],       
-                "name": "Straßenbefahrung 2014",
-		"showInLayerTree": false,		
-                "visibility": false,
-                "typ": "GROUP"
-            },	   	    
-	   {
-                "id": ["Verkehrslage", "Baustellen_OCIT"], 
-		"name": "Verkehrslage",
-                "visibility": false,
-                "typ": "GROUP",
-		"children" :[
+		},
+		{
+		"name": "weitere Themen",
+		"type": "folder",
+		"elements": [
+			{   
+			"id": [ "strassenbefahrung:aa_verkehrszeichen", "strassenbefahrung:ab_touchpoint", "strassenbefahrung:ac_trinkwasserbrunnen_wasserspender", "strassenbefahrung:ad_uhr", "strassenbefahrung:ae_viz_infotafel", "strassenbefahrung:af_wasserpumpen_brunnen", "strassenbefahrung:ag_werbesaeule", "strassenbefahrung:ah_abfallbehaelter_muellbox", "strassenbefahrung:ai_anforderungstaster_radverkehr", "strassenbefahrung:aj_anlegestelle", "strassenbefahrung:al_durchfahrtshoehe", "strassenbefahrung:am_fahnenmast", "strassenbefahrung:an_fahrbahnmarkierung_piktogramm", "strassenbefahrung:ao_gebaeudeeingang", "strassenbefahrung:ap_handsteuergeraet_lsa", "strassenbefahrung:aq_hydrant", "strassenbefahrung:ar1_kabelkasten", "strassenbefahrung:ar_kanaldeckel", "strassenbefahrung:as_mast", "strassenbefahrung:at_mast_lsa", "strassenbefahrung:au_parkscheinautomat", "strassenbefahrung:av_poller", "strassenbefahrung:aw_spielgeraet", "strassenbefahrung:ax_strassensinkkasten", "strassenbefahrung:ay_streugutbehaelter", "strassenbefahrung:az_taxirufsaeule", "strassenbefahrung:ba_telefonzelle_telefonstele", "strassenbefahrung:bb_verkehrsschutzgitter", "strassenbefahrung:bc_aufmerksamkeitsstreifen", "strassenbefahrung:bd_bordstein", "strassenbefahrung:be_fahrbahnmarkierunglinie", "strassenbefahrung:bf_gelaender", "strassenbefahrung:bg_leitplanke", "strassenbefahrung:bh_mauer", "strassenbefahrung:bi_schranke", "strassenbefahrung:bj_sitzbank", "strassenbefahrung:bk_strassenbegrenzung", "strassenbefahrung:bl_strassenentwaesserungsrinne", "strassenbefahrung:bm_zugangsbauwerk", "strassenbefahrung:bn_baumscheibe", "strassenbefahrung:bo_denkmal", "strassenbefahrung:bp_fahrbahnmarkierung_flaeche", "strassenbefahrung:bq_fahrradstaender", "strassenbefahrung:br_fahrgastunterstand", "strassenbefahrung:bs_induktionsschleife", "strassenbefahrung:bt_kabelschacht", "strassenbefahrung:bu1_kleinbauten_sondernutzung", "strassenbefahrung:bu_recycling_container", "strassenbefahrung:bv_springbrunnen_zierbrunnen", "strassenbefahrung:bw_aufmerksamkeitsfeld", "strassenbefahrung:bx_fahrbahnschwelle", "strassenbefahrung:by_gehwegueberfahrt", "strassenbefahrung:bz_gleiskoerper_strab", "strassenbefahrung:ca_haltebereich_bus", "strassenbefahrung:cb_haltestellenwartebereich", "strassenbefahrung:cc_treppe", "strassenbefahrung:cd_rampe", "strassenbefahrung:ce_gruenflaeche", "strassenbefahrung:cf_trennstreifen", "strassenbefahrung:cg_baustelle", "strassenbefahrung:ch_radweg", "strassenbefahrung:ci_oeffentlicher_platz", "strassenbefahrung:cj_fussgaengerzone", "strassenbefahrung:ck_parkflaeche", "strassenbefahrung:cl_gehweg", "strassenbefahrung:cm_fahrbahn"],       
+            "name": "Straßenbefahrung 2014",
+			"showInLayerTree": false,		
+            "visibility": false,
+            "typ": "GROUP"
+            },
+			{
+            "id": ["Verkehrslage", "Baustellen_OCIT"], 
+			"name": "Verkehrslage",
+            "visibility": false,
+            "typ": "GROUP",
+			"children" :[
         		{
-            		"id": "Verkehrslage",
-            		"visibility": false,                	
-            		"typ": "WMS"
+            	"id": "Verkehrslage",
+            	"visibility": false            	
         		},
         		{
-            		"id": "Baustellen_OCIT",			
-            		"styleId": "Baustellen_OCIT",
-			"visibility": false, 
-            		"typ": "geoJSON"
+            	"id": "Baustellen_OCIT",			
+            	"styleId": "Baustellen_OCIT",
+				"visibility": false
         		}
 			]
-           },	  
-	    {   
-		"id": [ "alkis_pankow_fh", "alkis_pankow_gh", "alkis_pankow_bh", "alkis_pankow_fe", "alkis_pankow_ge", "alkis_pankow_pe", "alkis_pankow_be", "alkis_pankow_fb", "alkis_pankow_gb", "alkis_pankow_bb", "alkis_pankow_lt", "alkis_pankow_pt", "alkis_pankow_bt", "alkis_pankow_fw", "alkis_pankow_gw", "alkis_pankow_lw", "alkis_pankow_pw", "alkis_pankow_bw", "alkis_pankow_fs", "alkis_pankow_gs", "alkis_pankow_ps", "alkis_pankow_bs", "alkis_pankow_fi", "alkis_pankow_gi", "alkis_pankow_pi", "alkis_pankow_bi", "alkis_pankow_fv", "alkis_pankow_gv", "alkis_pankow_lv", "alkis_pankow_bv", "alkis_pankow_fg", "alkis_pankow_gr", "alkis_pankow_br", "alkis_pankow_gff", "alkis_pankow_lfn", "alkis_pankow_lff", "alkis_pankow_bfn", "alkis_pankow_lp", "alkis_pankow_bll"],       
-                "name": "Alkis Pankow",
-		"showInLayerTree": false,		
-                "visibility": false,
-                "typ": "GROUP"
-            },
-	  {
-              "id": "360grad",
-              "name": "360 Grad Fotos",
-              "styleId": "360grad",
-              "visibility": false
-            },
-	    {                
-                "name": "ÖPNV",
-		"showInLayerTree": false,		
-                "visibility": false,
-                "type": "folder",
-                "elements": [
+			},
 			{
-              		"id": "sbu_u_bahn",
-              		"visibility": false
-            		},
-			{
-              		"id": ["tramlinien", "tramstopp"],
-			"name": "Straßenbahn",
-              		"visibility": false,
-			"typ": "GROUP"
-            		}
-		]
-	    }
+            "id": "360grad",
+            "name": "360 Grad Fotos",
+            "styleId": "360grad",
+            "visibility": false
+            },
+			{                
+            "name": "ÖPNV",
+			"showInLayerTree": false,		
+            "visibility": false,
+            "type": "folder",
+            "elements": [
+				{
+              	"id": "sbu_u_bahn",
+              	"visibility": false
+            	},
+				{
+              	"id": ["tramlinien", "tramstopp"],
+				"name": "Straßenbahn",
+              	"visibility": false,
+				"typ": "GROUP"
+            	}
+						]
+			}			
+					]
+		}	   	  
+	    	    
 	      
         ]
      
