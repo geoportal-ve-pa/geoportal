@@ -5749,7 +5749,7 @@
   },
 	{
         "id": "wetterlage",
-        "name": "Wetterlage",
+        "name": "Wetter Niederschlag aktuell",
         "url": "https://maps.dwd.de/geoserver/dwd/wms?request=GetCapabilities&service=wms&version=1.3.0",
         "typ": "WMS",
         "layers": "dwd:Niederschlagsradar",
