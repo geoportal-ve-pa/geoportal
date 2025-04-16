@@ -682,37 +682,30 @@
                 "elements": [
                     		{
                       		"id": "Bezug_Grenze_Berlin",
-							"showInLayerTree": false,
                       		"visibility": true
                     		},
 							{
                       		"id": "Bezug_Grenze_Pankow",
-							"showInLayerTree": false,
                       		"visibility": true
                     		},
 							{
                       		"id": "Bezug_Ortsteile_Pankow",
-							"showInLayerTree": false,
                       		"visibility": false
                     		},
 							{
                       		"id": "Bezug_Prognoseräume_Berlin",
-							"showInLayerTree": false,
                       		"visibility": false
                     		},
 							{
                       		"id": "Bezug_Bezirksregionen_Berlin",
-							"showInLayerTree": false,
                       		"visibility": false
                     		},
 							{
                       		"id": "Bezug_Planungsräume_Berlin",
-							"showInLayerTree": false,
                       		"visibility": false
                     		},
 							{
                       		"id": "Bezug_Blöcke_Berlin",
-							"showInLayerTree": false,
                       		"visibility": false
                     		}
                 	    ]
@@ -723,136 +716,124 @@
                 "elements": [
                     		{
                       		"id": "bd_wahllokale",
-							"showInLayerTree": false,
-                      		"visibility": true
+                      		"visibility": false
                     		},
 							{
                       		"id": "bd_wahlkreise_abgeordnetenhaus",
-							"showInLayerTree": false,
-                      		"visibility": true
+                      		"visibility": false
                     		},
 							{
                       		"id": "bd_wahlbezirke_abgeordnetenhaus",
-							"showInLayerTree": false,
                       		"visibility": false
                     		},
 							{
                       		"id": "bd_wahlbezirke_bundestagswahl",
-							"showInLayerTree": false,
                       		"visibility": false
                     		}
                 	    ]
             },
 			{                
                 "name": "Clusterung",
+				"type": "folder",
                 "elements": [
                     		{
                       		"id": "cluster_flurstuecke",
-							"showInLayerTree": false,
                       		"visibility": false
                     		},
 							{
                       		"id": "cluster_pankow",
-							"showInLayerTree": false,
                       		"visibility": false
               }
               ]
             },
 			{                
                 "name": "Jugendamt",
+				"type": "folder",
                 "elements": [
                     		{
                       		"id": "kindertagesstaetten",
-							"showInLayerTree": false,
                       		"visibility": false
                     		}
                       ]
             },
 			{                
                 "name": "Ordnungsamt",
+				"type": "folder",
                 "elements": [
                     		{
                       		"id": "parkraumbewirtschaftung",
-							"showInLayerTree": false,
                       		"visibility": false
                     		}
                       ]
             },
 			{                
                 "name": "Straßenrecht",
+				"type": "folder",
                 "elements": [
                     		{
                       		"id": "klass_str_recht",
-							"showInLayerTree": false,
                       		"visibility": false
                     		}
                       ]
             },
 			{                
                 "name": "Straßen- und Grünflächenamt",
+				"type": "folder",
                 "elements": [
                     		{
                       		"id": "sga_gruenanlage",
-							"showInLayerTree": false,
                       		"visibility": false
                     		},
 							{
                       		"id": "sga_inspektionen",
-							"showInLayerTree": false,
                       		"visibility": false
                     		},
 							{
                       		"id": "sga_reviere",
-							"showInLayerTree": false,
                       		"visibility": false
                     		},
 							{
                       		"id": "sga_revierstandorte",
-							"showInLayerTree": false,
                       		"visibility": false
                     		},
 							{
                       		"id": "sga_spielplaetze",
-							"showInLayerTree": false,
                       		"visibility": false
                     		},
 							{
                       		"id": "sga_widmung",
-							"showInLayerTree": false,
                       		"visibility": false
                     		}
                       ]
             },
 			{                
                 "name": "Umwelt- und Naturschutz",
+				"type": "folder",
                 "elements": [
                     		{
                       		"id": "schutzgebiete_naturschutzrecht",
-							"showInLayerTree": false,
-                      		"visibility": true
+                      		"visibility": false
                     		}
                       ]
             },
 			{                
                 "name": "ALKIS",
+				"type": "folder",
                 "elements": [
                     		{   
 							"id": [ "alkis_pankow_fh", "alkis_pankow_gh", "alkis_pankow_bh", "alkis_pankow_fe", "alkis_pankow_ge", "alkis_pankow_pe", "alkis_pankow_be", "alkis_pankow_fb", "alkis_pankow_gb", "alkis_pankow_bb", "alkis_pankow_lt", "alkis_pankow_pt", "alkis_pankow_bt", "alkis_pankow_fw", "alkis_pankow_gw", "alkis_pankow_lw", "alkis_pankow_pw", "alkis_pankow_bw", "alkis_pankow_fs", "alkis_pankow_gs", "alkis_pankow_ps", "alkis_pankow_bs", "alkis_pankow_fi", "alkis_pankow_gi", "alkis_pankow_pi", "alkis_pankow_bi", "alkis_pankow_fv", "alkis_pankow_gv", "alkis_pankow_lv", "alkis_pankow_bv", "alkis_pankow_fg", "alkis_pankow_gr", "alkis_pankow_br", "alkis_pankow_gff", "alkis_pankow_lfn", "alkis_pankow_lff", "alkis_pankow_bfn", "alkis_pankow_lp", "alkis_pankow_bll"],       
-							"name": "Alkis Pankow",
-							"showInLayerTree": false,		
+							"name": "Alkis Pankow",		
 							"visibility": false,
 							"typ": "GROUP"
 							},
 							{
                       		"id": "Alkis_Fis",
 							"name": "Alkis Berlin Farbe",
-							"showInLayerTree": false,
                       		"visibility": false
                     		},
 							{
                       		"id": "Alkis_sw_Fis",
 							"name": "Alkis Berlin SW",
-							"showInLayerTree": false,
                       		"visibility": false
                     		}
                       ]
