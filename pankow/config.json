@@ -1056,6 +1056,11 @@
 			{
 			"id": "wetterlage",
 			"visibility": false
+			},
+			{
+			"id": "maske",
+			"visibility": true,
+			"isNeverVisibleInTree": true
 			}
 					]
 		}	   	  
