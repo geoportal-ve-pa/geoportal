@@ -1060,7 +1060,7 @@
 			{
 			"id": "maske",
 			"visibility": true,
-			"styleId": "Maske.style",
+			"styleId": "Grundbuch.style",
 			"isNeverVisibleInTree": true
 			}
 					]
