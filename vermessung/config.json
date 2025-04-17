@@ -718,10 +718,23 @@
                 "name": "Verm 1",
 				"type": "folder",
                 "elements": [
+				{
+                      		"id": "verm1_homogenisierung",
+                      		"visibility": false
+                    		},
+				{
+                      		"id": "verm1_flurgrenze_2020",
+                      		"visibility": false
+                    		},
+				{
+                      		"id": "verm1_kilometerquadrate",
+                      		"visibility": false
+                    		},
                     		{
                       		"id": "verm1_verschmelzung",
                       		"visibility": false
                     		}
+			
                       ]
             },
 			{                
