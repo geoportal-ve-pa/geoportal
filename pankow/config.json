@@ -37,19 +37,10 @@
 		"totalView": true,
 		"startModule":{ 
 			"mainMenu": [
-        			{
-            			"type": "scaleSwitcher"
-        			}
+        			
     				],
     			"secondaryMenu": [
-        			{            			
-            			"type": "coordToolkit",
-            			"heightLayerId": "19173",
-            			"heightElementName": "value_0",
-            			"heightValueWater": "-20",
-            			"heightValueBuilding": "200",
-            			"zoomLevel": 3          
-        			}
+        			
     				]
 			}
       		}
@@ -256,37 +247,7 @@
       "expanded": false,
 		
       "sections": [
-        [		 		
-          {
-            "type": "wfst",
-            "name": "WFS-T Tool",
-            "layerIds": [
-              "lgvline",
-              "lgvpoint",
-              "lgvpolygon"
-            ],
-            "toggleLayer": false,
-            "lineButton": [
-              {
-                "layerId": "lgvline",
-                "available": true
-              }
-            ],
-            "pointButton": [
-              {
-                "layerId": "lgvpoint",
-                "available": true
-              }
-            ],
-            "polygonButton": [
-              {
-                "layerId": "lgvpolygon",
-                "available": true
-              }
-            ],
-            "update": "Bearbeiten!",
-            "delete": true
-          },
+        [	          
 	{
     	"type": "modeler3D",
     	"gmlIdPath": "gmlId",
@@ -330,143 +291,7 @@
             "gfi": false,                        
             "legendText": "Legende",                                    
             "dpiForPdf": 90
-          },
-          {
-                        "type": "routing",
-                        "activeRoutingToolOption": "DIRECTIONS",
-                        "routingToolOptions": [
-                            "DIRECTIONS",
-                            "ISOCHRONES"
-                        ],
-                        "download": {
-                            "filename": "",
-                            "format": "GEOJSON"
-                        },
-                        "geosearch": {
-                            "type": "GAZETTEER",
-                            "serviceId": "wfsghb"
-                        },
-                        "geosearchReverse": {
-                            "type": "BKG",
-                            "serviceId": "bkgSuggest"
-                        },
-                        "directionsSettings": {
-                            "type": "ORS",
-                            "serviceId": "bkg_ors",
-                            "speedProfile": "CAR",
-                            "preference": "RECOMMENDED",
-                            "styleRoute": {
-                                "fillColor": [
-                                    255,
-                                    44,
-                                    0
-                                ],
-                                "width": 6,
-                                "highlightColor": [
-                                    255,
-                                    255,
-                                    255
-                                ],
-                                "highlightWidth": 9,
-                                "partHighlightColor": [
-                                    255,
-                                    255,
-                                    255
-                                ],
-                                "partHighlightWidth": 3
-                            },
-                            "styleWaypoint": {
-                                "lineColor": [
-                                    255,
-                                    127,
-                                    0
-                                ],
-                                "lineWidth": 4,
-                                "fillColor": [
-                                    255,
-                                    127,
-                                    0
-                                ],
-                                "textFillColor": "#000",
-                                "textLineColor": "#fff",
-                                "textLineWidth": 3,
-                                "opacity": 0.3,
-                                "radius": 8
-                            },
-                            "styleAvoidAreas": {
-                                "lineColor": [
-                                    0,
-                                    127,
-                                    255
-                                ],
-                                "lineWidth": 2,
-                                "fillColor": [
-                                    0,
-                                    127,
-                                    255
-                                ],
-                                "opacity": 0.3,
-                                "pointRadius": 8,
-                                "pointLineWidth": 4
-                            },
-                            "batchProcessing": {
-                                "enabled": true,
-                                "active": false,
-                                "limit": 1000,
-                                "maximumConcurrentRequests": 10
-                            }
-                        },
-                        "isochronesSettings": {
-                            "type": "ORS",
-                            "serviceId": "bkg_ors",
-                            "speedProfile": "CAR",
-                            "isochronesMethodOption": "TIME",
-                            "distanceValue": 30,
-                            "minDistance": 1,
-                            "maxDistance": 400,
-                            "timeValue": 30,
-                            "minTime": 1,
-                            "maxTime": 180,
-                            "intervalValue": 15,
-                            "minInterval": 3,
-                            "maxInterval": 30,
-                            "styleCenter": {
-                                "lineColor": [
-                                    255,
-                                    127,
-                                    0
-                                ],
-                                "lineWidth": 4,
-                                "fillColor": [
-                                    255,
-                                    127,
-                                    0
-                                ],
-                                "opacity": 0.3,
-                                "radius": 8
-                            },
-                            "styleIsochrones": {
-                                "lineWidth": 2,
-                                "opacity": 0.65,
-                                "startColor": [
-                                    66,
-                                    245,
-                                    78
-                                ],
-                                "endColor": [
-                                    245,
-                                    66,
-                                    66
-                                ]
-                            },
-                            "batchProcessing": {
-                                "enabled": true,
-                                "active": false,
-                                "limit": 1000,
-                                "maximumConcurrentRequests": 3
-                            }
-                        }
-                    },
+          },          
           {
             "type": "scaleSwitcher"
           },
@@ -493,12 +318,10 @@
             "zoomLevel": 3
           },
           {
-            "type": "bufferAnalysis"
-          },
-          {
             "type": "layerSlider",
             "name": "Luftbilder",
-            "title": "Zeitreise durch die Luftbilder",
+            "timeInterval": 3000,
+            "title": "Luftbilder: Zeitreihe 1928 - 2024",
             "layerIds": [
               {
                 "title": "Luftbild 1928",
