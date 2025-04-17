@@ -765,8 +765,24 @@
                       		"id": "verm2_lp_eintragung_grunddienstbarkeit",
                       		"visibility": false
                     		},
+				{
+                      		"id": "verm2_lp_teilflaechenermittlung",
+                      		"visibility": false
+                    		},
+				{
+                      		"id": "verm2_lp_erwerb",
+                      		"visibility": false
+                    		},
                     		{
                       		"id": "verm2_bebauungsplaene",
+                      		"visibility": false
+                    		},
+				{
+                      		"id": "verm2_straßenbestand_extern",
+                      		"visibility": false
+                    		},
+				{
+                      		"id": "verm2_straßenbestand",
                       		"visibility": false
                     		}
 			
