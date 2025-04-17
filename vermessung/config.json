@@ -753,6 +753,18 @@
                       		"id": "verm2_lp_rückverfolgung",
                       		"visibility": false
                     		},
+				{
+                      		"id": "verm2_lp_bestellung_erbbaurecht",
+                      		"visibility": false
+                    		},
+				{
+                      		"id": "verm2_lp_eintragung_baulast",
+                      		"visibility": false
+                    		},
+				{
+                      		"id": "verm2_lp_eintragung_grunddienstbarkeit",
+                      		"visibility": false
+                    		},
                     		{
                       		"id": "verm2_bebauungsplaene",
                       		"visibility": false
