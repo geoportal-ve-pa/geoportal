@@ -320,7 +320,7 @@
           {
             "type": "layerSlider",
             "name": "Luftbilder",
-	    "timeInterval": 2000,
+	    "timeInterval": 3000,
             "title": "Luftbilder: Zeitreihe 2024 - 1928",
             "layerIds": [
               {
