@@ -741,10 +741,23 @@
                 "name": "Verm 2",
 				"type": "folder",
                 "elements": [
+				{
+                      		"id": "verm2_absteckung_str",
+                      		"visibility": false
+                    		},
+				{
+                      		"id": "verm2_absteckung_geb",
+                      		"visibility": false
+                    		},
+				{
+                      		"id": "verm2_lp_rückverfolgung",
+                      		"visibility": false
+                    		},
                     		{
                       		"id": "verm2_bebauungsplaene",
                       		"visibility": false
                     		}
+			
                       ]
             },			
 			{                
