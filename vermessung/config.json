@@ -784,8 +784,19 @@
 				{
                       		"id": "verm2_straßenbestand",
                       		"visibility": false
-                    		}
-			
+                    		},
+				{
+                      		"id": "verm2_lageplan_extern",
+                      		"visibility": false
+                    		},
+				{
+                      		"id": "verm2_lageplan",
+                      		"visibility": false
+                    		},
+				{
+                      		"id": "verm2_lageplan_bauantrag",
+                      		"visibility": false
+                    		}			
                       ]
             },			
 			{                
