@@ -329,7 +329,8 @@
           {
             "type": "layerSlider",
             "name": "Luftbilder",
-            "title": "Zeitreise durch die Luftbilder",
+	    "timeInterval": 2000,
+            "title": "Luftbilder: Zeitreihe 2024 - 1928",
             "layerIds": [
               {
                 "title": "Luftbild 1928",
