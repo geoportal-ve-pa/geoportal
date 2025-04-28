@@ -287,6 +287,46 @@
                         "dpiForPdf": 90
                     },
                     {
+                        "type": "featureLister",
+                        "name": "Liste zu Vector Dienst",
+                        "description": "Liste alle Einträge zu einem VEctor - Layer auf",
+                        "icon": "bi-list",
+                        "maxFeatures": 10,
+                        "highlightVectorRulesPolygon": {
+                            "fill": {
+                                "color": [
+                                    255,
+                                    0,
+                                    255,
+                                    0.9
+                                ]
+                            },
+                            "stroke": {
+                                "width": 4,
+                                "color": [
+                                    0,
+                                    0,
+                                    204,
+                                    0.9
+                                ]
+                            }
+                        },
+                        "highlightVectorRulesPointLine": {
+                            "stroke": {
+                                "width": 8,
+                                "color": [
+                                    255,
+                                    0,
+                                    255,
+                                    0.9
+                                ]
+                            },
+                            "image": {
+                                "scale": 2
+                            }
+                        }
+                    },
+                    {
                         "type": "scaleSwitcher"
                     },
                     {
@@ -406,6 +446,11 @@
                             }
 
                         ]
+                    },
+                    {
+                        "name": "Zeichnen / Schreiben",
+                        "icon": "bi-pencil-fill",
+                        "type": "draw_old"
                     }
                 ]
             ]
