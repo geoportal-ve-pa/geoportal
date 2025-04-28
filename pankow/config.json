@@ -583,7 +583,24 @@
                     "elements": [{
                         "id": "schu_spo_pl_einschul_23_24",
                         "visibility": false
-                    }]
+                                },
+                                {
+                        "id": "schu_spo_einschul_22_23",
+                        "visibility": false
+                                },
+                                {
+                        "id": "schu_spo_einschul_21_22",
+                        "visibility": false
+                                },
+                                {
+                        "id": "schu_spo_einschul_20_21",
+                        "visibility": false
+                                },
+                                {
+                        "id": "schu_spo_einschul_18_19",
+                        "visibility": false
+                                }
+                    ]
                 },
                 
                 {
