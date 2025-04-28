@@ -2494,6 +2494,8 @@
     }, 
     {
         "id": "schu_spo_schul_öff_2023_04_17",
+        "name": "Schulen_öffentlich_2023_04_17",
+        "name_lang": "Schulen_öffentlich_2023_04_17",
         "url": "../resources/geojson/Schulen_öffentlich_2023_04_17.geojson",
         "typ": "GeoJSON",
         "gfiAttributes": {
