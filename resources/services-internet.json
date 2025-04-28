@@ -2518,7 +2518,7 @@
         "gfiTheme": "default"
     },
         {
-        "id": "schu_spo_schul_priv_2023_04_17",
+        "id": "schu_spo_schul_priv_2023_04_17_KILL",
         "name": "Private Schulen (Stand:17.04.2023)",
         "name_lang": "Private Schulen (Stand:17.04.2023)",
         "url": "https://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin2/qgis_mapserv.fcgi.exe?MAP=D:/GIS-Daten/SchulSport/Schulen.qgz&",
@@ -2542,7 +2542,32 @@
         "gfiTheme": "default",
         "cache": true,
         "featureCount": "1"
-    }, 
+    },
+{
+        "id": "schu_spo_schul_priv_2023_04_17",
+        "name": "Private Schulen (Stand:17.04.2023)",
+        "name_lang": "Private Schulen (Stand:17.04.2023)",
+        "url": "../resources/geojson/Schulen_privat_2023_04_17.geojson",
+        "typ": "GeoJSON",
+        "gfiAttributes": {
+            "bsn": "Schulnummer",
+            "name": "Schulname",
+            "Schulart": "Schulart",
+            "traeger": "Träger",
+            "schultyp": "Schultyp",
+            "bezirk": "Bezirk",
+            "ortsteil": "Ortsteil",
+            "plz": "PLZ",
+            "strasse": "Straße",
+            "hausnr": "Hausnummer",
+            "telefon": "Telefon",
+            "fax": "Telefax",
+            "email": "E-Mail",
+            "internet": "Link"
+        },
+        "legend": "ignore",
+        "gfiTheme": "default"
+    },
     {
         "id": "klass_str_recht",
         "name": "Klassifizierung nach Straßenrecht (Aug. 2024)",
