@@ -292,7 +292,6 @@
                                             "literals": [
                                                 {
                                                     "field": {
-                                                        "suggestions": "false",
                                                         "type": "equal",
                                                         "fieldName": "gmk",
                                                         "inputLabel": "Gemarkung",
@@ -303,7 +302,6 @@
                                                 },
                                                 {
                                                     "field": {
-                                                        "suggestions": "false",
                                                         "type": "equal",
                                                         "fieldName": "fln",
                                                         "inputLabel": "Flurnummer",
@@ -313,7 +311,6 @@
                                                 },
                                                 {
                                                     "field": {
-                                                        "suggestions": "false",
                                                         "type": "equal",
                                                         "fieldName": "zae",
                                                         "inputLabel": "Flurstücksnummer",
