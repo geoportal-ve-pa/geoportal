@@ -46,5 +46,11 @@
     "name": "Elastic Prod",
     "url": "https://geodienste.hamburg.de/layers/_search/template",
     "typ": "Search"
+  },
+{
+    "id": "alkis_flurstuecke:rest:flurstuecke",
+    "name": "Flurstücksuche",
+    "url": "https://gdi.berlin.de/services/wfs/alkis_flurstuecke?request=GetFeature&service=WFS&typeName=flurstuecke",
+    "typ": "WFS"
   }
 ]
