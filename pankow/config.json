@@ -296,7 +296,34 @@
                             {
                                 "layerId": "schu_spo_schul_öff_2023_04_17",
                                 "active": true,
-                                "title": "Schulen (Stand:17.04.2023)",
+                                "title": "Öffentliche Schulen (Stand:17.04.2023)",
+                                "strategy": "active",
+                                "searchInMapExtent": true,
+                                "searchInMapExtentInfo": true,
+                                "showHits": true,
+                                "snippetTags": true,
+                                "paging": 1000,
+                                "snippets": [
+                                    {
+                                        "title": "Schulart auswählen",
+                                        "placeholder": "Schulart auswählen",
+                                        "type": "dropdown",
+                                        "multiselect": false,
+                                        "attrName": "schulart"
+                                    },
+                                    {
+                                        "title": "Schulname auswählen",
+                                        "placeholder": "Schulname auswählen",
+                                        "type": "dropdown",
+                                        "multiselect": false,
+                                        "attrName": "name"
+                                    }
+                                ]
+                            },
+                            {
+                                "layerId": "schu_spo_schul_priv_2023_04_17",
+                                "active": true,
+                                "title": "Private Schulen (Stand:17.04.2023)",
                                 "strategy": "active",
                                 "searchInMapExtent": true,
                                 "searchInMapExtentInfo": true,
