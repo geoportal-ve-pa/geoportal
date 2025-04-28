@@ -578,6 +578,15 @@
                     }]
                 },
                 {
+                    "name": "Schul- und Sportamt",
+                    "type": "folder",
+                    "elements": [{
+                        "id": "schu_spo_pl_einschul_23_24",
+                        "visibility": false
+                    }]
+                },
+                
+                {
                     "name": "Straßenrecht",
                     "type": "folder",
                     "elements": [{
