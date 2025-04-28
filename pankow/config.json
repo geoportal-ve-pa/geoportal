@@ -607,6 +607,10 @@
                                 {
                         "id": "schu_spo_schul_sonstiges",
                         "visibility": false
+                                },
+                                {
+                        "id": "schu_spo_schul",
+                        "visibility": false
                                 }
                     ]
                 },
