@@ -317,6 +317,13 @@
                                         "type": "dropdown",
                                         "multiselect": false,
                                         "attrName": "name"
+                                    },
+                                    {
+                                        "title": "Ortsteil auswählen",
+                                        "placeholder": "Ortsteil auswählen",
+                                        "type": "dropdown",
+                                        "multiselect": false,
+                                        "attrName": "ortsteil"
                                     }
                                 ]
                             },
@@ -344,6 +351,13 @@
                                         "type": "dropdown",
                                         "multiselect": false,
                                         "attrName": "name"
+                                    },
+                                    {
+                                        "title": "Ortsteil auswählen",
+                                        "placeholder": "Ortsteil auswählen",
+                                        "type": "dropdown",
+                                        "multiselect": false,
+                                        "attrName": "ortsteil"
                                     }
                                 ]
                             }
