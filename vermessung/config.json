@@ -288,8 +288,8 @@
                     },
                     {
                         "type": "featureLister",
-                        "name": "Liste zu Vector Dienst",
-                        "description": "Liste alle Einträge zu einem VEctor - Layer auf",
+                        "name": "Vector Dienst als Liste anzeigen",
+                        "description": "Liste alle Einträge zu einem Vector - Layer auf",
                         "icon": "bi-list",
                         "maxFeatures": 10,
                         "highlightVectorRulesPolygon": {
