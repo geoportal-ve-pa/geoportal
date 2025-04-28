@@ -309,7 +309,7 @@
                                         "placeholder": "Schulart auswählen",
                                         "type": "dropdown",
                                         "multiselect": false,
-                                        "attrName": "kommune"
+                                        "attrName": "schultyp"
                                     }
                                 ]
                             }
