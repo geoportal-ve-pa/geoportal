@@ -287,6 +287,35 @@
                         "dpiForPdf": 90
                     },
                     {
+                        "type": "filter",
+                        "name": "Filterthemen",
+                        "description": "Filtere hier die Schularten",
+                        "icon": "bi-funnel-fill",
+                        "layerSelectorVisible": true,
+                        "layers": [
+                            {
+                                "layerId": "30023",
+                                "active": true,
+                                "title": "Schulart",
+                                "strategy": "active",
+                                "searchInMapExtent": true,
+                                "searchInMapExtentInfo": true,
+                                "showHits": true,
+                                "snippetTags": true,
+                                "paging": 1000,
+                                "snippets": [
+                                    {
+                                        "title": "Schulart auswählen",
+                                        "placeholder": "Schulart auswählen",
+                                        "type": "dropdown",
+                                        "multiselect": false,
+                                        "attrName": "kommune"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         "type": "scaleSwitcher"
                     },
                     {
