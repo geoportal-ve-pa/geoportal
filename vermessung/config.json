@@ -270,6 +270,65 @@
                         }
                     },
                     {
+                        "name": "Flurstückssuche",
+                        "zoomLevel": 10,
+                        "instances": [
+                            {
+                                "title": "Flurstücksuche",
+                                "resultDialogTitle": "Trefferliste",
+                                "requestConfig": {
+                                    "restLayerId": "alkis_flurstuecke:rest:flurstuecke",
+                                    "maxFeatures": "showAll"
+                                },
+                                "selectSource": "https://gdi.berlin.de/viewer/main/snippets/alkis_flurstuecke/flurstuecke/hierarchie.json",
+                                "literals": [
+                                    {
+                                        "clause": {
+                                            "type": "and",
+                                            "literals": [
+                                    {
+                                        "clause": {
+                                            "type": "and",
+                                            "literals": [
+                                                {
+                                                    "field": {
+                                                        "type": "equal",
+                                                        "fieldName": "gmk",
+                                                        "inputLabel": "Gemarkung",
+                                                        "required": true,
+                                                        "options": "",
+                                                        "usesId": true
+                                                    }
+                                                },
+                                                {
+                                                    "field": {
+                                                        "type": "equal",
+                                                        "fieldName": "fln",
+                                                        "inputLabel": "Flurnummer",
+                                                        "required": true,
+                                                        "options": "fln"
+                                                    }
+                                                },
+                                                {
+                                                    "field": {
+                                                        "type": "equal",
+                                                        "fieldName": "zae",
+                                                        "inputLabel": "Flurstückskennzeichen (Zähler)",
+                                                        "options": "zae"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "type": "wfsSearch"
+                    },
+                    {
                         "type": "legend"
                     },
                     {
