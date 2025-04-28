@@ -310,6 +310,13 @@
                                         "type": "dropdown",
                                         "multiselect": false,
                                         "attrName": "schulart"
+                                    },
+                                    {
+                                        "title": "Schulname auswählen",
+                                        "placeholder": "Schulname auswählen",
+                                        "type": "dropdown",
+                                        "multiselect": false,
+                                        "attrName": "name"
                                     }
                                 ]
                             }
@@ -642,8 +649,17 @@
                         "visibility": false
                                 },
                                 {
-                        "id": "schu_spo_schul_öff_2023_04_17",
-                        "visibility": false
+                                "name": "Schulen (Stand: 17.04.2023)",
+                                "type": "folder",
+                                "elements": [{                                
+                                    "id": "schu_spo_schul_öff_2023_04_17",
+                                    "visibility": false
+                                            },
+                                            {
+                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "visibility": false
+                                            }
+                                ]
                                 }                        
                     ]
                 },
