@@ -280,7 +280,7 @@
                                     "restLayerId": "alkis_flurstuecke:rest:flurstuecke",
                                     "maxFeatures": "showAll"
                                 },
-                                "selectSource": "../resources/geojson/hierarchie.json",
+                                "selectSource": "https://gdi.berlin.de/viewer/main/snippets/alkis_flurstuecke/flurstuecke/hierarchie.json",
                                 "literals": [
                                     {
                                         "clause": {
@@ -302,6 +302,7 @@
                                                 },
                                                 {
                                                     "field": {
+                                                        "suggestions": "false",
                                                         "type": "equal",
                                                         "fieldName": "fln",
                                                         "inputLabel": "Flurnummer",
