@@ -314,7 +314,8 @@
                                                         "type": "equal",
                                                         "fieldName": "zae",
                                                         "inputLabel": "Flurstücksnummer",
-                                                        "required": true
+                                                        "required": true,
+                                                        "options": "zae"
                                                     }
                                                 }
                                             ]
