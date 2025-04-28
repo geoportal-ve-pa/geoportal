@@ -292,6 +292,7 @@
                                             "literals": [
                                                 {
                                                     "field": {
+                                                        "suggestions": "false",
                                                         "type": "equal",
                                                         "fieldName": "gmk",
                                                         "inputLabel": "Gemarkung",
