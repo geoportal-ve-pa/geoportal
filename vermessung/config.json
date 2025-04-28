@@ -311,10 +311,11 @@
                                                 },
                                                 {
                                                     "field": {
+                                                        "suggestions": "false",
                                                         "type": "equal",
                                                         "fieldName": "zae",
-                                                        "inputLabel": "Flurstückskennzeichen (Zähler)",
-                                                        "options": "zae"
+                                                        "inputLabel": "Flurstücksnummer",
+                                                        "required": true
                                                     }
                                                 }
                                             ]
