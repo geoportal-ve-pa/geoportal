@@ -599,6 +599,14 @@
                                 {
                         "id": "schu_spo_einschul_18_19",
                         "visibility": false
+                                },
+                                {
+                        "id": "schu_spo_schulreg_18_19",
+                        "visibility": false
+                                },
+                                {
+                        "id": "schu_spo_schul_sonstiges",
+                        "visibility": false
                                 }
                     ]
                 },
