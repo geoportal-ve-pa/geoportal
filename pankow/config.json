@@ -296,7 +296,7 @@
                             {
                                 "layerId": "schu_spo_schul_öff_2023_04_17",
                                 "active": true,
-                                "title": "Schulart",
+                                "title": "Schulen (Stand:17.04.2023)",
                                 "strategy": "active",
                                 "searchInMapExtent": true,
                                 "searchInMapExtentInfo": true,
@@ -309,7 +309,7 @@
                                         "placeholder": "Schulart auswählen",
                                         "type": "dropdown",
                                         "multiselect": false,
-                                        "attrName": "schultyp"
+                                        "attrName": "schulart"
                                     }
                                 ]
                             }
