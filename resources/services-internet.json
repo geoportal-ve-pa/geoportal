@@ -2467,7 +2467,7 @@
         "featureCount": "1"
     },  
 {
-        "id": "schu_spo_schul_öff_2023_04_17",
+        "id": "schu_spo_schul_öff_2023_04_17_KILL",
         "name": "Schulen_öffentlich_2023_04_17",
         "name_lang": "Schulen_öffentlich_2023_04_17",
         "url": "https://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin2/qgis_mapserv.fcgi.exe?MAP=D:/GIS-Daten/SchulSport/Schulen.qgz&",
@@ -2492,6 +2492,29 @@
         "cache": true,
         "featureCount": "1"
     }, 
+    {
+        "id": "schu_spo_schul_öff_2023_04_17",
+        "url": "../resources/geojson/Schulen_öffentlich_2023_04_17.geojson",
+        "typ": "GeoJSON",
+        "gfiAttributes": {
+            "bsn": "Schulnummer",
+            "name": "Schulname",
+            "Schulart": "Schulart",
+            "traeger": "Träger",
+            "schultyp": "Schultyp",
+            "bezirk": "Bezirk",
+            "ortsteil": "Ortsteil",
+            "plz": "PLZ",
+            "strasse": "Straße",
+            "hausnr": "Hausnummer",
+            "telefon": "Telefon",
+            "fax": "Telefax",
+            "email": "E-Mail",
+            "internet": "Link"
+        },
+        "legend": "ignore",
+        "gfiTheme": "default"
+    },
     {
         "id": "klass_str_recht",
         "name": "Klassifizierung nach Straßenrecht (Aug. 2024)",
