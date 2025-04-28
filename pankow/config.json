@@ -294,7 +294,7 @@
                         "layerSelectorVisible": true,
                         "layers": [
                             {
-                                "layerId": "30023",
+                                "layerId": "schu_spo_schul_öff_2023_04_17",
                                 "active": true,
                                 "title": "Schulart",
                                 "strategy": "active",
@@ -640,7 +640,11 @@
                                 {
                         "id": "schu_spo_schul",
                         "visibility": false
-                                }
+                                },
+                                {
+                        "id": "schu_spo_schul_öff_2023_04_17",
+                        "visibility": false
+                                }                        
                     ]
                 },
                 
