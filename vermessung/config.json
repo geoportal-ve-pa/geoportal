@@ -346,6 +346,7 @@
                                                         "type": "equal",
                                                         "fieldName": "nam",
                                                         "inputLabel": "Ortsteil",
+                                                        "required": true,
                                                         "options": "nam"
                                                     }
                                                 }
@@ -382,6 +383,7 @@
                                                     "field": {
                                                         "type": "equal",
                                                         "fieldName": "bzr_name",
+                                                        "required": true,
                                                         "inputLabel": "Bezirksregion",
                                                         "options": "bzr_name"
                                                     }
@@ -390,6 +392,7 @@
                                                     "field": {
                                                         "type": "equal",
                                                         "fieldName": "plr_name",
+                                                        "required": true,
                                                         "inputLabel": "Planungsraum",
                                                         "options": "plr_name"
                                                     }
