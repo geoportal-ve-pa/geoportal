@@ -1,9 +1,9 @@
  {
-  "globalAlerts": ["wartungsarbeiten", "fhh-atlas-ie11"],
+  "globalAlerts": ["willkommen"],
 
   "restrictedAlerts": {    
-    "https://geoportal-ve-pa.github.io/geoportal/pankow/": ["news_2025_04_16"],
-    "https://geofos.fhhnet.stadt.hamburg.de/geoportal-eimsbuettel-abnahme/":["qs-release"]
+    "https://geoportal-ve-pa.github.io/geoportal/pankow/": ["news_2025_04_22"],
+    "https://geoportal-ve-pa.github.io/geoportal/vermessung/":["news_2025_04_16","news_2025_04_22"]
   },
 
   "alerts": {
@@ -88,29 +88,26 @@
       "mustBeConfirmed": true,
       "once": {"days": 1}
     },
-    "fhh-atlas-ie11": {
+    "news_2025_04_22": {
       "displayClass": "info",
       "category": "Aktuelle Informationen",
-      "content": "Liebe Nutzer,<br><br>es kann seit einiger Zeit zu Problemen im FHH-Atlas bei Benutzung des Internet-Explorers kommen.<br>Bitte nutzen sie künftig den Edge oder andere aktuelle Browser.<br><br>Ihr Team<br>LGV Geodatenanwendungen",
-      "displayFrom": "2022-01-19 05:00",
-      "displayUntil": "2025-02-19 23:59",
+      "content": "Liebe Nutzerinnen und Nutzer,<br><br>am Freitag (den 25.04.2025) ab 13:30 Uhr wird der ALKIS-Bestand des Geoportals aktualisiert. Es kann passieren, dass einige Funktionen nicht verfügbar werden.<br><br>Euer Team<br>Geoinformation",
+      "displayFrom": "2025-04-22 13:00",
       "mustBeConfirmed": true,
       "once": true
     },
     "news_2025_04_16": {
       "displayClass": "info",
       "category": "Aktuelle Informationen",
-      "content": "Liebe Nutzer,<br><br>am Donnerstag den 24.04.2024 wurden der Baumbestand aktualisiert und in das Geoportal eingepflegt. Falls noch mehr Nadelbaumarten gewünscht sind, bitte sagt Bescheid! Im Datensatz gab es leider Bäume, deren keine Art zugewiesen worden ist. Ich habe mich entschieden, die Bäume in einem separaten Layer einzupflegen.<br><br>Ihr GI Team",
+      "content": "Liebe Nutzerinnen und Nutzer,<br><br>am Donnerstag den 24.04.2024 wurden der Baumbestand aktualisiert und in das Geoportal eingepflegt. Falls noch mehr Nadelbaumarten gewünscht sind, bitte sagt Bescheid! Im Datensatz gab es leider Bäume, deren keine Art zugewiesen worden ist. Ich habe mich entschieden, die Bäume in einem separaten Layer einzupflegen.<br><br>Euer Team<br>Geoinformation",,
       "displayFrom": "2025-04-16 13:00",
       "mustBeConfirmed": true,
       "once": true
     },
-    "news_fhh-atlas": {
+    "willkommen": {
       "displayClass": "info",
-      "category": "Aktuelle Informationen",
-      "content": "Liebe Nutzer,<br><br>ab sofort steht Ihnen hier im FHH-Atlas ein neues Werkzeug zur Verfügung: es erlaubt die Benutzung von 360°-Panoramabildern, die im letzten Jahr für unsere Stadt erhoben wurden.<br>Es findet sich auf der rechten Seite hinter diesem Knopf: <img src='./img/start_streetsmart.jpg'/> .<br><br>Bei den 360°-Panoramabildern handelt es sich den Datenschutz betreffend um sensible Daten. Bitte beachten Sie die Hinweise zum Datenschutz auf dem <a target='_blank' href='https://fhhportal.ondataport.de/websites/befahrungsdaten/_layouts/15/start.aspx#/'>Sharepoint der Befahrungsdaten</a>.<br>Hier finden Sie auch weiterführende Informationen zu den Befahrungsdaten.<br><br>Wie immer freuen wir uns über Hinweise und Feedback unter <a href='mailto:geodatenanwendungen@gv.hamburg.de'>geodatenanwendungen@gv.hamburg.de</a> oder in diesem Fall auch unter <a href='mailto:befahrungsdaten@gv.hamburg.de'>befahrungsdaten@gv.hamburg.de</a>.<br><br>",
-      "displayFrom": "2022-05-05 12:00",
-      "displayUntil": "2022-06-02 20:00",
+      "category": "Willkommen",
+      "content": "Liebe Nutzerinnen und Nutzer,<br><br>ab sofort steht Ihnen das Geoportal in neuem look zur Verfügung. <br><br>Euer Team<br>Geoinformation",     
       "mustBeConfirmed": true,
       "once": true
     }
