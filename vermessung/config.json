@@ -332,7 +332,7 @@
                                     "restLayerId": "alkis_ortsteile:rest:ortsteile",
                                     "maxFeatures": "showAll"
                                 },
-                                "selectSource": "https://gdi.berlin.de/viewer/main/snippets/ortsteile_hierarchie.json",
+                                "selectSource": "../resources/geojson/ortsteile_hierarchie.json",
                                 "literals": [                                  
                                     {
                                         "clause": {
