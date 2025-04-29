@@ -296,7 +296,7 @@
                                                         "fieldName": "gmk",
                                                         "inputLabel": "Gemarkung",
                                                         "required": true,
-                                                        
+                                                        "options": "",
                                                         "usesId": true
                                                     }
                                                 },
@@ -305,7 +305,8 @@
                                                         "type": "equal",
                                                         "fieldName": "fln",
                                                         "inputLabel": "Flurnummer",
-                                                        "required": true
+                                                        "required": true,
+                                                        "options": "fln"
                                                     }
                                                 },
                                                 {
@@ -313,7 +314,8 @@
                                                         "type": "equal",
                                                         "fieldName": "zae",
                                                         "inputLabel": "Flurstücksnummer",
-                                                        "required": true
+                                                        "required": true,
+                                                        "options": "zae"
                                                     }
                                                 }
                                             ]
