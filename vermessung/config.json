@@ -271,7 +271,7 @@
                     },
                     {
                         "name": "Flurstückssuche",
-                        "zoomLevel": 8,
+                        "zoomResolution": 0.6614579761460262,
                         "instances": [
                             {
                                 "title": "Flurstücksuche",
