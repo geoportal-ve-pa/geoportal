@@ -107,7 +107,8 @@
     "willkommen": {
       "displayClass": "info",
       "category": "Willkommen",
-      "content": "Liebe Nutzerinnen und Nutzer,<br><br>ab sofort steht Ihnen das Geoportal in neuem look zur Verfügung. <br><br>Euer Team<br>Geoinformation",     
+      "content": "Liebe Nutzerinnen und Nutzer,<br><br>ab sofort steht Ihnen das Geoportal in neuem look zur Verfügung. <br><br>Euer Team<br>Geoinformation",
+      "displayFrom": "2025-04-01 13:00",
       "mustBeConfirmed": true,
       "once": true
     }
