@@ -1,29 +1,8 @@
  {
   "globalAlerts": ["wartungsarbeiten", "fhh-atlas-ie11"],
 
-  "restrictedAlerts": {
-    "https://geofos.fhhnet.stadt.hamburg.de/atlas-innere-sicherheit-mp/": ["news-ais"],
-    "https://qs-geofos.fhhnet.stadt.hamburg.de/atlas_innere_sicherheit/": ["news-ais"],
-    "https://qs-geofos.fhhnet.stadt.hamburg.de/fhh-atlas/": ["oblique_2020", "fhh-atlas-ie11"],
-    "https://geofos.fhhnet.stadt.hamburg.de/fhh-atlas/": ["oblique_2020", "fhh-atlas-ie11", "news_fhh-atlas"],
-    "https://geofos/fhh-atlas/": ["oblique_2020", "fhh-atlas-ie11", "news_fhh-atlas"],
-    "https://geoportal.metropolregion.hamburg.de/mrhportal_abnahme/": ["qs-release"],
-    "https://geoportal.metropolregion.hamburg.de/mrhportal_elmshorn_abnahme/": ["qs-release"],
-    "https://geoportal.metropolregion.hamburg.de/roads_abnahme/": ["qs-release"],
-    "https://geoportal.metropolregion.hamburg.de/mrh_erreichbarkeitsanalysen_abnahme/": ["qs-release"],
-    "https://geoportal.metropolregion.hamburg.de/mrh_lieblingsplaetze_abnahme/": ["qs-release"],
-    "https://geoportal-hamburg.de/boris_abnahme/": ["qs-release"],
-    "https://geoportal-hamburg.de/boris/": ["boris-fme"],
-    "https://test.geoportal-hamburg.de/boris/": ["boris-fme"],
-    "https://geoportal-hamburg.de/klimaplan_stadtbild_abnahme/": ["qs-release"],
-    "https://geoportal-hamburg.de/waermekataster_abnahme/": ["qs-release"],
-    "https://geoportal-hamburg.de/wohnzimmerhh_abnahme/": ["qs-release"],
-    "https://geoportal-hamburg.de/verkehrsportal_abnahme/": ["qs-release"],
-    "https://geoportal-hamburg.de/iot_abnahme/": ["qs-release"],
-    "https://geoportal-hamburg.de/schulinfosystem_abnahme/": ["qs-release"],
-    "https://geoportal-hamburg.de/geo-online/": ["info_vt"],
-    "https://qs-geofos.fhhnet.stadt.hamburg.de/oktagonKartenportal_abnahme/": ["qs-release"],
-    "https://geoportal-hamburg.de/bohrdaten/": ["bohrdaten-alert"],
+  "restrictedAlerts": {    
+    "https://geoportal-ve-pa.github.io/geoportal/pankow/": ["news_2025_04_16"],
     "https://geofos.fhhnet.stadt.hamburg.de/geoportal-eimsbuettel-abnahme/":["qs-release"]
   },
 
@@ -118,7 +97,7 @@
       "mustBeConfirmed": true,
       "once": true
     },
-    "wartungsarbeiten": {
+    "news_2025_04_16": {
       "displayClass": "info",
       "category": "Aktuelle Informationen",
       "content": "Liebe Nutzer,<br><br>am Donnerstag den 24.04.2024 wurden der Baumbestand aktualisiert und in das Geoportal eingepflegt. Falls noch mehr Nadelbaumarten gewünscht sind, bitte sagt Bescheid! Im Datensatz gab es leider Bäume, deren keine Art zugewiesen worden ist. Ich habe mich entschieden, die Bäume in einem separaten Layer einzupflegen.<br><br>Ihr GI Team",
