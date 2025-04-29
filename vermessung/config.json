@@ -271,7 +271,7 @@
                     },
                     {
                         "name": "Flurstückssuche",
-                        "zoomResolution": 0.6614579761460262,
+                        "zoomLevel": 8,
                         "instances": [
                             {
                                 "title": "Flurstücksuche",
@@ -323,6 +323,43 @@
                                             ]
                                         }
                                     }
+                                ]
+                            },
+                            {
+                                "title": "Ortsteile",
+                                "resultDialogTitle": "Trefferliste",
+                                "requestConfig": {
+                                    "restLayerId": "alkis_ortsteile:rest:ortsteile",
+                                    "maxFeatures": "showAll"
+                                },
+                                "selectSource": "https://gdi.berlin.de/viewer/main/snippets/ortsteile_hierarchie.json",
+                                "literals": [                                  
+                                    {
+                                        "clause": {
+                                            "type": "and",
+                                            "literals": [
+                                                {
+                                                    "field": {
+                                                        "type": "like",
+                                                        "fieldName": "sch",
+                                                        "inputLabel": "Bezirk",
+                                                        "required": true,
+                                                        "options": "",
+                                                        "usesId": true
+                                                    }
+                                                },
+                                                {
+                                                    "field": {
+                                                        "type": "equal",
+                                                        "fieldName": "nam",
+                                                        "inputLabel": "Ortsteil",
+                                                        "options": "nam"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+
                                 ]
                             }
                         ],
