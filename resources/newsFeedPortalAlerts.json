@@ -2,8 +2,8 @@
   "globalAlerts": [],
 
   "restrictedAlerts": {    
-    "../pankow/": ["news_2025_04_22","news_2025_04_01","willkommen"],
-    "../vermessung/":["news_2025_04_22","news_2025_04_16","news_2025_04_01","willkommen"]
+    "/pankow/": ["news_2025_04_22","news_2025_04_01","willkommen"],
+    "/vermessung/":["news_2025_04_22","news_2025_04_16","news_2025_04_01","willkommen"]
   },
 
   "alerts": {
