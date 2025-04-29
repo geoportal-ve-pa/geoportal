@@ -270,6 +270,131 @@
                         }
                     },
                     {
+                        "name": "Suche (Flurstücke, Ortsteile, u.a.)",
+                        "zoomLevel": 8,
+                        "instances": [{
+                                "title": "Flurstücksuche",
+                                "resultDialogTitle": "Trefferliste",
+                                "requestConfig": {
+                                    "restLayerId": "alkis_flurstuecke:rest:flurstuecke",
+                                    "maxFeatures": "showAll"
+                                },
+                                "selectSource": "../resources/geojson/flurstueck_hierarchie.json",
+                                "literals": [{
+                                    "clause": {
+                                        "type": "and",
+                                        "literals": [{
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "gmk",
+                                                    "inputLabel": "Gemarkung",
+                                                    "required": true,
+                                                    "options": "",
+                                                    "usesId": true
+                                                }
+                                            },
+                                            {
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "fln",
+                                                    "inputLabel": "Flurnummer",
+                                                    "required": true,
+                                                    "options": "fln"
+                                                }
+                                            },
+                                            {
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "zae",
+                                                    "inputLabel": "Flurstücksnummer",
+                                                    "required": true
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }]
+                            },
+                            {
+                                "title": "Ortsteile",
+                                "resultDialogTitle": "Trefferliste",
+                                "requestConfig": {
+                                    "restLayerId": "alkis_ortsteile:rest:ortsteile",
+                                    "maxFeatures": "showAll"
+                                },
+                                "selectSource": "../resources/geojson/ortsteile_hierarchie.json",
+                                "literals": [{
+                                    "clause": {
+                                        "type": "and",
+                                        "literals": [{
+                                                "field": {
+                                                    "type": "like",
+                                                    "fieldName": "sch",
+                                                    "inputLabel": "Bezirk",
+                                                    "required": true,
+                                                    "options": "",
+                                                    "usesId": true
+                                                }
+                                            },
+                                            {
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "nam",
+                                                    "inputLabel": "Ortsteil",
+                                                    "required": true,
+                                                    "options": "nam"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }]
+                            },
+                            {
+                                "title": "Planungsräume",
+                                "resultDialogTitle": "Trefferliste",
+                                "requestConfig": {
+                                    "restLayerId": "lor_2021:rest:a_lor_plr_2021",
+                                    "maxFeatures": "showAll"
+                                },
+                                "selectSource": "../resources/geojson/planungsraum_hierarchie.json",
+                                "literals": [{
+                                    "clause": {
+                                        "type": "and",
+                                        "literals": [{
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "pgr_id",
+                                                    "inputLabel": "Prognoseraum",
+                                                    "required": true,
+                                                    "options": "",
+                                                    "usesId": true
+                                                }
+                                            },
+                                            {
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "bzr_name",
+                                                    "required": true,
+                                                    "inputLabel": "Bezirksregion",
+                                                    "options": "bzr_name"
+                                                }
+                                            },
+                                            {
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "plr_name",
+                                                    "required": true,
+                                                    "inputLabel": "Planungsraum",
+                                                    "options": "plr_name"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }]
+                            }
+                        ],
+                        "type": "wfsSearch"
+                    },
+                    {
                         "type": "legend"
                     },
                     {
@@ -292,8 +417,7 @@
                         "description": "Filtere hier die Schularten",
                         "icon": "bi-funnel-fill",
                         "layerSelectorVisible": true,
-                        "layers": [
-                            {
+                        "layers": [{
                                 "layerId": "schu_spo_schul_öff_2023_04_17",
                                 "active": true,
                                 "title": "Öffentliche Schulen (Stand:17.04.2023)",
@@ -303,8 +427,7 @@
                                 "showHits": true,
                                 "snippetTags": true,
                                 "paging": 1000,
-                                "snippets": [
-                                    {
+                                "snippets": [{
                                         "title": "Schulart auswählen",
                                         "placeholder": "Schulart auswählen",
                                         "type": "dropdown",
@@ -337,8 +460,7 @@
                                 "showHits": true,
                                 "snippetTags": true,
                                 "paging": 1000,
-                                "snippets": [
-                                    {
+                                "snippets": [{
                                         "title": "Schulart auswählen",
                                         "placeholder": "Schulart auswählen",
                                         "type": "dropdown",
@@ -703,53 +825,53 @@
                     "name": "Schul- und Sportamt",
                     "type": "folder",
                     "elements": [{
-                        "id": "schu_spo_pl_einschul_23_24",
-                        "visibility": false
-                                },
-                                {
-                        "id": "schu_spo_einschul_22_23",
-                        "visibility": false
-                                },
-                                {
-                        "id": "schu_spo_einschul_21_22",
-                        "visibility": false
-                                },
-                                {
-                        "id": "schu_spo_einschul_20_21",
-                        "visibility": false
-                                },
-                                {
-                        "id": "schu_spo_einschul_18_19",
-                        "visibility": false
-                                },
-                                {
-                        "id": "schu_spo_schulreg_18_19",
-                        "visibility": false
-                                },
-                                {
-                        "id": "schu_spo_schul_sonstiges",
-                        "visibility": false
-                                },
-                                {
-                        "id": "schu_spo_schul",
-                        "visibility": false
-                                },
-                                {
-                                "name": "Schulen (Stand: 17.04.2023)",
-                                "type": "folder",
-                                "elements": [{                                
+                            "id": "schu_spo_pl_einschul_23_24",
+                            "visibility": false
+                        },
+                        {
+                            "id": "schu_spo_einschul_22_23",
+                            "visibility": false
+                        },
+                        {
+                            "id": "schu_spo_einschul_21_22",
+                            "visibility": false
+                        },
+                        {
+                            "id": "schu_spo_einschul_20_21",
+                            "visibility": false
+                        },
+                        {
+                            "id": "schu_spo_einschul_18_19",
+                            "visibility": false
+                        },
+                        {
+                            "id": "schu_spo_schulreg_18_19",
+                            "visibility": false
+                        },
+                        {
+                            "id": "schu_spo_schul_sonstiges",
+                            "visibility": false
+                        },
+                        {
+                            "id": "schu_spo_schul",
+                            "visibility": false
+                        },
+                        {
+                            "name": "Schulen (Stand: 17.04.2023)",
+                            "type": "folder",
+                            "elements": [{
                                     "id": "schu_spo_schul_öff_2023_04_17",
                                     "visibility": false
-                                            },
-                                            {
+                                },
+                                {
                                     "id": "schu_spo_schul_priv_2023_04_17",
                                     "visibility": false
-                                            }
-                                ]
-                                }                        
+                                }
+                            ]
+                        }
                     ]
                 },
-                
+
                 {
                     "name": "Straßenrecht",
                     "type": "folder",
