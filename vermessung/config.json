@@ -282,10 +282,7 @@
                                 },
                                 "selectSource": "../resources/geojson/hierarchie.json",
                                 "literals": [
-                                    {
-                                        "clause": {
-                                            "type": "and",
-                                            "literals": [
+                                    
                                     {
                                         "clause": {
                                             "type": "and",
@@ -320,9 +317,7 @@
                                             ]
                                         }
                                     }
-                                ]
-                                        }
-                                    }
+                                
                                 ]
                             }
                         ],
