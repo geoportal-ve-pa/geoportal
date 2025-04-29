@@ -52,5 +52,17 @@
     "name": "Flurstücksuche",
     "url": "https://gdi.berlin.de/services/wfs/alkis_flurstuecke?request=GetFeature&service=WFS&typeName=flurstuecke",
     "typ": "WFS"
+  },
+{
+    "id": "lor_2021:rest:a_lor_plr_2021",
+    "name": "Planungsraumsuche",
+    "url": "https://gdi.berlin.de/services/wfs/lor_2021?request=GetFeature&service=WFS&typeName=a_lor_plr_2021",
+    "typ": "WFS"
+  },
+{
+    "id": "alkis_ortsteile:rest:ortsteile",
+    "name": "Ortsteile",
+    "url": "https://gdi.berlin.de/services/wfs/alkis_ortsteile?request=GetFeature&service=WFS&typeName=ortsteile",
+    "typ": "WFS"
   }
 ]
