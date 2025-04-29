@@ -119,7 +119,7 @@
       "displayFrom": "2025-01-01 13:00",
       "mustBeConfirmed": true,
       "once": {
-                "days": 100
+                "days": 200
             }
     }
   }
