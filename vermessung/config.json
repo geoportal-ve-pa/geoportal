@@ -271,7 +271,7 @@
                     },
                     {
                         "name": "Flurstückssuche",
-                        "zoomLevel": 10,
+                        "zoomLevel": 8,
                         "instances": [
                             {
                                 "title": "Flurstücksuche",
@@ -314,7 +314,7 @@
                                                         "type": "equal",
                                                         "fieldName": "zae",
                                                         "inputLabel": "Flurstücksnummer",
-                                                        "required": false
+                                                        "required": true
                                                     }
                                                 }
                                             ]
