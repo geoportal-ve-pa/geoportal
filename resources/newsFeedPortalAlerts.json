@@ -100,7 +100,7 @@
       "displayClass": "info",
       "category": "Aktuelle Informationen",
       "content": "Liebe Nutzerinnen und Nutzer,<br><br>am Donnerstag den 24.04.2024 wurden der Baumbestand aktualisiert und in das Geoportal eingepflegt. Falls noch mehr Nadelbaumarten gewünscht sind, bitte sagt Bescheid! Im Datensatz gab es leider Bäume, deren keine Art zugewiesen worden ist. Ich habe mich entschieden, die Bäume in einem separaten Layer einzupflegen.<br><br>Euer Team<br>Geoinformation",
-      "creationDate": "16/04/2025",,
+      "creationDate": "16/04/2025",
       "mustBeConfirmed": true,
       "once": true
     },
@@ -109,7 +109,7 @@
       "category": "Willkommen",
       "content": "Liebe Nutzerinnen und Nutzer,<br><br>ab sofort steht Ihnen das Geoportal in neuem look zur Verfügung. <br><br>Euer Team<br>Geoinformation",     
       "mustBeConfirmed": true,
-      "once": true
+      "once": false
     }
   }
 }
