@@ -270,7 +270,7 @@
                         }
                     },
                     {
-                        "name": "Suche (Flurstücke, Ortsteile, ua)",
+                        "name": "Suche (Flurstücke, Ortsteile, u.a.)",
                         "zoomLevel": 8,
                         "instances": [
                             {
@@ -280,12 +280,8 @@
                                     "restLayerId": "alkis_flurstuecke:rest:flurstuecke",
                                     "maxFeatures": "showAll"
                                 },
-                                "selectSource": "../resources/geojson/hierarchie.json",
-                                "literals": [
-                                    {
-                                        "clause": {
-                                            "type": "and",
-                                            "literals": [
+                                "selectSource": "../resources/geojson/flurstueck_hierarchie.json",
+                                "literals": [                                   
                                     {
                                         "clause": {
                                             "type": "and",
@@ -319,10 +315,7 @@
                                                 }
                                             ]
                                         }
-                                    }
-                                            ]
-                                        }
-                                    }
+                                    }                                          
                                 ]
                             },
                             {
@@ -360,6 +353,50 @@
                                         }
                                     }
 
+                                ]
+                            },
+                            {
+                                "title": "Planungsräume",
+                                "resultDialogTitle": "Trefferliste",
+                                "requestConfig": {
+                                    "restLayerId": "lor_2021:rest:a_lor_plr_2021",
+                                    "maxFeatures": "showAll"
+                                },
+                                "selectSource": "../resources/geojson/planungsraum_hierarchie.json",
+                                "literals": [                                   
+                                    {
+                                        "clause": {
+                                            "type": "and",
+                                            "literals": [
+                                                {
+                                                    "field": {
+                                                        "type": "equal",
+                                                        "fieldName": "pgr_id",
+                                                        "inputLabel": "Prognoseraum",
+                                                        "required": true,
+                                                        "options": "",
+                                                        "usesId": true
+                                                    }
+                                                },
+                                                {
+                                                    "field": {
+                                                        "type": "equal",
+                                                        "fieldName": "bzr_name",
+                                                        "inputLabel": "Bezirksregion",
+                                                        "options": "bzr_name"
+                                                    }
+                                                },
+                                                {
+                                                    "field": {
+                                                        "type": "equal",
+                                                        "fieldName": "plr_name",
+                                                        "inputLabel": "Planungsraum",
+                                                        "options": "plr_name"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }                                          
                                 ]
                             }
                         ],
