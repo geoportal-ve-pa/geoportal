@@ -270,7 +270,7 @@
                         }
                     },
                     {
-                        "name": "Flurstückssuche",
+                        "name": "Suche (Flurstücke, Ortsteile, ua)",
                         "zoomLevel": 8,
                         "instances": [
                             {
