@@ -272,8 +272,7 @@
                     {
                         "name": "Suche (Flurstücke, Ortsteile, u.a.)",
                         "zoomLevel": 8,
-                        "instances": [
-                            {
+                        "instances": [{
                                 "title": "Flurstücksuche",
                                 "resultDialogTitle": "Trefferliste",
                                 "requestConfig": {
@@ -281,42 +280,39 @@
                                     "maxFeatures": "showAll"
                                 },
                                 "selectSource": "../resources/geojson/flurstueck_hierarchie.json",
-                                "literals": [                                   
-                                    {
-                                        "clause": {
-                                            "type": "and",
-                                            "literals": [
-                                                {
-                                                    "field": {
-                                                        "type": "equal",
-                                                        "fieldName": "gmk",
-                                                        "inputLabel": "Gemarkung",
-                                                        "required": true,
-                                                        "options": "",
-                                                        "usesId": true
-                                                    }
-                                                },
-                                                {
-                                                    "field": {
-                                                        "type": "equal",
-                                                        "fieldName": "fln",
-                                                        "inputLabel": "Flurnummer",
-                                                        "required": true,
-                                                        "options": "fln"
-                                                    }
-                                                },
-                                                {
-                                                    "field": {
-                                                        "type": "equal",
-                                                        "fieldName": "zae",
-                                                        "inputLabel": "Flurstücksnummer",
-                                                        "required": true
-                                                    }
+                                "literals": [{
+                                    "clause": {
+                                        "type": "and",
+                                        "literals": [{
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "gmk",
+                                                    "inputLabel": "Gemarkung",
+                                                    "required": true,
+                                                    "options": "",
+                                                    "usesId": true
                                                 }
-                                            ]
-                                        }
-                                    }                                          
-                                ]
+                                            },
+                                            {
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "fln",
+                                                    "inputLabel": "Flurnummer",
+                                                    "required": true,
+                                                    "options": "fln"
+                                                }
+                                            },
+                                            {
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "zae",
+                                                    "inputLabel": "Flurstücksnummer",
+                                                    "required": true
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }]
                             },
                             {
                                 "title": "Ortsteile",
@@ -326,12 +322,10 @@
                                     "maxFeatures": "showAll"
                                 },
                                 "selectSource": "../resources/geojson/ortsteile_hierarchie.json",
-                                "literals": [                                  
-                                    {
+                                "literals": [{
                                         "clause": {
                                             "type": "and",
-                                            "literals": [
-                                                {
+                                            "literals": [{
                                                     "field": {
                                                         "type": "like",
                                                         "fieldName": "sch",
@@ -352,9 +346,7 @@
                                                 }
                                             ]
                                         }
-                                    }
-
-                                ]
+                                    }]
                             },
                             {
                                 "title": "Planungsräume",
@@ -364,43 +356,40 @@
                                     "maxFeatures": "showAll"
                                 },
                                 "selectSource": "../resources/geojson/planungsraum_hierarchie.json",
-                                "literals": [                                   
-                                    {
-                                        "clause": {
-                                            "type": "and",
-                                            "literals": [
-                                                {
-                                                    "field": {
-                                                        "type": "equal",
-                                                        "fieldName": "pgr_id",
-                                                        "inputLabel": "Prognoseraum",
-                                                        "required": true,
-                                                        "options": "",
-                                                        "usesId": true
-                                                    }
-                                                },
-                                                {
-                                                    "field": {
-                                                        "type": "equal",
-                                                        "fieldName": "bzr_name",
-                                                        "required": true,
-                                                        "inputLabel": "Bezirksregion",
-                                                        "options": "bzr_name"
-                                                    }
-                                                },
-                                                {
-                                                    "field": {
-                                                        "type": "equal",
-                                                        "fieldName": "plr_name",
-                                                        "required": true,
-                                                        "inputLabel": "Planungsraum",
-                                                        "options": "plr_name"
-                                                    }
+                                "literals": [{
+                                    "clause": {
+                                        "type": "and",
+                                        "literals": [{
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "pgr_id",
+                                                    "inputLabel": "Prognoseraum",
+                                                    "required": true,
+                                                    "options": "",
+                                                    "usesId": true
                                                 }
-                                            ]
-                                        }
-                                    }                                          
-                                ]
+                                            },
+                                            {
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "bzr_name",
+                                                    "required": true,
+                                                    "inputLabel": "Bezirksregion",
+                                                    "options": "bzr_name"
+                                                }
+                                            },
+                                            {
+                                                "field": {
+                                                    "type": "equal",
+                                                    "fieldName": "plr_name",
+                                                    "required": true,
+                                                    "inputLabel": "Planungsraum",
+                                                    "options": "plr_name"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }]
                             }
                         ],
                         "type": "wfsSearch"
