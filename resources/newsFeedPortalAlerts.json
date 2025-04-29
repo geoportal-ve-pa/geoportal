@@ -1,9 +1,9 @@
  {
-  "globalAlerts": ["willkommen"],
+  "globalAlerts": [],
 
   "restrictedAlerts": {    
-    "https://geoportal-ve-pa.github.io/geoportal/pankow/": ["news_2025_04_22"],
-    "https://geoportal-ve-pa.github.io/geoportal/vermessung/":["news_2025_04_16","news_2025_04_22"]
+    "https://geoportal-ve-pa.github.io/geoportal/pankow/": ["willkommen","news_2025_04_22"],
+    "https://geoportal-ve-pa.github.io/geoportal/vermessung/":["willkommen","news_2025_04_16","news_2025_04_22"]
   },
 
   "alerts": {
