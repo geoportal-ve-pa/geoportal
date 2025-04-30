@@ -59,7 +59,7 @@
     "willkommen": {
       "displayClass": "info",
       "category": "Willkommen",
-      "content": "Liebe Nutzerinnen und Nutzer,<br><br>ab sofort steht Ihnen das Geoportal in neuem look zur Verfügung. <br><br>Euer Team<br>Geoinformation",
+      "content": "<img src="../resources/img/B_BA_W_PA_Logo_DE_V_PT_RGB1.svg"> Liebe Nutzerinnen und Nutzer,<br><br>ab sofort steht Ihnen das Geoportal in neuem look zur Verfügung. <br><br>Euer Team<br>Geoinformation",
       "displayFrom": "2025-01-01 13:00",
       "mustBeConfirmed": true
     }
