@@ -355,7 +355,7 @@
                         "type": "customMenuElement",
                         "icon": "bi-envelope",
                         "name": "Kontakt aufnehmen",
-                        "URL": "mailto:verm-gi@ba-pankow.berlin.de"                      
+                        "openURL": "<a href=\"mailto:verm-gi@ba-pankow.berlin.de\"></a>"                      
                     }
 
                 ]
