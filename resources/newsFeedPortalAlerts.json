@@ -44,6 +44,7 @@
     },
     "news_2025_04_16": {
       "displayClass": "news",
+      "title": "Aktualisierung Baumbestand",
       "category": "Aktualisierung Baumbestand",
       "content": "Liebe Nutzerinnen und Nutzer,<br><br>am Donnerstag den 24.04.2024 wurden der Baumbestand aktualisiert und in das Geoportal eingepflegt. Falls noch mehr Nadelbaumarten gewünscht sind, bitte sagt Bescheid! Im Datensatz gab es leider Bäume, deren keine Art zugewiesen worden ist. Ich habe mich entschieden, die Bäume in einem separaten Layer einzupflegen.<br><br>Euer Team<br>Geoinformation",
       "displayFrom": "2025-04-16 13:00",
@@ -51,6 +52,7 @@
     },
     "hinweis_2025_04_01": {
       "displayClass": "info",
+      "title": "Hinweis - Leeren des Browsercaches",
       "category": "Hinweis - Leeren des Browsercaches",
       "content": "<FONT COLOR=black>Manchmal verhindern im Cache des Browsers hinterlegte Dateien, dass aktuelle Inhalte der Internetseiten angezeigt werden. Stattdessen werden die im Cache gespeicherten veralteten Daten geladen. Wenn der Cache gelöscht wird, kann anschließend die neueste Version der entsprechenden Webseite geladen werden. Eine Leerung des Caches ist deswegen oft hilfreich, Fehler zu beheben und bewirkt auch, dass Internetseiten wieder schneller geladen werden.<br><br>Euer Team<br>Geoinformation </FONT>",
       "displayFrom": "2025-04-01 13:00",
