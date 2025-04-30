@@ -901,11 +901,11 @@
                             "name": "Soziale Infrastruktur BZRP",
                             "type": "folder",
                             "elements": [{
-                                    "id": "schu_spo_schul_öff_2023_04_17",
+                                    "id": "spk_kinder_jugendstaetten",
                                     "visibility": false
                                 },
                                 {
-                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "id": "spk_gesundheit_soziales",
                                     "visibility": false
                                 }
                             ]
@@ -980,15 +980,15 @@
                             ]
                         },
                         {
-                            "id": "schu_spo_schulreg_18_19",
+                            "id": "spk_bef_dichte_erw_2018",
                             "visibility": false
                         },
                         {
-                            "id": "schu_spo_schul_sonstiges",
+                            "id": "spk_einw_65_2018",
                             "visibility": false
                         },
                         {
-                            "id": "schu_spo_schul",
+                            "id": "spk_bef_wachstum_2018",
                             "visibility": false
                         }
                         
