@@ -59,7 +59,7 @@
     "willkommen": {
       "displayClass": "info",
       "category": "Willkommen",
-      "content": "<img src='../resources/img/B_BA_W_PA_Logo_DE_V_PT_RGB1.svg'><br><br>Liebe Nutzerinnen und Nutzer,<br><br>ab sofort steht Ihnen das Geoportal in neuem look zur Verfügung. Solltet Ihr fragen zur benutzung haben, wendet euch vertrauensvoll an uns. Wir zeigen euch dann in einer kleinen Einführungs-Schulung die Grundlegenden funktionen und wie das Geoportal anzuwenden ist. Anfragen schickt ihr bitte wie gehabt an<br><br> <a href= 'mailto:verm-gi@ba-pankow.berlin.de'>verm-gi@ba-pankow.berlin.de</a>. <br><br>Viel Spaß beim Stöbern und Entdecken. <br><br>Euer Team<<br>Geoinformation",
+      "content": "<img src='../resources/img/B_BA_W_PA_Logo_DE_V_PT_RGB1.svg'><br><br>Liebe Nutzerinnen und Nutzer,<br><br>ab sofort steht euch das Geoportal in neuem look zur Verfügung. Solltet Ihr fragen zur benutzung haben, wendet euch an uns. In einer kurzen Schulung werden wir euch die grundlegenden Funktionen vorstellen und erläutern, wie das Geoportal strukturiert ist. Anfragen schickt ihr bitte wie gehabt an<br><br> <a href= 'mailto:verm-gi@ba-pankow.berlin.de'>verm-gi@ba-pankow.berlin.de</a> <br><br>Bis dahin, viel Spaß beim Stöbern und Entdecken. <br><br>Euer Team<br>Geoinformation",
       "displayFrom": "2025-01-01 13:00",
       "mustBeConfirmed": true
     }
