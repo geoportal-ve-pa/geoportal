@@ -355,9 +355,7 @@
                         "type": "customMenuElement",
                         "icon": "bi-envelope",
                         "name": "Kontakt aufnehmen",
-                        "execute":{
-                            "action": "mailto:verm-gi@ba-pankow.berlin.de?subject=Geoportal%20Anfrage"
-                                    }                    
+                        "htmlContent": "<div><p>Sie haben Hinweise, Fragen oder Probleme? Schreiben Sie uns!</p></br><button type=\"button\" style=\"background-color: white; border-color: steelblue; text-color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 12px;\"><a href=\"mailto:verm-gi@ba-pankow.berlin.de?subject=Geoportal Anliegen\">E-Mail Senden</a></button><div>"                 
                     }
 
                 ]
