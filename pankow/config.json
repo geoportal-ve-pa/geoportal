@@ -914,67 +914,67 @@
                             "name": "Straßen nach Bezirksregionen",
                             "type": "folder",
                             "elements": [{
-                                    "id": "schu_spo_schul_öff_2023_04_17",
+                                    "id": "spk_str_pkw_bzr_01",
                                     "visibility": false
                                 },
                                 {
-                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "id": "spk_str_pkw_bzr_02",
                                     "visibility": false
                                 },
                                 {
-                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "id": "spk_str_pkw_bzr_03",
                                     "visibility": false
                                 },
                                 {
-                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "id": "spk_str_pkw_bzr_04",
                                     "visibility": false
                                 },
                                 {
-                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "id": "spk_str_pkw_bzr_05",
                                     "visibility": false
                                 },
                                 {
-                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "id": "spk_str_pkw_bzr_06",
                                     "visibility": false
                                 },
                                 {
-                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "id": "spk_str_pkw_bzr_07",
                                     "visibility": false
                                 },
                                 {
-                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "id": "spk_str_pkw_bzr_08",
                                     "visibility": false
                                 },
                                 {
-                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "id": "spk_str_pkw_bzr_09",
                                     "visibility": false
                                 },
                                 {
-                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "id": "spk_str_pkw_bzr_10",
                                     "visibility": false
                                 },
                                 {
-                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "id": "spk_str_pkw_bzr_11",
                                     "visibility": false
                                 },
                                 {
-                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "id": "spk_str_pkw_bzr_12",
                                     "visibility": false
                                 },
                                 {
-                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "id": "spk_str_pkw_bzr_13",
                                     "visibility": false
                                 },
                                 {
-                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "id": "spk_str_pkw_bzr_14",
                                     "visibility": false
                                 },
                                 {
-                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "id": "spk_str_pkw_bzr_15",
                                     "visibility": false
                                 },
                                 {
-                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "id": "spk_str_pkw_bzr_16",
                                     "visibility": false
                                 }
                             ]
