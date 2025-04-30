@@ -46,9 +46,9 @@
       "displayClass": "news",
       "title": "Aktualisierung Baumbestand",
       "category": "Aktualisierung Baumbestand",
-      "content": "Liebe Nutzerinnen und Nutzer,<br><br>am Donnerstag den 24.04.2024 wurden der Baumbestand aktualisiert und in das Geoportal eingepflegt. Falls noch mehr Nadelbaumarten gewünscht sind, bitte sagt Bescheid! Im Datensatz gab es leider Bäume, deren keine Art zugewiesen worden ist. Ich habe mich entschieden, die Bäume in einem separaten Layer einzupflegen.<br><br>Euer Team<br>Geoinformation",
+      "content": "Liebe Nutzerinnen und Nutzer,<br><br>der Baumbestand wurde aktualisiert und in das Geoportal eingepflegt. Falls noch mehr Nadelbaumarten gewünscht sind, bitte sagt Bescheid! Im Datensatz gab es leider Bäume, deren keine Art zugewiesen worden ist. Ich habe mich entschieden, die Bäume in einem separaten Layer einzupflegen.<br><br>Euer Team<br>Geoinformation",
       "displayFrom": "2025-04-16 13:00",
-      "displayUntil": "2025-05-01 23:59",
+      "displayUntil": "2025-05-29 23:59",
       "mustBeConfirmed": true
     },
     "hinweis_2025_04_01": {
