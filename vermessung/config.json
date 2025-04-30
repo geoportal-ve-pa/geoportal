@@ -20,11 +20,11 @@
             },
             "controls": {
                 "zoom": true,
-                "orientation": {
-                    "zoomMode": "once"
-                },
+                "button3d": true,                
                 "expandable": {
-                    "button3d": true,
+                    "orientation": {
+                        "zoomMode": "once"
+                                },
                     "freeze": true,
                     "fullScreen": true,
                     "rotation": {
