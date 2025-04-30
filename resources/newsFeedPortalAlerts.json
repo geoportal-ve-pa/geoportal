@@ -35,7 +35,8 @@
     
     
     "news_2025_04_22": {
-      "displayClass": "warning",
+      "displayClass": "info",
+      "title": "Aktualisierung ALKIS",
       "category": "Aktualisierung ALKIS",
       "content": "Liebe Nutzerinnen und Nutzer,<br><br>am Freitag (den 25.04.2025) ab 13:30 Uhr wird der ALKIS-Bestand des Geoportals aktualisiert. Es kann passieren, dass einige Funktionen nicht verfügbar werden.<br><br>Euer Team<br>Geoinformation",
       "displayFrom": "2025-04-22 13:00",
