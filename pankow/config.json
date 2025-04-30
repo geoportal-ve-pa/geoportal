@@ -355,7 +355,7 @@
                         "type": "customMenuElement",
                         "icon": "bi-envelope",
                         "name": "Kontakt aufnehmen",
-                        "openURL": "mailto:verm-gi@ba-pankow.berlin.de?subject=Geoportal%20Anfrage"                      
+                        "sendMail": "verm-gi@ba-pankow.berlin.de?subject=Geoportal%20Anfrage"                      
                     }
 
                 ]
