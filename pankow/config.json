@@ -868,7 +868,132 @@
                         }
                     ]
                 },
-
+                {
+                    "name": "Sozialraumorientierte Planungskoordination",
+                    "type": "folder",
+                    "elements": [
+                        {
+                            "name": "Unterkünfte (Stand: Herbst 2023)",
+                            "type": "folder",
+                            "elements": [{
+                                    "id": "spk_unterkuenfte_laf",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "spk_unterkuenfte_bwa",
+                                    "visibility": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "spk_fluechtlingsunterkuenfte",
+                            "visibility": false
+                        },
+                        {
+                            "id": "spk_familienzent",
+                            "visibility": false
+                        },
+                        {
+                            "id": "spk_apotheke",
+                            "visibility": false
+                        },
+                        {
+                            "name": "Soziale Infrastruktur BZRP",
+                            "type": "folder",
+                            "elements": [{
+                                    "id": "schu_spo_schul_öff_2023_04_17",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "visibility": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Straßen nach Bezirksregionen",
+                            "type": "folder",
+                            "elements": [{
+                                    "id": "schu_spo_schul_öff_2023_04_17",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "schu_spo_schul_priv_2023_04_17",
+                                    "visibility": false
+                                }
+                            ]
+                        }
+                        {
+                            "id": "schu_spo_schulreg_18_19",
+                            "visibility": false
+                        },
+                        {
+                            "id": "schu_spo_schul_sonstiges",
+                            "visibility": false
+                        },
+                        {
+                            "id": "schu_spo_schul",
+                            "visibility": false
+                        }
+                        
+                    ]
+                },
                 {
                     "name": "Straßenrecht",
                     "type": "folder",
