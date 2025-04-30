@@ -7,7 +7,7 @@
   },
 
   "alerts": {
-	 "fhh-panorama": {
+      "beispiel1": {
       "category": "info",
       "title": "Nutzerumfrage 360°-Panoramabilder",
       "content": "Wie nutzen Sie die 360°-Panoramabilder? Das möchten wir von Ihnen erfahren!<br> Nehmen Sie gerne an unserer Umfrage teil. Die Befragung dauert ca. 5 Minuten.<br><br>Folgen Sie direkt diesem Link:<br><a href='https://geowerkstatthamburg.limesurvey.net/982796?lang=de'>https://geowerkstatthamburg.limesurvey.net/982796?lang=de</a><br><br><img src='https://geofos.fhhnet.stadt.hamburg.de/Mastercode/2_24_1/img/Streetsmart.jpg' alt='LGV Panoramabild' width='250' height='226'><br>Ihre Daten werden anonym erfasst und nicht an Dritte weitergegeben.<br><br>Ihr Team LGV Befahrungsdaten",
@@ -17,100 +17,43 @@
       "mustBeConfirmed": true,
       "once": true
     },
-    "news-ais": {
+    "beispiel2": {
       "title": "Das ist ein sehr langer Titel Das ist ein sehr langer Titel Das ist ein sehr langer Titel",
       "category": "info",
       "content": "Hier geht es zum <a target='_blank' href='https://geofos.fhhnet.stadt.hamburg.de/atlas-innere-sicherheit/'>alten Atlas Innere Sicherheit</a>, der<br> Ihnen noch für kurze Zeit zur Verfügung steht.<br> Für Fragen wenden Sie sich an die Fachliche Leiststelle <br>AIS unter <a href='mailto:referatA44@bis.hamburg.de'>referatA44@bis.hamburg.de</a>",
       "once": false
     },
-    "qs-release": {
+    "beispiel3": {
       "displayClass": "info",
-      "category": "Portal zur Abnahme!",
-      "content": "Dieses Geoportal dient der Qualitätskontrolle durch den Kunden.<br>Es ist aufgrund von möglichen Fehlern <b>nicht</b> zur Nutzung für alltägliche oder berufliche Aufgaben geeignet!<br><br>",
-	    "mustBeConfirmed": true,
-      "once": false
+      "category": "NEUIGKEITEN!",
+      "content": "<FONT SIZE=2.5><FONT COLOR=green>Sehr geehrte Nutzerinnen und Nutzer des GeoPortals Bremen, <br><br>ab sofort stehen Ihnen die aktuellen Orthophotos für die Stadtgemeinde Bremen aus der Befliegung 2023 im GeoPortal zur Verfügung. Die Karte finden Sie im Bereich der Hintergrundkarten: <i>Orthophotos Bremen - aktuell</i></FONT></FONT>",
+      "once": {
+          "days": 7
+       }        
     },
-    "failing-service": {
-      "displayClass": "info",
-      "category": "Info zum Thema Starkregengefahrenkarte",
-      "content": "Es kommt zurzeit zu Problemen bei der Darstellung der Starkregengefahrenkarte. An der Behebung des Problems wird gearbeitet",
-      "displayFrom": "2021-07-20 08:00",
-      "displayUntil": "2025-07-20 23:00",
-      "mustBeConfirmed": true,
-      "once": true
-    },
-    "info": {
-      "displayClass": "info",
-      "category": "Performance-Probleme",
-      "content": "Liebe Nutzerinnen und Nutzer,</br></br>Es treten aktuell Performance-Probleme bei der Nutzung der Geobasiskarten und der DOPs auf.</br>Dataport arbeitet derzeit mit hoher Priorität an der Lösungsfindung bzw. Problembehebung.</br></br>Ihr UDP-Team",
-      "displayFrom": "2021-11-23 11:00",
-      "mustBeConfirmed": true,
-      "once": true
-    },
-    "bohrdaten-planned-maintenance": {
-      "displayClass": "info",
-      "category": "Wartungsarbeiten am 09.02.2022",
-      "content": "Wartungsarbeiten am 09.02.2022; ab 13 Uhr kann es zu Ausfällen und Störungen im Bohrdatenportal kommen.<br>Wir versuchen die Ausfallzeit auf ein Minimum zu begrenzen und bitten die Unannehmlichkeiten zu entschuldigen.",
-      "displayFrom": "2022-02-03 11:00",
-      "displayUntil": "2022-02-09 18:00",
-      "mustBeConfirmed": true,
-      "once": true
-    },
-    "umfrage": {
-      "displayClass": "info",
-      "category": "Zufriedenheitsumfrage",
-      "content": "Liebe Nutzerinnen und Nutzer,<br><br>Wir hätten gerne ihre Meinung! Was ist gut, was kann besser werden, was wünschen sie sich? Beteiligen sie sich an unserer Nutzerbefragung und helfen sie mit ihrem Feedback Geo-Online besser zu machen!<br><br>Die Umfrage dauert ca. 10 min. Wir würden uns freuen wenn sie sich die Zeit nehmen.<br><a href='https://geowerkstatthamburg.limesurvey.net/871348'>Hier gehts zur Umfrage.</a><br><br>Ihr Team Geodatenanwendungen im LGV",
-      "displayFrom": "2022-03-10 00:00",
-      "displayUntil": "2022-03-25 23:59",
-      "mustBeConfirmed": true,
-      "once": true
-    },
-    "info_vt": {
-      "displayClass": "info",
-      "category": "Entwickler aufgepasst!",
-      "content": "Wir stellen die Daten der Urban Data Platform im Rahmen eines Beta Tests als Vector Tiles bereit. Vector Tiles machen große Geodatensätze schnell und ermöglichen flexibles Styling.<br> Jetzt ist Eure Meinung gefragt! Wir freuen uns über Euer Feedback. <br>Hier gibt es die Daten und alle weiteren Infos: <a href='http://www.urbandataplatform.hamburg/16066008/vector-tiles-beta-test/'>http://www.urbandataplatform.hamburg/16066008/vector-tiles-beta-test/</a>",
-      "displayFrom": "2022-05-01 00:00",
-      "displayUntil": "2022-05-15 23:59",
-      "mustBeConfirmed": true,
-      "once": true
-    },
-    "bohrdaten-alert": {
-      "displayClass": "info",
-      "category": "Willkommen beim neuen Bohrdatenportal",
-      "content": "<dt>Sehr geehrte Anwenderin,</dt> <dt>sehr geehrter Anwender,</dt> </br> <dd>willkommen beim neuen Bohrdatenportal. Das Bohrdatenportal wurde grundlegend überarbeitet im Design, in den Funktionen und in dem Themenbaum mit seinen verschiedenen Themen.</dd> </br> <dt>Responsive Layout</dt> <dd>Eine der wichtigsten Neuerungen im neuen Bohrdatenportal ist wohl sein neues Design mit der Möglichkeit das Portal sowohl auf dem Desktop-PC, als auch unterwegs und überall auf dem Smartphone verwenden zu können. Das Layout vom Bohrdatenportal passt sich an das jeweilige Benutzergerät des Anwenders an. Dies ist vor allem beim Themenbaum zu sehen in der Navigation durch die Themen. Die Internetadresse „Bohrdaten mobil“ ist nicht mehr aktiv.</dd> </br> <dt>Themenbaum</dt> <dd>Im Themenbaum können sie auswählen, welche Themen sie in der Karte sichtbar schalten wollen. Zu jeder Kartenebene kann über den Infobutton der zugehörige Datensatzeintrag aus dem MetaVer aufgerufen werden. <br> Im Themenbaum haben sie zudem die Möglichkeit den Hintergrund der Karte von grau auf weiß zu stellen. Sie können über die Checkboxen im Themenbaum an den Ordnern alle Kartenebenen innerhalb des Ordners sichtbar schalten und einzelnen ausgewählten Kartenebenen transparent schalten. Die von Ihnen erzeugte Kartenansicht können Sie sich über „Auswahl speichern“ in Form eines Links sichern. Bei Bedarf können Sie über den Link Ihr erstelltes Kartenbild mit den ausgewählten Kartenebenen wiederherstellen oder anderen zur Verfügung stellen. <br> In der oberen rechten Ecke finden Sie unser Suchfeld. Über dieses Suchfeld können Sie wie gewohnt die Adresse suchen. Zudem bieten wir Ihnen aber auch an hier direkt Flurstücke über den Gemarkungsschlüssel zu finden, Stadtteile zu suchen oder aber Themen aus dem Themenbaum sichtbar zu schalten.</dd> </br> <dt>Werkzeuge</dt> <dd>Das neue Bohrdatenportal hat die wichtigen Werkzeuge, wie Maßstabsanzeige, Navigationselemente auf der Karte, Kontakt oder Legende auf der Karte behalten. Weitere Werkzeuge sind im Bereich „Werkzeuge“ in der Menüleiste enthalten, wie z.B. „Informationen abfragen“, „Koordinatensuche“ oder die „Strecke/Fläche messen“. Mit dem neuen Werkzeug „Koordinatensuche“ können Sie jeden Punkt in der Karte lokalisieren. <br> Dieses Informationsfenster dient der Erstinformation aller Nutzer und wird nach einiger Zeit ersetzt durch eine Infobox auf der Karte mit den wichtigsten Neuerungen.</dd> </br> <dd>Bei Fragen und Anmerkungen können Sie sich gerne über den Kontakt-Button an uns wenden.</dd>",
-      "mustBeConfirmed": true,
-      "once": true
-    },
-    "boris-fme": {
-      "displayClass": "info",
-      "category": "Aktuelle Informationen",
-      "content": "Sehr geehrte Anwender und Anwenderinnen,<br><br>aufgrund von Problemen bei einem Softwareupdate arbeitet BORIS.HH derzeit leider nicht stabil. Die Erreichbarkeit der Bodenrichtwerte ist jedoch gegeben. Sofern die Umrechnungsfunktion nicht zur Verfügung steht, können Sie nach der Anleitung in den Erläuterungen zu den Bodenrichtwerten auch eine „händische“ Umrechnung nach den Formeln, die auch im Immobilienmarktbericht veröffentlich sind, vornehmen. Wir bedauern die Unannehmlichkeiten sehr und bemühen uns um kurzfristige Abhilfe.<br><br>Ihr LGV",
-      "mustBeConfirmed": true,
-      "once": {"days": 1}
-    },
+	  
+    
+    
     "news_2025_04_22": {
       "displayClass": "news",
       "category": "Aktualisierung ALKIS",
       "content": "Liebe Nutzerinnen und Nutzer,<br><br>am Freitag (den 25.04.2025) ab 13:30 Uhr wird der ALKIS-Bestand des Geoportals aktualisiert. Es kann passieren, dass einige Funktionen nicht verfügbar werden.<br><br>Euer Team<br>Geoinformation",
       "displayFrom": "2025-04-22 13:00",
-      "mustBeConfirmed": true,
-      "once": true
+      "mustBeConfirmed": true
     },
     "news_2025_04_16": {
       "displayClass": "news",
       "category": "Aktualisierung Baumbestand",
       "content": "Liebe Nutzerinnen und Nutzer,<br><br>am Donnerstag den 24.04.2024 wurden der Baumbestand aktualisiert und in das Geoportal eingepflegt. Falls noch mehr Nadelbaumarten gewünscht sind, bitte sagt Bescheid! Im Datensatz gab es leider Bäume, deren keine Art zugewiesen worden ist. Ich habe mich entschieden, die Bäume in einem separaten Layer einzupflegen.<br><br>Euer Team<br>Geoinformation",
       "displayFrom": "2025-04-16 13:00",
-      "mustBeConfirmed": true,
-      "once": true
+      "mustBeConfirmed": true
     },
     "hinweis_2025_04_01": {
       "displayClass": "info",
       "category": "Hinweis - Leeren des Browsercaches",
       "content": "<FONT COLOR=black>Manchmal verhindern im Cache des Browsers hinterlegte Dateien, dass aktuelle Inhalte der Internetseiten angezeigt werden. Stattdessen werden die im Cache gespeicherten veralteten Daten geladen. Wenn der Cache gelöscht wird, kann anschließend die neueste Version der entsprechenden Webseite geladen werden. Eine Leerung des Caches ist deswegen oft hilfreich, Fehler zu beheben und bewirkt auch, dass Internetseiten wieder schneller geladen werden.<br><br>Euer Team<br>Geoinformation </FONT>",
       "displayFrom": "2025-04-01 13:00",
-      "mustBeConfirmed": true,
-      "once": true
+      "mustBeConfirmed": true
     },
     "willkommen": {
       "displayClass": "info",
