@@ -356,8 +356,7 @@
                         "icon": "bi-envelope",
                         "name": "Kontakt aufnehmen",
                         "execute":{
-                            "action": "Alerting/addSingleAlert",
-                            "payload":  {"title":"An alle Menschen", "content": "Hallo Welt"}
+                            "action": "mailto:verm-gi@ba-pankow.berlin.de?subject=Geoportal%20Anfrage"
                                     }                    
                     }
 
