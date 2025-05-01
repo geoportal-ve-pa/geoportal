@@ -349,6 +349,11 @@
                     },
                     {
                         "type": "language"
+                    },
+                    {
+                        "type": "customMenuElement",
+                        "name": "FAQ",
+                        "htmlContent": "<details><summary>Zusammenfassung Punkt 1</summary><p>Hier kommt der ausführliche Inhalt zum Punkt 1</p></details>"
                     }
                 ],
                 [{
