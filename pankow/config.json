@@ -1292,19 +1292,19 @@
                             "name": "Rosenthal",
                             "type": "folder",
                             "elements": [{
-                                "id": "bplan_blankenburg_XVIII-8",
+                                "id": "bplan_rosenthal_XIX-58a",
                                 "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-9",
+                                "id": "bplan_rosenthal_XIX-6",
                                 "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-30a",
+                                "id": "bplan_rosenthal_XIX-VE-2",
                                 "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-30b",
+                                "id": "bplan_rosenthal_XIX-VE-9",
                                 "visibility": false
                                 }]
                             },
@@ -1312,11 +1312,11 @@
                             "name": "Stadtrandsiedlung Malchow",
                             "type": "folder",
                             "elements": [{
-                                "id": "bplan_blankenburg_XVIII-8",
+                                "id": "bplan_stadtrand_malch_3-7-VE",
                                 "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-9",
+                                "id": "bplan_stadtrand_malch_XVIII-VE-1",
                                 "visibility": false
                                 }]
                             },
@@ -1324,31 +1324,31 @@
                             "name": "Weißensee",
                             "type": "folder",
                             "elements": [{
-                                "id": "bplan_blankenburg_XVIII-8",
+                                "id": "bplan_weissensee_3-12",
                                 "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-9",
+                                "id": "bplan_weissensee_3-13",
                                 "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-30a",
+                                "id": "bplan_weissensee_3-23",
                                 "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-30b",
+                                "id": "bplan_weissensee_XVIII-45a",
                                 "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-30b",
+                                "id": "bplan_weissensee_XVIII-58",
                                 "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-30b",
+                                "id": "bplan_weissensee_XVIII-58-1",
                                 "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-30b",
+                                "id": "bplan_weissensee_XVIII-65",
                                 "visibility": false
                                 }]
                             }]
