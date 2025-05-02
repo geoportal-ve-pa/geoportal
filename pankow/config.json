@@ -1180,7 +1180,111 @@
                             "name": "Prenzlauer Berg",
                             "type": "folder",
                             "elements": [{
-                                "id": "bplan_blankenburg_XVIII-8",
+                                "id": "bplan_prenzl_berg_3-8",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_3-9",
+                                "visibility": false
+                                },
+                                {
+                               "id": "bplan_prenzl_berg_3-14",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_3-16",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_3-26",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_3-27",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_3-29",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-76",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-2a",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-2a-1",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-2b",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-2c",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-2d",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-2e",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-2e-1",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-19",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-23",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-29",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-31",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-32",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-33",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-34",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-36B",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-38",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-45",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-61",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_prenzl_berg_IV-63",
                                 "visibility": false
                                 }]
                             },
