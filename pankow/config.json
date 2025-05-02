@@ -1031,7 +1031,155 @@
                                 "id": "bplan_blankenburg_XVIII-30b",
                                 "visibility": false
                                 }]
-                        }]
+                            },
+                            {
+                            "name": "Buch",
+                            "type": "folder",
+                            "elements": [{
+                                "id": "bplan_blankenburg_XVIII-8",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-9",
+                                "visibility": false
+                                }]
+                            },
+                            {
+                            "name": "Französisch Buchholz",
+                            "type": "folder",
+                            "elements": [{
+                                "id": "bplan_blankenburg_XVIII-8",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-9",
+                                "visibility": false
+                                }]
+                            },
+                            {
+                            "name": "Heinersdorf",
+                            "type": "folder",
+                            "elements": [{
+                                "id": "bplan_blankenburg_XVIII-8",
+                                "visibility": false
+                                }]
+                            },
+                            {
+                            "name": "Karow",
+                            "type": "folder",
+                            "elements": [{
+                                "id": "bplan_blankenburg_XVIII-8",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-9",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-9",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-9",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-9",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-9",
+                                "visibility": false
+                                }]
+                            },
+                            {
+                            "name": "Niederschönhausen",
+                            "type": "folder",
+                            "elements": [{
+                                "id": "bplan_blankenburg_XVIII-8",
+                                "visibility": false
+                                }]
+                            },
+                            {
+                            "name": "Pankow",
+                            "type": "folder",
+                            "elements": [{
+                                "id": "bplan_blankenburg_XVIII-8",
+                                "visibility": false
+                                }]
+                            },
+                            {
+                            "name": "Prenzlauer Berg",
+                            "type": "folder",
+                            "elements": [{
+                                "id": "bplan_blankenburg_XVIII-8",
+                                "visibility": false
+                                }]
+                            },
+                            {
+                            "name": "Rosenthal",
+                            "type": "folder",
+                            "elements": [{
+                                "id": "bplan_blankenburg_XVIII-8",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-9",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-30a",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-30b",
+                                "visibility": false
+                                }]
+                            },
+                            {
+                            "name": "Stadtrandsiedlung Malchow",
+                            "type": "folder",
+                            "elements": [{
+                                "id": "bplan_blankenburg_XVIII-8",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-9",
+                                "visibility": false
+                                }]
+                            },
+                            {
+                            "name": "Weißensee",
+                            "type": "folder",
+                            "elements": [{
+                                "id": "bplan_blankenburg_XVIII-8",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-9",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-30a",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-30b",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-30b",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-30b",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-30b",
+                                "visibility": false
+                                }]
+                            }]
                 },
                 {
                     "name": "Straßenrecht",
