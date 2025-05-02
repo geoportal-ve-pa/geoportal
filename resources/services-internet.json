@@ -3245,12 +3245,12 @@
         "featureCount": "1"
     },
 {
-        "id": "windpotential_pankow",
-        "name": "Windpotentialflächen Pankow",
-        "name_lang": "Windpotentialflächen Pankow",
+        "id": "windpotenzial_pankow",
+        "name": "Windpotenzialflächen Pankow",
+        "name_lang": "Windpotenzialflächen Pankow",
         "url": "https://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin2/qgis_mapserv.fcgi.exe?MAP=D:/GIS-Daten/stadt/Windpotenzial/windpotenzial.qgz&",
         "typ": "WMS",
-        "layers": "Windpotentialflächen_Pankow",
+        "layers": "Windpotenzialflächen_Pankow",
         "legend": "https://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin2/qgis_mapserv.fcgi.exe?MAP=D%3A%2FGIS-Daten%2Fstadt%2FWindpotenzial%2Fwindpotenzial.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=Windpotenzialfl%C3%A4chen_Pankow&FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0",
         "format": "image/png",
         "infoFormat": "text/html",
