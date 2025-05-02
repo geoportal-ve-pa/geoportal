@@ -1267,11 +1267,7 @@
                                     "typ": "GROUP"
                                 }
                             ]
-                        },
-                        {
-                            "id": "wetterlage",
-                            "visibility": false
-                        },
+                        },                        
                         {
                             "id": "maske",
                             "visibility": true,
