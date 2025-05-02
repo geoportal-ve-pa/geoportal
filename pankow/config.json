@@ -1002,6 +1002,26 @@
                     ]
                 },
                 {
+                    "name": "Windpotenzialflächen",
+                    "type": "folder",
+                    "elements": [{
+                        "id": "windpotenzial_pankow",
+                        "visibility": false
+                    }]
+                },
+                {
+                    "name": "Bebauungspläne",
+                    "type": "folder",
+                    "elements": [{
+                            "name": "Blankenburg",
+                            "type": "folder",
+                            "elements": [{
+                                "id": "bplan_blankenburg_XVIII-8",
+                                "visibility": false
+                                }]
+                        }]
+                },
+                {
                     "name": "Straßenrecht",
                     "type": "folder",
                     "elements": [{
