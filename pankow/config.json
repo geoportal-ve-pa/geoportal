@@ -1002,6 +1002,18 @@
                     ]
                 },
                 {
+                    "name": "Stadtentwicklungsamt",
+                    "type": "folder",
+                    "elements": [{
+                        "id": "stadtentw_beta_ve",
+                        "visibility": false
+                    },
+                    {
+                        "id": "stadtentw_zierbr",
+                        "visibility": false
+                    }]
+                },
+                {
                     "name": "Windpotenzialflächen",
                     "type": "folder",
                     "elements": [{
