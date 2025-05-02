@@ -354,7 +354,7 @@
                         "type": "customMenuElement",
                         "icon": "bi-info-circle",
                         "name": "FAQ",
-                        "htmlContent": "<details><summary></br><b>Zusammenfassung Punkt 1</b></summary></br></br><p>Hier kommt der ausführliche Inhalt zum Punkt 1</p></details></br></br>"
+                        "htmlContent": "<details><summary></br><b>Zusammenfassung Punkt 1</b></summary></br><p>Hier kommt der ausführliche Inhalt zum Punkt 1</p></details></br></br><details><summary></br><b>Zusammenfassung Punkt 1</b></summary></br><p>Hier kommt der ausführliche Inhalt zum Punkt 1</p></details>"
                     }
                 ],
                 [{
