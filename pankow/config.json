@@ -1128,7 +1128,7 @@
                             "name": "Heinersdorf",
                             "type": "folder",
                             "elements": [{
-                                "id": "bplan_blankenburg_XVIII-8",
+                                "id": "bplan_hein_3-41",
                                 "visibility": false
                                 }]
                             },
@@ -1136,27 +1136,27 @@
                             "name": "Karow",
                             "type": "folder",
                             "elements": [{
-                                "id": "bplan_blankenburg_XVIII-8",
+                                "id": "bplan_karow_XVIII-20a",
                                 "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-9",
+                                "id": "bplan_karow_XVIII-23",
                                 "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-9",
+                                "id": "bplan_karow_XVIII-24",
                                 "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-9",
+                                "id": "bplan_karow_XVIII-24-2",
                                 "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-9",
+                                "id": "bplan_karow_XVIII-24-3-D1",
                                 "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-9",
+                                "id": "bplan_karow_XVIII-24-3-D2",
                                 "visibility": false
                                 }]
                             },
@@ -1164,7 +1164,7 @@
                             "name": "Niederschönhausen",
                             "type": "folder",
                             "elements": [{
-                                "id": "bplan_blankenburg_XVIII-8",
+                                "id": "bplan_niedersch_XIX-11",
                                 "visibility": false
                                 }]
                             },
@@ -1172,7 +1172,7 @@
                             "name": "Pankow",
                             "type": "folder",
                             "elements": [{
-                                "id": "bplan_blankenburg_XVIII-8",
+                                "id": "bplan_pankow_XIX-VE-3",
                                 "visibility": false
                                 }]
                             },
