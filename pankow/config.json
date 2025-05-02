@@ -1036,11 +1036,11 @@
                             "name": "Buch",
                             "type": "folder",
                             "elements": [{
-                                "id": "bplan_blankenburg_XVIII-8",
+                                "id": "bplan_buch_3-46",
                                 "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-9",
+                                "id": "bplan_buch_XIX-34a",
                                 "visibility": false
                                 }]
                             },
@@ -1048,11 +1048,79 @@
                             "name": "Französisch Buchholz",
                             "type": "folder",
                             "elements": [{
-                                "id": "bplan_blankenburg_XVIII-8",
+                                "id": "bplan_franz_buch_XIX-40a",
                                 "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-9",
+                                "id": "bplan_franz_buch_XIX-40b",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_franz_buch_XIX-40c1",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_franz_buch_XIX-40d",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_franz_buch_XIX-40e",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_franz_buch_XIX-40f",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_franz_buch_XIX-40g",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_franz_buch_XIX-40h",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_franz_buch_XIX-40i",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_franz_buch_XIX-40j1",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_franz_buch_XIX-40j2",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_franz_buch_XIX-43a",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_franz_buch_XIX-48b",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_franz_buch_XIX-C1a",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_franz_buch_XIX-C1b",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_franz_buch_XIX-VE-1",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_franz_buch_XIX-VE-4",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_franz_buch_XIX-VE-5",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_franz_buch_XIX-VE-6",
                                 "visibility": false
                                 }]
                             },
