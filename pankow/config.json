@@ -1018,6 +1018,18 @@
                             "elements": [{
                                 "id": "bplan_blankenburg_XVIII-8",
                                 "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-9",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-30a",
+                                "visibility": false
+                                },
+                                {
+                                "id": "bplan_blankenburg_XVIII-30b",
+                                "visibility": false
                                 }]
                         }]
                 },
