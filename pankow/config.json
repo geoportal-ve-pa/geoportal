@@ -1152,11 +1152,7 @@
                                         "name": "Planabschnitt_15",
                                         "type": "folder",
                                         "elements": [{
-                                                "id": "stadtentw_panke_plan16_nord",
-                                                "visibility": false
-                                            },
-                                            {
-                                                "id": "stadtentw_panke_plan16_sued",
+                                                "id": "stadtentw_panke_plan15",
                                                 "visibility": false
                                             }
                                         ]
@@ -1165,11 +1161,7 @@
                                         "name": "Planabschnitt_14",
                                         "type": "folder",
                                         "elements": [{
-                                                "id": "stadtentw_panke_plan16_nord",
-                                                "visibility": false
-                                            },
-                                            {
-                                                "id": "stadtentw_panke_plan16_sued",
+                                                "id": "stadtentw_panke_plan14",
                                                 "visibility": false
                                             }
                                         ]
@@ -1178,11 +1170,7 @@
                                         "name": "Planabschnitt_13",
                                         "type": "folder",
                                         "elements": [{
-                                                "id": "stadtentw_panke_plan16_nord",
-                                                "visibility": false
-                                            },
-                                            {
-                                                "id": "stadtentw_panke_plan16_sued",
+                                                "id": "stadtentw_panke_plan13",
                                                 "visibility": false
                                             }
                                         ]
@@ -1191,11 +1179,11 @@
                                         "name": "Planabschnitt_12",
                                         "type": "folder",
                                         "elements": [{
-                                                "id": "stadtentw_panke_plan16_nord",
+                                                "id": "stadtentw_panke_plan12_nord",
                                                 "visibility": false
                                             },
                                             {
-                                                "id": "stadtentw_panke_plan16_sued",
+                                                "id": "stadtentw_panke_plan12_sued",
                                                 "visibility": false
                                             }
                                         ]
@@ -1204,11 +1192,11 @@
                                         "name": "Planabschnitt_11",
                                         "type": "folder",
                                         "elements": [{
-                                                "id": "stadtentw_panke_plan16_nord",
+                                                "id": "stadtentw_panke_plan11_nord",
                                                 "visibility": false
                                             },
                                             {
-                                                "id": "stadtentw_panke_plan16_sued",
+                                                "id": "stadtentw_panke_plan11_sued",
                                                 "visibility": false
                                             }
                                         ]
@@ -1217,11 +1205,7 @@
                                         "name": "Planabschnitt_09_und_10",
                                         "type": "folder",
                                         "elements": [{
-                                                "id": "stadtentw_panke_plan16_nord",
-                                                "visibility": false
-                                            },
-                                            {
-                                                "id": "stadtentw_panke_plan16_sued",
+                                                "id": "stadtentw_panke_plan09_10",
                                                 "visibility": false
                                             }
                                         ]
@@ -1230,11 +1214,7 @@
                                         "name": "Planabschnitt_08",
                                         "type": "folder",
                                         "elements": [{
-                                                "id": "stadtentw_panke_plan16_nord",
-                                                "visibility": false
-                                            },
-                                            {
-                                                "id": "stadtentw_panke_plan16_sued",
+                                                "id": "stadtentw_panke_plan08",
                                                 "visibility": false
                                             }
                                         ]
@@ -1243,11 +1223,7 @@
                                         "name": "Planabschnitt_07",
                                         "type": "folder",
                                         "elements": [{
-                                                "id": "stadtentw_panke_plan16_nord",
-                                                "visibility": false
-                                            },
-                                            {
-                                                "id": "stadtentw_panke_plan16_sued",
+                                                "id": "stadtentw_panke_plan07",
                                                 "visibility": false
                                             }
                                         ]
@@ -1256,11 +1232,7 @@
                                         "name": "Planabschnitt_06",
                                         "type": "folder",
                                         "elements": [{
-                                                "id": "stadtentw_panke_plan16_nord",
-                                                "visibility": false
-                                            },
-                                            {
-                                                "id": "stadtentw_panke_plan16_sued",
+                                                "id": "stadtentw_panke_plan06",
                                                 "visibility": false
                                             }
                                         ]
@@ -1269,11 +1241,7 @@
                                         "name": "Planabschnitt_05",
                                         "type": "folder",
                                         "elements": [{
-                                                "id": "stadtentw_panke_plan16_nord",
-                                                "visibility": false
-                                            },
-                                            {
-                                                "id": "stadtentw_panke_plan16_sued",
+                                                "id": "stadtentw_panke_plan05",
                                                 "visibility": false
                                             }
                                         ]
