@@ -1025,6 +1025,40 @@
                             ]
                         },
                         {
+                            "name": "Verkehr",
+                            "type": "folder",
+                            "elements": [{
+                                    "id": "stadtentw_verkehr_bvg_li",
+                                    "visibility": false
+                                },
+                                {
+                                "name": "BVG-Haltestellen (© BVG 2018)",
+                                "type": "folder",
+                                "elements": [{
+                                    "id": "id": "stadtentw_verkehr_bvg_bus",
+                                    "visibility": false
+                                    },
+                                    {
+                                    "id": "stadtentw_verkehr_bvg_tram",
+                                    "visibility": false
+                                    },
+                                    {
+                                    "id": "stadtentw_verkehr_bvg_u-bahn",
+                                    "visibility": false
+                                    }
+                                ]
+                                },
+                                {
+                                    "id": "stadtentw_verkehr_spnv_li",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "stadtentw_verkehr_spnv_st",
+                                    "visibility": false
+                                }
+                            ]
+                        },
+                        {
                             "id": "stadtentw_ueberschwemmung_2018",
                             "visibility": false
                         },
@@ -1104,11 +1138,141 @@
                                         "name": "Planabschnitt_16",
                                         "type": "folder",
                                         "elements": [{
-                                                "id": "stadtentw_bearbeiter_verbindl_bauleit_2024",
+                                                "id": "stadtentw_panke_plan16_nord",
                                                 "visibility": false
                                             },
                                             {
-                                                "id": "stadtentw_bearbeiter_bwa_2025",
+                                                "id": "stadtentw_panke_plan16_sued",
+                                                "visibility": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Planabschnitt_15",
+                                        "type": "folder",
+                                        "elements": [{
+                                                "id": "stadtentw_panke_plan16_nord",
+                                                "visibility": false
+                                            },
+                                            {
+                                                "id": "stadtentw_panke_plan16_sued",
+                                                "visibility": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Planabschnitt_14",
+                                        "type": "folder",
+                                        "elements": [{
+                                                "id": "stadtentw_panke_plan16_nord",
+                                                "visibility": false
+                                            },
+                                            {
+                                                "id": "stadtentw_panke_plan16_sued",
+                                                "visibility": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Planabschnitt_13",
+                                        "type": "folder",
+                                        "elements": [{
+                                                "id": "stadtentw_panke_plan16_nord",
+                                                "visibility": false
+                                            },
+                                            {
+                                                "id": "stadtentw_panke_plan16_sued",
+                                                "visibility": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Planabschnitt_12",
+                                        "type": "folder",
+                                        "elements": [{
+                                                "id": "stadtentw_panke_plan16_nord",
+                                                "visibility": false
+                                            },
+                                            {
+                                                "id": "stadtentw_panke_plan16_sued",
+                                                "visibility": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Planabschnitt_11",
+                                        "type": "folder",
+                                        "elements": [{
+                                                "id": "stadtentw_panke_plan16_nord",
+                                                "visibility": false
+                                            },
+                                            {
+                                                "id": "stadtentw_panke_plan16_sued",
+                                                "visibility": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Planabschnitt_09_und_10",
+                                        "type": "folder",
+                                        "elements": [{
+                                                "id": "stadtentw_panke_plan16_nord",
+                                                "visibility": false
+                                            },
+                                            {
+                                                "id": "stadtentw_panke_plan16_sued",
+                                                "visibility": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Planabschnitt_08",
+                                        "type": "folder",
+                                        "elements": [{
+                                                "id": "stadtentw_panke_plan16_nord",
+                                                "visibility": false
+                                            },
+                                            {
+                                                "id": "stadtentw_panke_plan16_sued",
+                                                "visibility": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Planabschnitt_07",
+                                        "type": "folder",
+                                        "elements": [{
+                                                "id": "stadtentw_panke_plan16_nord",
+                                                "visibility": false
+                                            },
+                                            {
+                                                "id": "stadtentw_panke_plan16_sued",
+                                                "visibility": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Planabschnitt_06",
+                                        "type": "folder",
+                                        "elements": [{
+                                                "id": "stadtentw_panke_plan16_nord",
+                                                "visibility": false
+                                            },
+                                            {
+                                                "id": "stadtentw_panke_plan16_sued",
+                                                "visibility": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Planabschnitt_05",
+                                        "type": "folder",
+                                        "elements": [{
+                                                "id": "stadtentw_panke_plan16_nord",
+                                                "visibility": false
+                                            },
+                                            {
+                                                "id": "stadtentw_panke_plan16_sued",
                                                 "visibility": false
                                             }
                                         ]
