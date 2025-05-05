@@ -1075,6 +1075,70 @@
                         {
                             "id": "stadtentw_bebauungsplan_alt",
                             "visibility": false
+                        },
+                        {
+                            "name": "Bearbeitergebiete",
+                            "type": "folder",
+                            "elements": [{
+                                    "id": "stadtentw_bearbeiter_verbindl_bauleit_2024",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "stadtentw_bearbeiter_bwa_2025",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "stadtentw_bearbeiter_bauberatung_2025",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "stadtentw_bearbeiter_ud_2023",
+                                    "visibility": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Ausbau der Panke",
+                            "type": "folder",
+                            "elements": [{
+                                        "name": "Planabschnitt_16",
+                                        "type": "folder",
+                                        "elements": [{
+                                                "id": "stadtentw_bearbeiter_verbindl_bauleit_2024",
+                                                "visibility": false
+                                            },
+                                            {
+                                                "id": "stadtentw_bearbeiter_bwa_2025",
+                                                "visibility": false
+                                            }
+                                        ]
+                                    }
+                            ]
+                        },
+                        {
+                            "name": "Denkmalkarte (März 2025)",
+                            "type": "folder",
+                            "elements": [{
+                                    "id": "stadtentw_denkmal_boden",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "stadtentw_denkmal_bau",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "stadtentw_denkmal_garten",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "stadtentw_denkmal_gesamtanlage",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "stadtentw_denkmal_ensamble",
+                                    "visibility": false
+                                }
+                            ]
                         }
                     ]
                 },
