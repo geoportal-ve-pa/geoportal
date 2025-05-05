@@ -1,3 +1,4 @@
+
 {
     "portalConfig": {
         "map": {
@@ -1035,7 +1036,7 @@
                                 "name": "BVG-Haltestellen (© BVG 2018)",
                                 "type": "folder",
                                 "elements": [{
-                                    "id": "id": "stadtentw_verkehr_bvg_bus",
+                                    "id": "stadtentw_verkehr_bvg_bus",
                                     "visibility": false
                                     },
                                     {
