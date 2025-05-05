@@ -23,8 +23,8 @@
                 "button3d": true,
                 "expandable": {
                     "orientation": {
-                    "zoomMode": "once"
-                                },                    
+                        "zoomMode": "once"
+                    },
                     "freeze": true,
                     "fullScreen": true,
                     "rotation": {
@@ -361,7 +361,7 @@
                         "type": "customMenuElement",
                         "icon": "bi-envelope",
                         "name": "Kontakt aufnehmen",
-                        "htmlContent": "<div><p>Sie haben Hinweise, Fragen oder Probleme? Schreiben Sie uns!</p></br><button type=\"button\" style=\"background-color: white; border-color: steelblue; text-color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 12px;\"><a href=\"mailto:verm-gi@ba-pankow.berlin.de?subject=Geoportal Anliegen\">verm-gi@ba-pankow.berlin.de</a></button><div>"                 
+                        "htmlContent": "<div><p>Sie haben Hinweise, Fragen oder Probleme? Schreiben Sie uns!</p></br><button type=\"button\" style=\"background-color: white; border-color: steelblue; text-color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 12px;\"><a href=\"mailto:verm-gi@ba-pankow.berlin.de?subject=Geoportal Anliegen\">verm-gi@ba-pankow.berlin.de</a></button><div>"
                     }
 
                 ]
@@ -397,7 +397,7 @@
                             "hour": "13",
                             "minute": "0"
                         }
-                    },                    
+                    },
                     {
                         "type": "legend"
                     },
@@ -878,8 +878,7 @@
                 {
                     "name": "Sozialraumorientierte Planungskoordination",
                     "type": "folder",
-                    "elements": [
-                        {
+                    "elements": [{
                             "name": "Unterkünfte (Stand: Herbst 2023)",
                             "type": "folder",
                             "elements": [{
@@ -998,20 +997,86 @@
                             "id": "spk_bef_wachstum_2018",
                             "visibility": false
                         }
-                        
+
                     ]
                 },
                 {
                     "name": "Stadtentwicklungsamt",
                     "type": "folder",
                     "elements": [{
-                        "id": "stadtentw_beta_ve",
-                        "visibility": false
-                    },
-                    {
-                        "id": "stadtentw_zierbr",
-                        "visibility": false
-                    }]
+                            "id": "stadtentw_beta_ve",
+                            "visibility": false
+                        },
+                        {
+                            "id": "stadtentw_zierbr",
+                            "visibility": false
+                        },
+                        {
+                            "name": "VU Gebiete",
+                            "type": "folder",
+                            "elements": [{
+                                    "id": "stadtentw_vu_langhans",
+                                    "visibility": false
+                                },
+                                {
+                                    "id": "stadtentw_vu_blankenb",
+                                    "visibility": false
+                                }
+                            ]
+                        },
+                        {
+                            "id": "stadtentw_ueberschwemmung_2018",
+                            "visibility": false
+                        },
+                        {
+                            "id": "stadtentw_san_langhansstr",
+                            "visibility": false
+                        },
+                        {
+                            "id": "stadtentw_staedtebau_foerder",
+                            "visibility": false
+                        },
+                        {
+                            "id": "stadtentw_kleingarten_2024",
+                            "visibility": false
+                        },
+                        {
+                            "id": "stadtentw_erholung_pankow",
+                            "visibility": false
+                        },
+                        {
+                            "id": "stadtentw_integr_staedtebau_konz",
+                            "visibility": false
+                        },
+                        {
+                            "id": "stadtentw_landesgrund_alkis_2019",
+                            "visibility": false
+                        },
+                        {
+                            "id": "stadtentw_foerder_stadt_denkmal",
+                            "visibility": false
+                        },
+                        {
+                            "id": "stadtentw_flaechennutzung",
+                            "visibility": false
+                        },
+                        {
+                            "id": "stadtentw_bodenricht_2025",
+                            "visibility": false
+                        },
+                        {
+                            "id": "stadtentw_erhaltung_pankow",
+                            "visibility": false
+                        },
+                        {
+                            "id": "stadtentw_bebauungsplan_2025",
+                            "visibility": false
+                        },
+                        {
+                            "id": "stadtentw_bebauungsplan_alt",
+                            "visibility": false
+                        }
+                    ]
                 },
                 {
                     "name": "Windpotenzialflächen",
@@ -1028,342 +1093,351 @@
                             "name": "Blankenburg",
                             "type": "folder",
                             "elements": [{
-                                "id": "bplan_blankenburg_XVIII-8",
-                                "visibility": false
+                                    "id": "bplan_blankenburg_XVIII-8",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-9",
-                                "visibility": false
+                                    "id": "bplan_blankenburg_XVIII-9",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-30a",
-                                "visibility": false
+                                    "id": "bplan_blankenburg_XVIII-30a",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_blankenburg_XVIII-30b",
-                                "visibility": false
-                                }]
-                            },
-                            {
+                                    "id": "bplan_blankenburg_XVIII-30b",
+                                    "visibility": false
+                                }
+                            ]
+                        },
+                        {
                             "name": "Buch",
                             "type": "folder",
                             "elements": [{
-                                "id": "bplan_buch_3-46",
-                                "visibility": false
+                                    "id": "bplan_buch_3-46",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_buch_XIX-34a",
-                                "visibility": false
-                                }]
-                            },
-                            {
+                                    "id": "bplan_buch_XIX-34a",
+                                    "visibility": false
+                                }
+                            ]
+                        },
+                        {
                             "name": "Französisch Buchholz",
                             "type": "folder",
                             "elements": [{
-                                "id": "bplan_franz_buch_XIX-40a",
-                                "visibility": false
+                                    "id": "bplan_franz_buch_XIX-40a",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_franz_buch_XIX-40b",
-                                "visibility": false
+                                    "id": "bplan_franz_buch_XIX-40b",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_franz_buch_XIX-40c1",
-                                "visibility": false
+                                    "id": "bplan_franz_buch_XIX-40c1",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_franz_buch_XIX-40d",
-                                "visibility": false
+                                    "id": "bplan_franz_buch_XIX-40d",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_franz_buch_XIX-40e",
-                                "visibility": false
+                                    "id": "bplan_franz_buch_XIX-40e",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_franz_buch_XIX-40f",
-                                "visibility": false
+                                    "id": "bplan_franz_buch_XIX-40f",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_franz_buch_XIX-40g",
-                                "visibility": false
+                                    "id": "bplan_franz_buch_XIX-40g",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_franz_buch_XIX-40h",
-                                "visibility": false
+                                    "id": "bplan_franz_buch_XIX-40h",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_franz_buch_XIX-40i",
-                                "visibility": false
+                                    "id": "bplan_franz_buch_XIX-40i",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_franz_buch_XIX-40j_1",
-                                "visibility": false
+                                    "id": "bplan_franz_buch_XIX-40j_1",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_franz_buch_XIX-40j_2",
-                                "visibility": false
+                                    "id": "bplan_franz_buch_XIX-40j_2",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_franz_buch_XIX-43a",
-                                "visibility": false
+                                    "id": "bplan_franz_buch_XIX-43a",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_franz_buch_XIX-48b",
-                                "visibility": false
+                                    "id": "bplan_franz_buch_XIX-48b",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_franz_buch_XIX-C1a",
-                                "visibility": false
+                                    "id": "bplan_franz_buch_XIX-C1a",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_franz_buch_XIX-C1b",
-                                "visibility": false
+                                    "id": "bplan_franz_buch_XIX-C1b",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_franz_buch_XIX-VE-1",
-                                "visibility": false
+                                    "id": "bplan_franz_buch_XIX-VE-1",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_franz_buch_XIX-VE-4",
-                                "visibility": false
+                                    "id": "bplan_franz_buch_XIX-VE-4",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_franz_buch_XIX-VE-5",
-                                "visibility": false
+                                    "id": "bplan_franz_buch_XIX-VE-5",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_franz_buch_XIX-VE-6",
-                                "visibility": false
-                                }]
-                            },
-                            {
+                                    "id": "bplan_franz_buch_XIX-VE-6",
+                                    "visibility": false
+                                }
+                            ]
+                        },
+                        {
                             "name": "Heinersdorf",
                             "type": "folder",
                             "elements": [{
                                 "id": "bplan_hein_3-41",
                                 "visibility": false
-                                }]
-                            },
-                            {
+                            }]
+                        },
+                        {
                             "name": "Karow",
                             "type": "folder",
                             "elements": [{
-                                "id": "bplan_karow_XVIII-20a",
-                                "visibility": false
+                                    "id": "bplan_karow_XVIII-20a",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_karow_XVIII-23",
-                                "visibility": false
+                                    "id": "bplan_karow_XVIII-23",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_karow_XVIII-24",
-                                "visibility": false
+                                    "id": "bplan_karow_XVIII-24",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_karow_XVIII-24-2",
-                                "visibility": false
+                                    "id": "bplan_karow_XVIII-24-2",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_karow_XVIII-24-3-D1",
-                                "visibility": false
+                                    "id": "bplan_karow_XVIII-24-3-D1",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_karow_XVIII-24-3-D2",
-                                "visibility": false
-                                }]
-                            },
-                            {
+                                    "id": "bplan_karow_XVIII-24-3-D2",
+                                    "visibility": false
+                                }
+                            ]
+                        },
+                        {
                             "name": "Niederschönhausen",
                             "type": "folder",
                             "elements": [{
                                 "id": "bplan_niedersch_XIX-11",
                                 "visibility": false
-                                }]
-                            },
-                            {
+                            }]
+                        },
+                        {
                             "name": "Pankow",
                             "type": "folder",
                             "elements": [{
                                 "id": "bplan_pankow_XIX-VE-3",
                                 "visibility": false
-                                }]
-                            },
-                            {
+                            }]
+                        },
+                        {
                             "name": "Prenzlauer Berg",
                             "type": "folder",
                             "elements": [{
-                                "id": "bplan_prenzl_berg_3-8",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_3-8",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_3-9",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_3-9",
+                                    "visibility": false
                                 },
                                 {
-                               "id": "bplan_prenzl_berg_3-14",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_3-14",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_3-16",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_3-16",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_3-26",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_3-26",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_3-27",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_3-27",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_3-29",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_3-29",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-76",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-76",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-2a",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-2a",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-2a-1",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-2a-1",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-2b",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-2b",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-2c",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-2c",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-2d",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-2d",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-2e",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-2e",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-2e-1",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-2e-1",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-19",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-19",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-23",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-23",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-29",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-29",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-31",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-31",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-32",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-32",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-33",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-33",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-34",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-34",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-36B",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-36B",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-38",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-38",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-45",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-45",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-61",
-                                "visibility": false
+                                    "id": "bplan_prenzl_berg_IV-61",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_prenzl_berg_IV-63",
-                                "visibility": false
-                                }]
-                            },
-                            {
+                                    "id": "bplan_prenzl_berg_IV-63",
+                                    "visibility": false
+                                }
+                            ]
+                        },
+                        {
                             "name": "Rosenthal",
                             "type": "folder",
                             "elements": [{
-                                "id": "bplan_rosenthal_XIX-58a",
-                                "visibility": false
+                                    "id": "bplan_rosenthal_XIX-58a",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_rosenthal_XIX-6",
-                                "visibility": false
+                                    "id": "bplan_rosenthal_XIX-6",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_rosenthal_XIX-VE-2",
-                                "visibility": false
+                                    "id": "bplan_rosenthal_XIX-VE-2",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_rosenthal_XIX-VE-9",
-                                "visibility": false
-                                }]
-                            },
-                            {
+                                    "id": "bplan_rosenthal_XIX-VE-9",
+                                    "visibility": false
+                                }
+                            ]
+                        },
+                        {
                             "name": "Stadtrandsiedlung Malchow",
                             "type": "folder",
                             "elements": [{
-                                "id": "bplan_stadtrand_malch_3-7-VE",
-                                "visibility": false
+                                    "id": "bplan_stadtrand_malch_3-7-VE",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_stadtrand_malch_XVIII-VE-1",
-                                "visibility": false
-                                }]
-                            },
-                            {
+                                    "id": "bplan_stadtrand_malch_XVIII-VE-1",
+                                    "visibility": false
+                                }
+                            ]
+                        },
+                        {
                             "name": "Weißensee",
                             "type": "folder",
                             "elements": [{
-                                "id": "bplan_weissensee_3-12",
-                                "visibility": false
+                                    "id": "bplan_weissensee_3-12",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_weissensee_3-13",
-                                "visibility": false
+                                    "id": "bplan_weissensee_3-13",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_weissensee_3-23",
-                                "visibility": false
+                                    "id": "bplan_weissensee_3-23",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_weissensee_XVIII-45a",
-                                "visibility": false
+                                    "id": "bplan_weissensee_XVIII-45a",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_weissensee_XVIII-58",
-                                "visibility": false
+                                    "id": "bplan_weissensee_XVIII-58",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_weissensee_XVIII-58-1",
-                                "visibility": false
+                                    "id": "bplan_weissensee_XVIII-58-1",
+                                    "visibility": false
                                 },
                                 {
-                                "id": "bplan_weissensee_XVIII-65",
-                                "visibility": false
-                                }]
-                            }]
+                                    "id": "bplan_weissensee_XVIII-65",
+                                    "visibility": false
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "name": "Straßenrecht",
@@ -1631,7 +1705,7 @@
                                     "typ": "GROUP"
                                 }
                             ]
-                        },                        
+                        },
                         {
                             "id": "maske",
                             "visibility": true,
