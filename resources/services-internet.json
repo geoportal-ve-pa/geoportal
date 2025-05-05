@@ -3532,8 +3532,8 @@
     },
     {
         "id": "stadtentw_foerder_stadt_denkmal",
-        "name": "Landesgrundvermögen - ALKIS - 10.01.2019",
-        "name_lang": "Landesgrundvermögen - ALKIS - 10.01.2019",
+        "name": "Förderkulisse Städtebaulicher Denkmalschutz",
+        "name_lang": "Förderkulisse Städtebaulicher Denkmalschutz",
         "url": "https://geodaten.ba-pankow.verwalt-berlin.de/cgi-bin2/qgis_mapserv.fcgi.exe?MAP=D:/GIS-Daten/Stadt/stadt.qgz&",
         "typ": "WMS",
         "layers": "Förderkulisse Städtebaulicher Denkmalschutz",
