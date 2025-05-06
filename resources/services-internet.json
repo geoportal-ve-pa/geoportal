@@ -1391,11 +1391,8 @@
         "featureCount": "1",
         "datasets": [{
                 "customMetadata": true,
-                      "attributes":
-                        {
-                        "Titel": "MD_Metadata.fileIdentifier.CharacterString",
-                        "URL": "MD_Metadata.contact.CI_ResponsibleParty.contactInfo.CI_Contact.onlineResource.CI_OnlineResource.linkage.URL"
-                        }
+                "md_name": "test",
+                "md_attributes": "test"
                       }]
     },
     {
