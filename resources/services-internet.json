@@ -1390,8 +1390,12 @@
         "cache": true,
         "featureCount": "1",
         "datasets" : [
-         {            
-            "md_name" : "Digitale Orthophotos 10cm - FHHNET"
+         {     
+            "customMetadata": true,
+            "attributes":
+                {
+                "Titel": "dies ist ein test"
+                }
          }
       ]
     },
