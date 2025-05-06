@@ -89,7 +89,7 @@
 </gmd:citation>
 <gmd:abstract>
 <gco:CharacterString>
-<![CDATA[ Bezirksgrenze des Verwaltungsbezirks Pankow ]]>
+<![CDATA[ Bezirksgrenze des Verwaltungsbezirks Pankow. ]]>
 </gco:CharacterString>
 </gmd:abstract>
 
@@ -102,7 +102,6 @@
 <gmd:positionName>
 <gco:CharacterString>Fachbereich Vermessung</gco:CharacterString>
 </gmd:positionName>
-<gmd:contactInfo>
 <gmd:contactInfo>
 <gmd:CI_Contact>
 <gmd:address>
