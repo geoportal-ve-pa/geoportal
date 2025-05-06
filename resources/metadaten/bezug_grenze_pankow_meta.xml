@@ -121,10 +121,10 @@
 <gmd:country>
 <gco:CharacterString>DEU</gco:CharacterString>
 </gmd:country>
-
-<gmd:phone>
+  
+<gmd:CI_Telephone>
 <gco:CharacterString>+49 30 90295 3455</gco:CharacterString>
-</gmd:phone>
+</gmd:CI_Telephone>
   
 <gmd:electronicMailAddress>
 <gco:CharacterString>verm-gi@ba-pankow.berlin.de</gco:CharacterString>
