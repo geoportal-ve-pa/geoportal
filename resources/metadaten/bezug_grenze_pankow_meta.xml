@@ -123,12 +123,7 @@
 </gmd:country>  
 <gmd:electronicMailAddress>
 <gco:CharacterString>verm-gi@ba-pankow.berlin.de</gco:CharacterString>
-</gmd:electronicMailAddress> 
-
-      <gmd:phone>
-        <gco:CharacterString>+49 30 12345678</gco:CharacterString>
-      </gmd:phone>
-  
+</gmd:electronicMailAddress>   
 </gmd:CI_Address>
 </gmd:address>
 <gmd:onlineResource>
