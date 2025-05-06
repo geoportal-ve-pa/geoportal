@@ -1391,8 +1391,8 @@
         "featureCount": "1",
         "datasets": [
             {
-                "md_id": "geotherm_pot.xml",
-                "csw_url": "./resources/metadaten/geotherm_pot.xml",
+                "md_id": "Bezirksgrenze_Pankow_MD.xml",
+                "csw_url": "./resources/metadaten/Bezirksgrenze_Pankow_MD.xml",
                 "show_doc_url": "./resources/metadaten/",
                 "md_name": "Oberflächennahe Geothermie - Potenzial"
             }
