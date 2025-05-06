@@ -122,9 +122,9 @@
 <gco:CharacterString>DEU</gco:CharacterString>
 </gmd:country>
   
-<gmd:CI_Telephone>
+<gmd:voice>
 <gco:CharacterString>+49 30 90295 3455</gco:CharacterString>
-</gmd:CI_Telephone>
+</gmd:voice>
   
 <gmd:electronicMailAddress>
 <gco:CharacterString>verm-gi@ba-pankow.berlin.de</gco:CharacterString>
