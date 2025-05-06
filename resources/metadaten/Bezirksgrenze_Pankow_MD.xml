@@ -92,7 +92,6 @@
 <![CDATA[ Präsentiert wird hier die Bezirksgrenze von Pankow<br/><p>Link: <a href="www.google.de" target=”_blank”>Dies ist eine URL</a> ]]>
 </gco:CharacterString>
 </gmd:abstract>
-<gmd:pointOfContact>
 </srv:SV_ServiceIdentification>
 </gmd:identificationInfo>
 </gmd:MD_Metadata>
