@@ -1391,7 +1391,6 @@
         "featureCount": "1",
         "datasets": [{
                 "customMetadata": true,
-                "csw_url": "https://mapservice....&request=GetMetadata&layer=beispielLayer",
                       "attributes":
                         {
                         "Titel": "MD_Metadata.fileIdentifier.CharacterString",
