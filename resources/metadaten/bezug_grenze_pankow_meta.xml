@@ -63,7 +63,7 @@
 <gmd:citation>
 <gmd:CI_Citation>
 <gmd:title>
-<gco:CharacterString>Mögliche Entzugsleistung für oberflächennahe Geothermie</gco:CharacterString>
+<gco:CharacterString>Bezirksgrenze Verwaltungsbezirk Pankow</gco:CharacterString>
 </gmd:title>
 <gmd:date>
 <gmd:CI_Date>
@@ -89,7 +89,7 @@
 </gmd:citation>
 <gmd:abstract>
 <gco:CharacterString>
-<![CDATA[ Präsentiert wird hier die Bezirksgrenze von Pankow<br/><p>Link: <a href="www.google.de" target=”_blank”>Dies ist eine URL</a> ]]>
+<![CDATA[ Bezirksgrenze des Verwaltungsbezirks Pankow ]]>
 </gco:CharacterString>
 </gmd:abstract>
 
@@ -97,7 +97,7 @@
 <gmd:pointOfContact>
 <gmd:CI_ResponsibleParty>
 <gmd:organisationName>
-<gco:CharacterString>Bezirksamt Pankow von Berlin, Fachbereich Vermessung</gco:CharacterString>
+<gco:CharacterString>Bezirksamt Pankow von Berlin<br/>Fachbereich Vermessung</gco:CharacterString>
 </gmd:organisationName>
 <gmd:contactInfo>
 <gmd:CI_Contact>
