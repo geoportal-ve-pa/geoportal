@@ -1418,8 +1418,8 @@
         "featureCount": "1",
         "datasets": [
             {
-                "md_id": "Bezirksgrenze_Pankow_MD.xml",
-                "csw_url": "../resources/metadaten/Bezirksgrenze_Pankow_MD.xml",
+                "md_id": "bezug_grenze_pankow_meta.xml",
+                "csw_url": "../resources/metadaten/bezug_grenze_pankow_meta.xml",
                 "show_doc_url": "../resources/metadaten/",
                 "md_name": "Bezirksgrenze Pankow"
             }
