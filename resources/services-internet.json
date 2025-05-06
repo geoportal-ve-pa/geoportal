@@ -1390,15 +1390,8 @@
         "cache": true,
         "featureCount": "1",
         "datasets" : [
-         {
-            "md_id" : "2",
-            "rs_id" : "metadaten/2",
-            "md_name" : "Digitale Orthophotos 10cm - FHHNET",
-            "release_date": "2023-05-01","contact": {
-                  "name": "Max Mustermann",
-                  "email": "max.mustermann@landesbetrieb.de"
-                },
-            "kategorie_organisation" : "Vermessung Pankow"
+         {            
+            "md_name" : "Digitale Orthophotos 10cm - FHHNET"
          }
       ]
     },
