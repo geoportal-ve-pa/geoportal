@@ -120,15 +120,15 @@
 </gmd:postalCode>
 <gmd:country>
 <gco:CharacterString>DEU</gco:CharacterString>
-</gmd:country>
-  
-<gmd:voice>
-<gco:CharacterString>+49 30 90295 3455</gco:CharacterString>
-</gmd:voice>
-  
+</gmd:country>  
 <gmd:electronicMailAddress>
 <gco:CharacterString>verm-gi@ba-pankow.berlin.de</gco:CharacterString>
 </gmd:electronicMailAddress>
+  
+<gmd:characterString>
+  <gco:CharacterString>Tel.: +49 30 90295 3455</gco:CharacterString>
+</gmd:characterString>
+  
 </gmd:CI_Address>
 </gmd:address>
 <gmd:onlineResource>
