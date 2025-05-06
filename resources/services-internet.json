@@ -1388,15 +1388,8 @@
         "maxScale": "2500000",
         "gfiAttributes": "ignore",
         "cache": true,
-        "featureCount": "1",
-        "datasets": [
-            {
-                "md_id": "Bezirksgrenze_Pankow_MD.xml",
-                "csw_url": "./resources/metadaten/Bezirksgrenze_Pankow_MD.xml",
-                "show_doc_url": "./resources/metadaten/",
-                "md_name": "Oberflächennahe Geothermie - Potenzial"
-            }
-        ]
+        "featureCount": "1"
+        
     },
     {
         "id": "Bezug_Grenze_Pankow",
@@ -1422,7 +1415,15 @@
         "gfiAttributes": "ignore",
         "gfiTheme": "default",
         "cache": true,
-        "featureCount": "1"
+        "featureCount": "1",
+        "datasets": [
+            {
+                "md_id": "Bezirksgrenze_Pankow_MD.xml",
+                "csw_url": "../resources/metadaten/Bezirksgrenze_Pankow_MD.xml",
+                "show_doc_url": "../resources/metadaten/",
+                "md_name": "Bezirksgrenze Pankow"
+            }
+        ]
     },
     {
         "id": "Bezug_Ortsteile_Pankow",
