@@ -99,6 +99,9 @@
 <gmd:organisationName>
 <gco:CharacterString>Bezirksamt Pankow von Berlin</gco:CharacterString>
 </gmd:organisationName>
+<gmd:positionName>
+<gco:CharacterString>Fachbereich Vermessung</gco:CharacterString>
+</gmd:positionName>
 <gmd:contactInfo>  
 <gmd:CI_Contact>  
 <gmd:address>
@@ -120,11 +123,11 @@
 </gmd:country>  
 <gmd:electronicMailAddress>
 <gco:CharacterString>verm-gi@ba-pankow.berlin.de</gco:CharacterString>
-</gmd:electronicMailAddress>
+</gmd:electronicMailAddress> 
 
-<gmd:positionName>
-<gco:CharacterString>Tel.: +49 30 90295 3455</gco:CharacterString>
-</gmd:positionName>
+      <gmd:phone>
+        <gco:CharacterString>+49 30 12345678</gco:CharacterString>
+      </gmd:phone>
   
 </gmd:CI_Address>
 </gmd:address>
