@@ -1391,8 +1391,7 @@
         "featureCount": "1",
         "datasets": [{
                 "customMetadata": true,
-                "md_name": "test",
-                "md_description": "hallo"
+                "rs_id": "../resources/metadaten/Bezirksgrenze_Pankow_MD"
                       }]
     },
     {
