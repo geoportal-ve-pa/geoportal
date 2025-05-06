@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<DatasetMetadata>
-    <Title>Beispiel Dataset</Title>
-    <Abstract>Dies ist eine kurze Beschreibung des Datasets.</Abstract>
-    <Creator>Dein Name oder Organisation</Creator>
-    <Publisher>Veröffentlichende Organisation</Publisher>
-    <Date>2024-04-27</Date>
-    <Language>de</Language>
-    <Keywords>
-        <Keyword>Geodaten</Keyword>
-        <Keyword>Beispiel</Keyword>
-        <Keyword>Dataset</Keyword>
-    </Keywords>
-    <SpatialExtent>
-        <WestBoundLongitude>5.0</WestBoundLongitude>
-        <EastBoundLongitude>15.0</EastBoundLongitude>
-        <SouthBoundLatitude>47.0</SouthBoundLatitude>
-        <NorthBoundLatitude>55.0</NorthBoundLatitude>
-    </SpatialExtent>
-    <AccessConstraints>Keine Einschränkungen</AccessConstraints>
-    <UseConstraints>Nur für nicht-kommerzielle Zwecke</UseConstraints>
-    <Distribution>
-        <OnlineResource xlink:href="http://example.com/dataset" />
-    </Distribution>
-</DatasetMetadata>
+<metadata>
+  <titel>Beispieldaten</titel>
+  <beschreibung>Dieses Dataset enthält Beispielgeodaten für Demonstrationszwecke.</beschreibung>
+  <erstelltVon>Beispiel Organisation</erstelltVon>
+  <veroeffentlichtAm>2024-04-27</veroeffentlichtAm>
+  <schluesselwoerter>
+    <wort>Geodaten</wort>
+    <wort>Beispiel</wort>
+    <wort>Demonstration</wort>
+  </schluesselwoerter>
+  <raeumlicheAusdehnung>
+    <minX>-10.0</minX>
+    <maxX>10.0</maxX>
+    <minY>-5.0</minY>
+    <maxY>5.0</maxY>
+  </raeumlicheAusdehnung>
+</metadata>
