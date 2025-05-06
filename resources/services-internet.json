@@ -1389,10 +1389,14 @@
         "gfiAttributes": "ignore",
         "cache": true,
         "featureCount": "1",
-        "datasets": [{
-                "customMetadata": true,
-                "rs_id": "../resources/metadaten/Bezirksgrenze_Pankow_MD"
-                      }]
+        "datasets": [
+            {
+                "md_id": "geotherm_pot.xml",
+                "csw_url": "./resources/metadaten/geotherm_pot.xml",
+                "show_doc_url": "./resources/metadaten/",
+                "md_name": "Oberflächennahe Geothermie - Potenzial"
+            }
+        ]
     },
     {
         "id": "Bezug_Grenze_Pankow",
