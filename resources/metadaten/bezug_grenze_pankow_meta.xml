@@ -97,8 +97,12 @@
 <gmd:pointOfContact>
 <gmd:CI_ResponsibleParty>
 <gmd:organisationName>
-<gco:CharacterString>Bezirksamt Pankow von Berlin<br/>Fachbereich Vermessung</gco:CharacterString>
+<gco:CharacterString>Bezirksamt Pankow von Berlin, Fachbereich Vermessung</gco:CharacterString>
 </gmd:organisationName>
+<gmd:positionName>
+<gco:CharacterString>Fachbereich Vermessung</gco:CharacterString>
+</gmd:positionName>
+<gmd:contactInfo>
 <gmd:contactInfo>
 <gmd:CI_Contact>
 <gmd:address>
