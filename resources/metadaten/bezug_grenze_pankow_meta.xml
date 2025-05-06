@@ -103,16 +103,7 @@
 <gco:CharacterString>Fachbereich Vermessung</gco:CharacterString>
 </gmd:positionName>
 <gmd:contactInfo>  
-<gmd:CI_Contact>
-  
-<gmd:phone>
-<gmd:CI_Telephone>
-<gmd:voice>
-<gco:CharacterString>+49 30 90295 3455</gco:CharacterString>
-</gmd:voice>
-</gmd:CI_Telephone>
-</gmd:phone>
-  
+<gmd:CI_Contact>  
 <gmd:address>
 <gmd:CI_Address>
 <gmd:deliveryPoint>
@@ -130,6 +121,11 @@
 <gmd:country>
 <gco:CharacterString>DEU</gco:CharacterString>
 </gmd:country>
+
+<gmd:phone>
+<gco:CharacterString>+49 30 90295 3455</gco:CharacterString>
+</gmd:phone>
+  
 <gmd:electronicMailAddress>
 <gco:CharacterString>verm-gi@ba-pankow.berlin.de</gco:CharacterString>
 </gmd:electronicMailAddress>
