@@ -1392,7 +1392,7 @@
         "datasets": [{
                 "customMetadata": true,
                 "md_name": "test",
-                "md_attributes": "test"
+                "md_description": "hallo"
                       }]
     },
     {
