@@ -1388,8 +1388,15 @@
         "maxScale": "2500000",
         "gfiAttributes": "ignore",
         "cache": true,
-        "featureCount": "1"
-        
+        "featureCount": "1",
+        "datasets": [
+            {
+                "md_id": "bezug_grenze_berlin_meta.xml",
+                "csw_url": "../resources/metadaten/bezug_grenze_berlin_meta.xml",
+                "show_doc_url": "../resources/metadaten/",
+                "md_name": "Grenze Berlin"
+            }
+        ]        
     },
     {
         "id": "Bezug_Grenze_Pankow",
