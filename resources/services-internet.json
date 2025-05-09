@@ -1253,7 +1253,7 @@
         "maxScale": "2500000",
         "gfiAttributes": {
             "showAll": {                 
-                 "prefix": "https://"
+                 "prefix": "https://geodaten.ba-pankow.verwalt-berlin.de/mapbender"
                       }
         },
         "infoFormat": "text/html",
