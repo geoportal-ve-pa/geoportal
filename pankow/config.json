@@ -1867,24 +1867,22 @@
                             "name": "Straßenbefahrung 2014",
                             "showInLayerTree": false,
                             "visibility": false,
+                            "isSecured": true,
                             "typ": "GROUP"
                         },
                         {
                             "id": ["Verkehrslage", "Baustellen_OCIT"],
                             "name": "Verkehrslage",
-                            "visibility": false,
-                            "isSecured": true,
+                            "visibility": false,                            
                             "typ": "GROUP",                            
                             "children": [{
                                     "id": "Verkehrslage",
-                                    "visibility": false,
-                                    "isSecured": true
+                                    "visibility": false
                                 },
                                 {
                                     "id": "Baustellen_OCIT",
                                     "styleId": "Baustellen_OCIT",
-                                    "visibility": false,
-                                    "isSecured": true
+                                    "visibility": false
                                 }
                             ]
                         },
