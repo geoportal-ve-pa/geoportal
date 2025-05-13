@@ -1873,10 +1873,11 @@
                             "id": ["Verkehrslage", "Baustellen_OCIT"],
                             "name": "Verkehrslage",
                             "visibility": false,
-                            "typ": "GROUP",
+                            "typ": "GROUP",                            
                             "children": [{
                                     "id": "Verkehrslage",
-                                    "visibility": false
+                                    "visibility": false,
+                                    "isSecured": true
                                 },
                                 {
                                     "id": "Baustellen_OCIT",
