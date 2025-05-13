@@ -404,7 +404,7 @@
                     },
                     {
                         "type": "login",
-                        "name": "translate#common:modules.login.login",
+                        "name": "common:modules.login.login",
                         "icon": "bi-door-open"
                     },
                     {
