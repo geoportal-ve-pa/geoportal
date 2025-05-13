@@ -1877,12 +1877,14 @@
                             "typ": "GROUP",                            
                             "children": [{
                                     "id": "Verkehrslage",
-                                    "visibility": false                                    
+                                    "visibility": false,
+                                    "isSecured": true
                                 },
                                 {
                                     "id": "Baustellen_OCIT",
                                     "styleId": "Baustellen_OCIT",
-                                    "visibility": false
+                                    "visibility": false,
+                                    "isSecured": true
                                 }
                             ]
                         },
