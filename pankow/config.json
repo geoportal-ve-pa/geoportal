@@ -403,6 +403,11 @@
                         "type": "legend"
                     },
                     {
+                        "type": "login",
+                        "name": "translate#common:modules.login.login",
+                        "icon": "bi-door-open"
+                    },
+                    {
                         "type": "print",
                         "name": "Karte drucken",
                         "printServiceId": "mapfish_printservice_id",
