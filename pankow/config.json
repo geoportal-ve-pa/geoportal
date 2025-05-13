@@ -1830,6 +1830,7 @@
                         {
                             "id": "Luft_2024_10",
                             "name": "Luftbild 2024 (DOP 10)",
+                            "isSecured": true,
                             "visibility": false
                         }
                     ]
@@ -1903,8 +1904,7 @@
                                 {
                                     "id": ["tramlinien", "tramstopp"],
                                     "name": "Straßenbahn",
-                                    "visibility": false,
-                                    "isSecured": true,
+                                    "visibility": false,                                    
                                     "typ": "GROUP"
                                 }
                             ]
