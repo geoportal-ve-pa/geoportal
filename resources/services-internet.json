@@ -546,7 +546,7 @@
     {
         "id": "alkis_pankow_fh",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "fh",
         "legend": true,
@@ -567,7 +567,7 @@
     {
         "id": "alkis_pankow_gh",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "gh",
         "legend": true,
@@ -588,7 +588,7 @@
     {
         "id": "alkis_pankow_bh",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "bh",
         "legend": true,
@@ -609,7 +609,7 @@
     {
         "id": "alkis_pankow_fe",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "fe",
         "legend": true,
@@ -630,7 +630,7 @@
     {
         "id": "alkis_pankow_ge",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "ge",
         "legend": true,
@@ -651,7 +651,7 @@
     {
         "id": "alkis_pankow_pe",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "pe",
         "legend": true,
@@ -672,7 +672,7 @@
     {
         "id": "alkis_pankow_be",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "be",
         "legend": true,
@@ -693,7 +693,7 @@
     {
         "id": "alkis_pankow_fb",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "fb",
         "legend": true,
@@ -714,7 +714,7 @@
     {
         "id": "alkis_pankow_gb",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "gb",
         "legend": true,
@@ -735,7 +735,7 @@
     {
         "id": "alkis_pankow_bb",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "bb",
         "legend": true,
@@ -756,7 +756,7 @@
     {
         "id": "alkis_pankow_lt",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "lt",
         "legend": true,
@@ -777,7 +777,7 @@
     {
         "id": "alkis_pankow_pt",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "pt",
         "legend": true,
@@ -798,7 +798,7 @@
     {
         "id": "alkis_pankow_bt",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "bt",
         "legend": true,
@@ -819,7 +819,7 @@
     {
         "id": "alkis_pankow_fw",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "fw",
         "legend": true,
@@ -840,7 +840,7 @@
     {
         "id": "alkis_pankow_gw",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "gw",
         "legend": true,
@@ -861,7 +861,7 @@
     {
         "id": "alkis_pankow_lw",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "lw",
         "legend": true,
@@ -882,7 +882,7 @@
     {
         "id": "alkis_pankow_pw",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "pw",
         "legend": true,
@@ -903,7 +903,7 @@
     {
         "id": "alkis_pankow_bw",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "bw",
         "legend": true,
@@ -924,7 +924,7 @@
     {
         "id": "alkis_pankow_fs",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "fs",
         "legend": true,
@@ -945,7 +945,7 @@
     {
         "id": "alkis_pankow_gs",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "gs",
         "legend": true,
@@ -966,7 +966,7 @@
     {
         "id": "alkis_pankow_ps",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "ps",
         "legend": true,
@@ -987,7 +987,7 @@
     {
         "id": "alkis_pankow_bs",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "bs",
         "legend": true,
@@ -1008,7 +1008,7 @@
     {
         "id": "alkis_pankow_fi",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "fi",
         "legend": true,
@@ -1029,7 +1029,7 @@
     {
         "id": "alkis_pankow_gi",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "gi",
         "legend": true,
@@ -1050,7 +1050,7 @@
     {
         "id": "alkis_pankow_pi",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "pi",
         "legend": true,
@@ -1071,7 +1071,7 @@
     {
         "id": "alkis_pankow_bi",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "bi",
         "legend": true,
@@ -1092,7 +1092,7 @@
     {
         "id": "alkis_pankow_fv",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "fv",
         "legend": true,
@@ -1113,7 +1113,7 @@
     {
         "id": "alkis_pankow_gv",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "gv",
         "legend": true,
@@ -1134,7 +1134,7 @@
     {
         "id": "alkis_pankow_lv",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "lv",
         "legend": true,
@@ -1155,7 +1155,7 @@
     {
         "id": "alkis_pankow_bv",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "bv",
         "legend": true,
@@ -1176,7 +1176,7 @@
     {
         "id": "alkis_pankow_fg",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "fg",
         "legend": true,
@@ -1197,7 +1197,7 @@
     {
         "id": "alkis_pankow_gr",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "gr",
         "legend": true,
@@ -1218,7 +1218,7 @@
     {
         "id": "alkis_pankow_br",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "br",
         "legend": true,
@@ -1239,7 +1239,7 @@
     {
         "id": "alkis_pankow_gff",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "gff",
         "legend": true,
@@ -1267,7 +1267,7 @@
     {
         "id": "alkis_pankow_lfn",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "lfn",
         "legend": true,
@@ -1288,7 +1288,7 @@
     {
         "id": "alkis_pankow_lff",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "lff",
         "legend": true,
@@ -1309,7 +1309,7 @@
     {
         "id": "alkis_pankow_bfn",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "bfn",
         "legend": true,
@@ -1330,7 +1330,7 @@
     {
         "id": "alkis_pankow_lp",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "lp",
         "legend": true,
@@ -1351,7 +1351,7 @@
     {
         "id": "alkis_pankow_bll",
         "name": "Alkis Pankow",
-        "url": "http://geoportal.ba-pankow.verwalt-berlin.de:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
+        "url": "http://localhost:90/cgi-bin/mapserv.exe?map=D:/geodaten/alkis/alkis.map&",
         "typ": "WMS",
         "layers": "bll",
         "legend": true,
